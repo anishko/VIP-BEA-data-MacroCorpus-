@@ -1,0 +1,85 @@
+# Core BEA series for MacroCorpus v1.
+#
+# Each entry is one GetData call. Fields:
+#   id                  short unique name (becomes series_id; multi-geo specs get a suffix)
+#   dataset / params    passed straight to the BEA API
+#   select              pick rows from the table: {line: N} or {match: "regex on description"}
+#   transform           applied before profiling: none | diff | log_diff | pct_change
+#   seasonal_adjustment SAAR | SA | NSA (as published)
+#
+# Find more tables with:  python -m bea_corpus params NIPA TableName
+
+series:
+  # ---------- Output ----------
+  - id: us_real_gdp_growth
+    name: Real GDP, percent change from preceding quarter
+    dataset: NIPA
+    params: {TableName: T10101, Frequency: Q, Year: ALL}
+    select: {line: 1}
+    category: output
+    seasonal_adjustment: SAAR
+    transform: none          # already a growth rate (annualized)
+
+  - id: us_real_gdp_level
+    name: Real GDP, chained dollars
+    dataset: NIPA
+    params: {TableName: T10106, Frequency: Q, Year: ALL}
+    select: {line: 1}
+    category: output
+    seasonal_adjustment: SAAR
+    transform: log_diff
+
+  # ---------- Inflation ----------
+  - id: us_pce_price_index
+    name: PCE price index
+    dataset: NIPA
+    params: {TableName: T20804, Frequency: M, Year: ALL}
+    select: {line: 1}
+    category: inflation
+    seasonal_adjustment: SA
+    transform: log_diff      # monthly inflation, percent
+
+  - id: us_core_pce_price_index
+    name: PCE price index excluding food and energy
+    dataset: NIPA
+    params: {TableName: T20804, Frequency: M, Year: ALL}
+    select: {match: "excluding food and energy"}
+    category: inflation
+    seasonal_adjustment: SA
+    transform: log_diff
+
+  # ---------- Income ----------
+  - id: us_personal_income
+    name: Personal income
+    dataset: NIPA
+    params: {TableName: T20600, Frequency: M, Year: ALL}
+    select: {line: 1}
+    category: income
+    seasonal_adjustment: SAAR
+    transform: log_diff
+
+  # ---------- Regions (50 states + DC + regions, one method) ----------
+  - id: state_real_gdp
+    name: Real GDP by state, all industries
+    dataset: Regional
+    params: {TableName: SQGDP9, LineCode: 1, GeoFips: STATE, Year: ALL}
+    category: output
+    seasonal_adjustment: SAAR
+    transform: log_diff
+
+  # ---------- Trade: same series SA and NSA (seasonality study) ----------
+  - id: us_goods_balance_sa
+    name: Balance on goods, seasonally adjusted
+    dataset: ITA
+    params: {Indicator: BalGds, AreaOrCountry: AllCountries, Frequency: QSA, Year: ALL}
+    category: trade
+    seasonal_adjustment: SA
+    transform: diff          # balance can be negative, so no logs
+
+  - id: us_goods_balance_nsa
+    name: Balance on goods, not seasonally adjusted
+    dataset: ITA
+    params: {Indicator: BalGds, AreaOrCountry: AllCountries, Frequency: QNSA, Year: ALL}
+    category: trade
+    seasonal_adjustment: NSA
+    transform: diff
