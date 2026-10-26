@@ -1,0 +1,13 @@
+# secrets
+.env
+
+# downloaded / generated data (re-create with the CLI)
+data/
+reports/*.csv
+
+# python
+__pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
+.DS_Store

@@ -24,6 +24,8 @@ python -m bea_corpus datasets               # list BEA datasets
 python -m bea_corpus params NIPA            # a dataset's parameters
 python -m bea_corpus params NIPA TableName  # every NIPA table
 python -m bea_corpus fetch --only us_pce_price_index --refresh
+python -m bea_corpus download              # sample of all 12 BEA datasets -> data/standardized/*.jsonl
+python -m bea_corpus standardize           # rebuild the JSON from saved raw files
 ```
 
 Raw responses are cached in `data/raw/cache/`, so re-running `fetch` doesn't hit the API again. Use `--refresh` after a BEA release.

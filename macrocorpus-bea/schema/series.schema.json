@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MacroCorpus series record (BEA, v0.1)",
+  "description": "One time series. Files are JSON Lines: one record per line.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "series_id",
+    "source",
+    "country",
+    "dataset",
+    "table",
+    "title",
+    "frequency",
+    "unit",
+    "unit_multiplier",
+    "dimensions",
+    "start",
+    "end",
+    "n_obs",
+    "n_missing",
+    "retrieved",
+    "dates",
+    "values"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "series_id": {
+      "type": "string",
+      "description": "bea.<dataset>.<table>.<codes>.<freq>, unique in the corpus"
+    },
+    "source": {
+      "const": "BEA"
+    },
+    "country": {
+      "type": "string",
+      "description": "ISO 2-letter code"
+    },
+    "dataset": {
+      "type": "string"
+    },
+    "table": {
+      "type": "string",
+      "description": "table / indicator / type the series came from"
+    },
+    "table_title": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "description": "human-readable name, from BEA's description columns"
+    },
+    "frequency": {
+      "enum": [
+        "A",
+        "Q",
+        "M"
+      ]
+    },
+    "unit": {
+      "type": "string"
+    },
+    "unit_multiplier": {
+      "type": "integer",
+      "description": "real value = value * 10**unit_multiplier"
+    },
+    "metric": {
+      "type": "string"
+    },
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "BEA's own columns that identify the series (differ by dataset)"
+    },
+    "start": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "end": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "n_obs": {
+      "type": "integer"
+    },
+    "n_missing": {
+      "type": "integer"
+    },
+    "missing_codes": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer"
+      }
+    },
+    "retrieved": {
+      "type": "string",
+      "format": "date"
+    },
+    "request": {
+      "type": "object"
+    },
+    "dates": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "date"
+      },
+      "description": "period start, sorted"
+    },
+    "values": {
+      "type": "array",
+      "items": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "description": "same length as dates; null = missing"
+    }
+  }
+}

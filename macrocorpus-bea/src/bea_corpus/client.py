@@ -48,6 +48,10 @@ class BEAClient:
         self.timeout = timeout
         self._last_request = 0.0
         self._session = requests.Session()
+        # Stats about the most recent call, used by the download report.
+        self.last_bytes = 0
+        self.last_seconds = 0.0
+        self.last_from_cache = False
 
     # ---------- public methods ----------
 
@@ -77,15 +81,20 @@ class BEAClient:
         query = {"method": method, "ResultFormat": "JSON", **{k: _fmt(v) for k, v in params.items()}}
         cache_file = self._cache_path(query)
         if use_cache and cache_file and cache_file.exists():
-            payload = json.loads(cache_file.read_text())
+            text = cache_file.read_text()
+            payload = json.loads(text)
+            self.last_bytes, self.last_seconds, self.last_from_cache = len(text.encode()), 0.0, True
         else:
             payload = self._request(query)
+            self.last_from_cache = False
             # BEA echoes the request, including your UserID, back in the
             # response. Drop it so the key never lands in cache files.
             if isinstance(payload.get("BEAAPI"), dict):
                 payload["BEAAPI"].pop("Request", None)
+            results = extract_results(payload)  # raises on API errors, so errors are never cached
             if cache_file:
                 cache_file.write_text(json.dumps(payload))
+            return results
         return extract_results(payload)
 
     def _request(self, query: dict) -> dict:
@@ -95,12 +104,16 @@ class BEAClient:
             if wait > 0:
                 time.sleep(wait)
             self._last_request = time.monotonic()
+            started = time.monotonic()
             resp = self._session.get(BASE_URL, params=params, timeout=self.timeout)
+            self.last_seconds = time.monotonic() - started
+            self.last_bytes = len(resp.content)
             if resp.status_code == 429 and attempt < self.max_retries:
                 time.sleep(float(resp.headers.get("Retry-After", 60)) + 1)
                 continue
             resp.raise_for_status()
-            return resp.json()
+            # BEA serves Latin-1 text; decoding as UTF-8 can fail on footnotes.
+            return json.loads(resp.content.decode("iso-8859-1"))
         raise BEAError("Gave up after repeated throttling (HTTP 429).")
 
     def _cache_path(self, query: dict) -> Path | None:
@@ -111,20 +124,44 @@ class BEAClient:
 
 
 def extract_results(payload: dict) -> dict:
-    """Unwrap BEAAPI -> Results, normalising the shapes different datasets use."""
+    """Unwrap BEAAPI -> Results, smoothing over the shapes different datasets use.
+
+    Quirks handled (all seen in the official `beaapi` package):
+    - GDPbyIndustry, IIP, InputOutput, UnderlyingGDPbyIndustry wrap Results in a 1-item list.
+    - IIP puts `Data` next to `Results` instead of inside it.
+    - A single data row comes back as a dict instead of a list.
+    - Errors can sit in BEAAPI or in Results, and can be a list of several errors.
+    """
     try:
-        results = payload["BEAAPI"]["Results"]
+        api = payload["BEAAPI"]
     except (KeyError, TypeError) as exc:
         raise BEAError(f"Unexpected response shape: {str(payload)[:300]}") from exc
-    # Some datasets (e.g. ITA) wrap Results in a one-element list.
+    if api.get("Error"):
+        raise BEAError(_error_text(api["Error"]))
+    results = api.get("Results", {})
     if isinstance(results, list):
         results = results[0] if results else {}
-    error = results.get("Error") or payload["BEAAPI"].get("Error")
-    if error:
-        desc = error.get("APIErrorDescription", error)
-        detail = error.get("ErrorDetail", {})
-        raise BEAError(f"{desc} {detail.get('Description', '') if isinstance(detail, dict) else detail}".strip())
+    if not isinstance(results, dict):
+        raise BEAError(f"Unexpected Results shape: {str(results)[:300]}")
+    if results.get("Error"):
+        raise BEAError(_error_text(results["Error"]))
+    if "Data" in api and "Data" not in results:  # IIP
+        results = {**results, "Data": api["Data"]}
+    if isinstance(results.get("Data"), dict):  # single observation
+        results = {**results, "Data": [results["Data"]]}
     return results
+
+
+def _error_text(error) -> str:
+    if isinstance(error, list):
+        return "; ".join(_error_text(e) for e in error)
+    if not isinstance(error, dict):
+        return str(error)
+    desc = error.get("APIErrorDescription") or error.get("error") or ""
+    detail = error.get("ErrorDetail", {})
+    detail = detail.get("Description", "") if isinstance(detail, dict) else detail
+    code = error.get("APIErrorCode")
+    return f"{f'[{code}] ' if code else ''}{desc} {detail}".strip()
 
 
 def _fmt(value: Any) -> str:

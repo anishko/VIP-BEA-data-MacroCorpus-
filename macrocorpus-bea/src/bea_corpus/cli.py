@@ -5,6 +5,11 @@
     python -m bea_corpus params NIPA TableName       # valid values of a parameter
     python -m bea_corpus fetch                       # download + standardize config/series.yaml
     python -m bea_corpus profile                     # statistical profile of the corpus
+
+  This week's commands (sample of ALL 12 datasets, standard JSON):
+    python -m bea_corpus download                    # catalog + sample + JSON + size report
+    python -m bea_corpus download --only NIPA ITA    # just some datasets
+    python -m bea_corpus standardize                 # rebuild JSON from raw files, no API calls
 """
 
 from __future__ import annotations
@@ -96,6 +101,17 @@ def cmd_profile(args) -> None:
     print(f"\nWrote reports/profile.csv ({len(prof)} series)")
 
 
+def cmd_download(args) -> None:
+    from .download import run
+    run(args.config, only=args.only, max_calls=args.max_calls, target_series=args.target_series,
+        use_cache=not args.refresh, client=BEAClient(cache_dir="data/raw/cache"))
+
+
+def cmd_standardize(args) -> None:
+    from .download import restandardize
+    restandardize()
+
+
 def main(argv=None) -> None:
     _load_env()
     p = argparse.ArgumentParser(prog="bea_corpus", description="BEA slice of MacroCorpus")
@@ -116,6 +132,17 @@ def main(argv=None) -> None:
     pf.set_defaults(func=cmd_fetch)
 
     sub.add_parser("profile", help="profile the fetched corpus").set_defaults(func=cmd_profile)
+
+    pd_ = sub.add_parser("download", help="sample-download every BEA dataset to standard JSON")
+    pd_.add_argument("--config", default="config/datasets.yaml")
+    pd_.add_argument("--only", nargs="+", help="dataset names, e.g. NIPA Regional")
+    pd_.add_argument("--max-calls", type=int, help="GetData calls per dataset (default from config)")
+    pd_.add_argument("--target-series", type=int, help="stop a dataset after this many series")
+    pd_.add_argument("--refresh", action="store_true", help="ignore cached responses")
+    pd_.set_defaults(func=cmd_download)
+
+    sub.add_parser("standardize", help="rebuild data/standardized from data/raw (offline)"
+                   ).set_defaults(func=cmd_standardize)
 
     args = p.parse_args(argv)
     args.func(args)
