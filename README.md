@@ -37,7 +37,7 @@ Runs IIP, MNE, IntlServTrade, FixedAssets and NIUnderlyingDetail (set in `config
 - `data/raw/` – the original BEA responses, in case we need to re-convert
 - `reports/download_summary.md` – how big each dataset is and how many series we got
 
-`data/` isn't on GitHub since it's big, except for one sample: `macrocorpus-bea/data/standardized/NIPA.jsonl` (434 series), so you can see the format without running anything.
+`data/` isn't on GitHub since it's big, except two things so you can see the output without running anything: `macrocorpus-bea/data/standardized/NIPA.jsonl` (434 series) and the metadata output in `macrocorpus-bea/data/BEA/`.
 
 If we change the JSON format, run `python -m bea_corpus standardize`. It redoes the JSON from the saved raw files without downloading again.
 
