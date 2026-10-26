@@ -106,3 +106,19 @@ def test_conflicting_values_flagged():
     results = {"Data": [fa_row("X1", "1", "a", 2023, "1"), fa_row("X1", "2", "b", 2023, "2")]}
     _, _, checks = M.build_series("FixedAssets", results, {}, {"series_id": ["TableName", "SeriesCode"]}, {})
     assert checks["canonical_id_status"] == "NOT_unique_in_sample"
+
+
+def test_duplicate_codes_keep_all_labels():
+    idx = M._label_index([{"key": "5221", "desc": "Banks"}, {"key": "5221", "desc": "Depository institutions"},
+                          {"key": "5221", "desc": "Banks"}])
+    c = M._classification(idx, "5221")
+    assert c == {"code": "5221", "label": "Banks", "alt_labels": ["Depository institutions"]}
+    assert M._classification(idx, "999") == {"code": "999", "label": ""}
+
+
+def test_mne_description_is_series_specific():
+    a = M._describe(mne_row(2024, "Chile", "1"))
+    b = M._describe(mne_row(2024, "Peru", "1"))
+    assert a != b and a.startswith("Direct Investment Position; Chile")
+    # tables with a real line description are unchanged
+    assert M._describe(fa_row("x", "1", "Fixed assets", 2022, "1")) == "Fixed assets"
