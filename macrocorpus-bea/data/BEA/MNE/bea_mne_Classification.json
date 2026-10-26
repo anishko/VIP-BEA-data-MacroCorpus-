@@ -1,0 +1,82 @@
+[
+  {
+    "key": "Country",
+    "desc": "Set to classification equal to 'country' to obtain data for all countries for which data are available for the given series, ownership, and year."
+  },
+  {
+    "key": "CountryByDestination",
+    "desc": "CountryByDestination returns values for country broken out by destination for goods supplied and services supplied."
+  },
+  {
+    "key": "CountryByIndustry",
+    "desc": "CountryByIndustry provides data for a large set of countries broken down by major industry."
+  },
+  {
+    "key": "CountrybyType",
+    "desc": "Country by Type of Investment returns data on new foreign direct investment in the United States broken out by country of UBO and the type of investment (acquisition, establishment, or expansion)."
+  },
+  {
+    "key": "CountryofUBO",
+    "desc": "– Presents data on foreign direct investment in the United States by the country of the Ultimate Beneficial Owner (UBO).  The ultimate beneficial owner (UBO) is the entity, proceeding up the foreign ownership chain, which is not more than 50 percent owned by another entity. The UBO is the entity that ultimately owns or controls an affiliated and thus ultimately derives the benefits and assumes the risks from owning or controlling an affiliate."
+  },
+  {
+    "key": "CountryofUBObyDestination",
+    "desc": "Presents data on services supplied by U.S. affiliates of foreign MNE’s, broken down by the country of Ultimate Beneficial Owner (UBO) and the destination (U.S. or foreign) of the service supplied"
+  },
+  {
+    "key": "CountryofUBObyIndustry",
+    "desc": "Presents data on foreign direct investment in the United States broken down by the country of the Ultimate Beneficial Owner (UBO) and the industry of the affiliate."
+  },
+  {
+    "key": "countryofUBObyType",
+    "desc": "Country of UBO by Type of Investment returns data on new foreign direct investment in the United States broken out by the country of the Ultimate beneficial owner (UBO) and the type of investment (acquisition, establishment, or expansion)."
+  },
+  {
+    "key": "Industry",
+    "desc": "Set to classification equal to 'industry' to obtain data for all industries for which data are available for the given series, ownership, and year."
+  },
+  {
+    "key": "IndustryByCountry",
+    "desc": "IndustryByCountry provides data for a large set of industries broken by major country."
+  },
+  {
+    "key": "IndustrybyCountryofUBO",
+    "desc": "Presents foreign direct investment data broken down by industry of the U.S. affiliate and the country of Ultimate Beneficial Owner (UBO)"
+  },
+  {
+    "key": "IndustryByDestination",
+    "desc": "IndustryByDestination returns values for industry broken out by destination for goods supplied and services supplied."
+  },
+  {
+    "key": "IndustrybyType",
+    "desc": "Industry by Type of Investment returns data on new foreign direct investment in the United States broken out by industry of U.S. business and the type of investment (acquisition, establishment, or expansion)."
+  },
+  {
+    "key": "IndustryofSales",
+    "desc": "Industry of Sales provides data on employment and sales for majority-owned U.S. affiliates of foreign MNEs.  Each majority-owned U.S. affiliate above a minimum size threshold was required to distribute its sales and its employment among the four-digit industry in which it had sales.  These data approximate an establishment-based distribution."
+  },
+  {
+    "key": "IndustryofUSParent",
+    "desc": "= IndustryofUSParent provides data for foreign affiliates of U.S. parents, broken down by the industry of the U.S. parent, which may differ from the industry of the affiliate."
+  },
+  {
+    "key": "IndustryofUSParentAllIndustries",
+    "desc": "IndustryofUSParentAllIndustries provides data for foreign affiliates of U.S. parents, broken down by the most detailed industry of the U.S. parent, which may differ from the industry of the affiliate."
+  },
+  {
+    "key": "IndustryofUSParentByCountry",
+    "desc": "IndustryofUSParentByCountry provides data for foreign affiliates of U.S. parents, broken down by the industry of the U.S. parent, which may differ from the industry of the affiliate, and broken by major country."
+  },
+  {
+    "key": "StatebyCountryofUBO",
+    "desc": "Presents selected activities of multinational enterprises data on U.S. affiliates, broken down U.S. state and country of UBO."
+  },
+  {
+    "key": "StatebyType",
+    "desc": "State by Type of Investment returns data on new foreign direct investment in the United States broken out by destination state and the type of investment (acquisition, establishment, or expansion)."
+  },
+  {
+    "key": "TypeofExpenditure",
+    "desc": "Type of Expenditure returns values on investment expenditure for new foreign direct investment in the United States, broken out by type of expenditure."
+  }
+]

@@ -1,0 +1,670 @@
+[
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1wtotl1es00:A",
+    "source_series_id": "k1wtotl1es00",
+    "dataset": "FixedAssets",
+    "description": "Fixed assets and consumer durable goods",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "1",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1ttotl1es00:A",
+    "source_series_id": "k1ttotl1es00",
+    "dataset": "FixedAssets",
+    "description": "Fixed assets",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "2",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01",
+    "appears_as": [
+      "Fixed assets (line 2)",
+      "Private and government fixed assets (line 16)"
+    ]
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1ptotl1es00:A",
+    "source_series_id": "k1ptotl1es00",
+    "dataset": "FixedAssets",
+    "description": "Private",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "3",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1ntotl1es00:A",
+    "source_series_id": "k1ntotl1es00",
+    "dataset": "FixedAssets",
+    "description": "Nonresidential",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "4",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1ntotl1eq00:A",
+    "source_series_id": "k1ntotl1eq00",
+    "dataset": "FixedAssets",
+    "description": "Equipment",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "5",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1ntotl1st00:A",
+    "source_series_id": "k1ntotl1st00",
+    "dataset": "FixedAssets",
+    "description": "Structures",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "6",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1ntotl1ip00:A",
+    "source_series_id": "k1ntotl1ip00",
+    "dataset": "FixedAssets",
+    "description": "Intellectual property products",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "7",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1r53101es00:A",
+    "source_series_id": "k1r53101es00",
+    "dataset": "FixedAssets",
+    "description": "Residential",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "8",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1gtotl1es00:A",
+    "source_series_id": "k1gtotl1es00",
+    "dataset": "FixedAssets",
+    "description": "Government",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "9",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01",
+    "appears_as": [
+      "Government (line 9)",
+      "Government fixed assets (line 22)"
+    ]
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1gtotl1esnr:A",
+    "source_series_id": "k1gtotl1esnr",
+    "dataset": "FixedAssets",
+    "description": "Nonresidential",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "10",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1gtotl1eq00:A",
+    "source_series_id": "k1gtotl1eq00",
+    "dataset": "FixedAssets",
+    "description": "Equipment",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "11",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1gtotl1stnr:A",
+    "source_series_id": "k1gtotl1stnr",
+    "dataset": "FixedAssets",
+    "description": "Structures",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "12",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1gtotl1ip00:A",
+    "source_series_id": "k1gtotl1ip00",
+    "dataset": "FixedAssets",
+    "description": "Intellectual property products",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "13",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1gtotl1sa00:A",
+    "source_series_id": "k1gtotl1sa00",
+    "dataset": "FixedAssets",
+    "description": "Residential",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "14",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1ctotl1cd00:A",
+    "source_series_id": "k1ctotl1cd00",
+    "dataset": "FixedAssets",
+    "description": "Consumer durable goods",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "15",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1ytotl1es00:A",
+    "source_series_id": "k1ytotl1es00",
+    "dataset": "FixedAssets",
+    "description": "Nonresidential",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "17",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1ytotl1eq00:A",
+    "source_series_id": "k1ytotl1eq00",
+    "dataset": "FixedAssets",
+    "description": "Equipment",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "18",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1ytotl1st00:A",
+    "source_series_id": "k1ytotl1st00",
+    "dataset": "FixedAssets",
+    "description": "Structures",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "19",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1ytotl1ip00:A",
+    "source_series_id": "k1ytotl1ip00",
+    "dataset": "FixedAssets",
+    "description": "Intellectual property products",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "20",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1x53101es00:A",
+    "source_series_id": "k1x53101es00",
+    "dataset": "FixedAssets",
+    "description": "Residential",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "21",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1gfedr1es00:A",
+    "source_series_id": "k1gfedr1es00",
+    "dataset": "FixedAssets",
+    "description": "Federal",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "23",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:FixedAssets:FAAt101:k1gstlc1es00:A",
+    "source_series_id": "k1gstlc1es00",
+    "dataset": "FixedAssets",
+    "description": "State and local",
+    "classifications": {
+      "TableName": {
+        "code": "FAAt101",
+        "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Billions of dollars; yearend estimates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "24",
+    "notes": [
+      "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  }
+]

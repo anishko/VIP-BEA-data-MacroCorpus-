@@ -1,0 +1,438 @@
+[
+  {
+    "TableName": "FAAt101",
+    "Description": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt102",
+    "Description": "Table 1.2. Chain-Type Quantity Indexes for Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt103",
+    "Description": "Table 1.3. Current-Cost Depreciation of Fixed Assets and Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt104",
+    "Description": "Table 1.4. Chain-Type Quantity Indexes for Depreciation of Fixed Assets and Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt105",
+    "Description": "Table 1.5. Investment in Fixed Assets and Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt106",
+    "Description": "Table 1.6. Chain-Type Quantity Indexes for Investment in Fixed Assets and Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt107",
+    "Description": "Table 1.7. Current-Cost Other Changes in Volume of Assets for Fixed Assets and Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt108",
+    "Description": "Table 1.8. Historical-Cost Other Changes in Volume of Assets for Fixed Assets and Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt109",
+    "Description": "Table 1.9. Current-Cost Average Age at Yearend of Fixed Assets and Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt201",
+    "Description": "Table 2.1. Current-Cost Net Stock of Private Fixed Assets, Equipment, Structures, and Intellectual Property Products by Type (A)"
+  },
+  {
+    "TableName": "FAAt202",
+    "Description": "Table 2.2. Chain-Type Quantity Indexes for Net Stock of Private Fixed Assets, Equipment, Structures, and Intellectual Property Products by Type (A)"
+  },
+  {
+    "TableName": "FAAt203",
+    "Description": "Table 2.3. Historical-Cost Net Stock of Private Fixed Assets, Equipment, Structures, and Intellectual Property Products by Type (A)"
+  },
+  {
+    "TableName": "FAAt204",
+    "Description": "Table 2.4. Current-Cost Depreciation of Private Fixed Assets, Equipment, Structures, and Intellectual Property Products by Type (A)"
+  },
+  {
+    "TableName": "FAAt205",
+    "Description": "Table 2.5. Chain-Type Quantity Indexes for Depreciation of Private Fixed Assets, Equipment, Structures, and Intellectual Property Products by Type (A)"
+  },
+  {
+    "TableName": "FAAt206",
+    "Description": "Table 2.6. Historical-Cost Depreciation of Private Fixed Assets, Equipment, Structures, and Intellectual Property Products by Type (A)"
+  },
+  {
+    "TableName": "FAAt207",
+    "Description": "Table 2.7. Investment in Private Fixed Assets, Equipment, Structures, and Intellectual Property Products by Type (A)"
+  },
+  {
+    "TableName": "FAAt208",
+    "Description": "Table 2.8. Chain-Type Quantity indexes for Investment in Private Fixed Assets, Equipment, Structures, and Intellectual Property Products by Type (A)"
+  },
+  {
+    "TableName": "FAAt209",
+    "Description": "Table 2.9. Current-Cost Average Age at Yearend of Private Fixed Assets, Equipment, Structures, and Intellectual Property Products by Type (A)"
+  },
+  {
+    "TableName": "FAAt210",
+    "Description": "Table 2.10. Historical-Cost Average Age at Yearend of Private Fixed Assets,  Equipment, Structures, and Intellectual Property Products by Type (A)"
+  },
+  {
+    "TableName": "FAAt301E",
+    "Description": "Table 3.1E. Current-Cost Net Stock of Private Equipment by Industry (A)"
+  },
+  {
+    "TableName": "FAAt301ESI",
+    "Description": "Table 3.1ESI. Current-Cost Net Stock of Private Fixed Assets by Industry (A)"
+  },
+  {
+    "TableName": "FAAt301I",
+    "Description": "Table 3.1I. Current-Cost Net Stock of Intellectual Property Products by Industry (A)"
+  },
+  {
+    "TableName": "FAAt301S",
+    "Description": "Table 3.1S. Current-Cost net Stock of Private Structures by Industry (A)"
+  },
+  {
+    "TableName": "FAAt302E",
+    "Description": "Table 3.2E. Chain-Type Quantity Indexes for Net Stock of Private Equipment by Industry (A)"
+  },
+  {
+    "TableName": "FAAt302ESI",
+    "Description": "Table 3.2ESI. Chain-Type Quantity Indexes for Net Stock of Private Fixed Assets by Industry (A)"
+  },
+  {
+    "TableName": "FAAt302I",
+    "Description": "Table 3.2I. Chain-Type Quantity Indexes for Net Stock of Intellectual Property Products by Industry (A)"
+  },
+  {
+    "TableName": "FAAt302S",
+    "Description": "Table 3.2S. Chain-Type Quantity Indexes for Net Stock of Private Structures by Industry (A)"
+  },
+  {
+    "TableName": "FAAt303E",
+    "Description": "Table 3.3E. Historical-Cost Net Stock of Private Equipment by Industry (A)"
+  },
+  {
+    "TableName": "FAAt303ESI",
+    "Description": "Table 3.3ESI. Historical-Cost Net Stock of Private Fixed Assets by Industry (A)"
+  },
+  {
+    "TableName": "FAAt303I",
+    "Description": "Table 3.3I. Historical-Cost Net Stock of Private Intellectual Property Products by Industry (A)"
+  },
+  {
+    "TableName": "FAAt303S",
+    "Description": "Table 3.3S. Historical-Cost net Stock of Private Structures by Industry (A)"
+  },
+  {
+    "TableName": "FAAt304E",
+    "Description": "Table 3.4E. Current-Cost Depreciation of Private Equipment by Industry (A)"
+  },
+  {
+    "TableName": "FAAt304ESI",
+    "Description": "Table 3.4ESI. Current-Cost Depreciation of Private Fixed Assets by Industry (A)"
+  },
+  {
+    "TableName": "FAAt304I",
+    "Description": "Table 3.4I. Current-Cost Depreciation of Private Intellectual Property Products by Industry (A)"
+  },
+  {
+    "TableName": "FAAt304S",
+    "Description": "Table 3.4S. Current-Cost Depreciation of Private Structures by Industry (A)"
+  },
+  {
+    "TableName": "FAAt305E",
+    "Description": "Table 3.5E. Chain-Type Quantity Indexes for Depreciation of Private Equipment by Industry (A)"
+  },
+  {
+    "TableName": "FAAt305ESI",
+    "Description": "Table 3.5ESI. Chain-Type Quantity Indexes for Depreciation of Private Fixed Assets by Industry (A)"
+  },
+  {
+    "TableName": "FAAt305I",
+    "Description": "Table 3.5I. Chain-Type Quantity Indexes for Depreciation of Private Intellectual Property Products by Industry (A)"
+  },
+  {
+    "TableName": "FAAt305S",
+    "Description": "Table 3.5S. Chain-Type Quantity Indexes for Depreciation of Private Structures by Industry (A)"
+  },
+  {
+    "TableName": "FAAt306E",
+    "Description": "Table 3.6E. Historical-Cost Depreciation of Private Equipment by Industry (A)"
+  },
+  {
+    "TableName": "FAAt306ESI",
+    "Description": "Table 3.6ESI. Historical-Cost Depreciation of Private Fixed Assets by Industry (A)"
+  },
+  {
+    "TableName": "FAAt306I",
+    "Description": "Table 3.6I. Historical-Cost Depreciation of Private Intellectual Property Products by Industry (A)"
+  },
+  {
+    "TableName": "FAAt306S",
+    "Description": "Table 3.6S. Historical-Cost Depreciation of Private Structures by Industry (A)"
+  },
+  {
+    "TableName": "FAAt307E",
+    "Description": "Table 3.7E. Investment in Private Equipment by Industry (A)"
+  },
+  {
+    "TableName": "FAAt307ESI",
+    "Description": "Table 3.7ESI. Investment in Private Fixed Assets by Industry (A)"
+  },
+  {
+    "TableName": "FAAt307I",
+    "Description": "Table 3.7I. Investment in Private Intellectual Property Products by Industry (A)"
+  },
+  {
+    "TableName": "FAAt307S",
+    "Description": "Table 3.7S. Investment in Private Structures by Industry (A)"
+  },
+  {
+    "TableName": "FAAt308E",
+    "Description": "Table 3.8E. Chain-Type Quantity Indexes for Investment in Private Equipment by Industry (A)"
+  },
+  {
+    "TableName": "FAAt308ESI",
+    "Description": "Table 3.8ESI. Chain-Type Quantity Indexes for Investment in Private Fixed Assets by Industry (A)"
+  },
+  {
+    "TableName": "FAAt308I",
+    "Description": "Table 3.8I. Chain-Type Quantity Indexes for Investment in Private Intellectual Property Products by Industry (A)"
+  },
+  {
+    "TableName": "FAAt308S",
+    "Description": "Table 3.8S. Chain-Type Quantity Indexes for Investment in Private Structures by  Industry (A)"
+  },
+  {
+    "TableName": "FAAt309E",
+    "Description": "Table 3.9E. Current-Cost Average Age at Yearend of Private Equipment by Industry (A)"
+  },
+  {
+    "TableName": "FAAt309ESI",
+    "Description": "Table 3.9ESI. Current-Cost Average Age at Yearend of Private Fixed Assets by Industry (A)"
+  },
+  {
+    "TableName": "FAAt309I",
+    "Description": "Table 3.9I. Current-Cost Average Age at Yearend of Private Intellectual Property Products by Industry (A)"
+  },
+  {
+    "TableName": "FAAt309S",
+    "Description": "Table 3.9S. Current-Cost Average Age at Yearend of Private Structures by Industry (A)"
+  },
+  {
+    "TableName": "FAAt310E",
+    "Description": "Table 3.10E. Historical-Cost Average Age at Yearend of Private Equipment by Industry (A)"
+  },
+  {
+    "TableName": "FAAt310ESI",
+    "Description": "Table 3.10ESI. Historical-Cost Average Age at Yearend of Private Fixed Assets by Industry (A)"
+  },
+  {
+    "TableName": "FAAt310I",
+    "Description": "Table 3.10I. Historical-Cost Average Age at Yearend of Private Intellectual Property Products by Industry (A)"
+  },
+  {
+    "TableName": "FAAt310S",
+    "Description": "Table 3.10S. Historical-Cost Average Age at Yearend of Private Structures by Industry (A)"
+  },
+  {
+    "TableName": "FAAt401",
+    "Description": "Table 4.1. Current-Cost Net Stock of Private Nonresidential Fixed Assets by Industry Group and Legal Form of Organization (A)"
+  },
+  {
+    "TableName": "FAAt402",
+    "Description": "Table 4.2. Chain-Type Quantity Indexes for Net Stock of Private Nonresidential Fixed Assets by Industry Group and Legal Form of Organization (A)"
+  },
+  {
+    "TableName": "FAAt403",
+    "Description": "Table 4.3. Historical-Cost Net Stock of Private Nonresidential Fixed Assets by Industry Group and Legal Form of Organization (A)"
+  },
+  {
+    "TableName": "FAAt404",
+    "Description": "Table 4.4. Current-Cost Depreciation of Private Nonresidential Fixed Assets by Industry Group and Legal Form of Organization (A)"
+  },
+  {
+    "TableName": "FAAt405",
+    "Description": "Table 4.5. Chain-Type Quantity Indexes for Depreciation of Private Nonresidential Fixed Assets by Industry Group and Legal Form of Organization (A)"
+  },
+  {
+    "TableName": "FAAt406",
+    "Description": "Table 4.6. Historical-Cost Depreciation of Private Nonresidential Fixed Assets by Industry Group and Legal Form of Organization (A)"
+  },
+  {
+    "TableName": "FAAt407",
+    "Description": "Table 4.7. Investment in Private Nonresidential Fixed Assets by Industry Group and Legal Form of Organization (A)"
+  },
+  {
+    "TableName": "FAAt408",
+    "Description": "Table 4.8. Chain-Type Quantity Indexes for Investment in Private Nonresidential Fixed Assets by Industry Group and Legal Form of Organization (A)"
+  },
+  {
+    "TableName": "FAAt409",
+    "Description": "Table 4.9. Current-Cost Average Age at Yearend of Private Nonresidential Fixed Assets by Industry Group and Legal Form of Organization (A)"
+  },
+  {
+    "TableName": "FAAt410",
+    "Description": "Table 4.10. Historical-Cost Average Age at Yearend of Private Nonresidential Fixed Assets by Industry Group and Legal Form of Organization (A)"
+  },
+  {
+    "TableName": "FAAt501",
+    "Description": "Table 5.1. Current-Cost Net Stock of Residential Fixed Assets by Type of Owner, Legal Form of Organization, and Tenure Group (A)"
+  },
+  {
+    "TableName": "FAAt502",
+    "Description": "Table 5.2. Chain-Type Quantity Indexes for Net Stock of Residential Fixed Assets by Type of Owner, Legal Form of Organization, and Tenure Group (A)"
+  },
+  {
+    "TableName": "FAAt503",
+    "Description": "Table 5.3. Historical-Cost Net Stock of Residential Fixed Assets by Type of Owner, Legal Form of Organization, and Tenure Group (A)"
+  },
+  {
+    "TableName": "FAAt504",
+    "Description": "Table 5.4. Current-Cost Depreciation of Residential Fixed Assets by Type of Owner, Legal Form of Organization, and Tenure Group (A)"
+  },
+  {
+    "TableName": "FAAt505",
+    "Description": "Table 5.5. Chain-Type Quantity Indexes for Depreciation of Residential Fixed Assets by Type of Owner, Legal Form of Organization, and Tenure Group (A)"
+  },
+  {
+    "TableName": "FAAt506",
+    "Description": "Table 5.6. Historical-Cost Depreciation of Residential Fixed Assets by Type of Owner, Legal Form of Organization, and Tenure Group (A)"
+  },
+  {
+    "TableName": "FAAt507",
+    "Description": "Table 5.7. Investment in Residential Fixed Assets by Type of Owner, Legal Form of Organization, and Tenure Group (A)"
+  },
+  {
+    "TableName": "FAAt508",
+    "Description": "Table 5.8. Chain-Type Quantity Indexes for Investment in Residential Fixed Assets by Type of Owner, Legal Form of Organization, and Tenure Group (A)"
+  },
+  {
+    "TableName": "FAAt509",
+    "Description": "Table 5.9. Current-Cost Average Age at Yearend of Residential Fixed Assets by Type of Owner, Legal Form of Organization, and Tenure Group (A)"
+  },
+  {
+    "TableName": "FAAt510",
+    "Description": "Table 5.10. Historical-Cost Average Age at Yearend of Residential Fixed Assets by Type of Owner, Legal Form of Organization, and Tenure Group (A)"
+  },
+  {
+    "TableName": "FAAt601",
+    "Description": "Table 6.1. Current-Cost Net Stock of Private Fixed Assets by Industry Group and Legal Form of Organization (A)"
+  },
+  {
+    "TableName": "FAAt602",
+    "Description": "Table 6.2. Chain-type Quantity Indexes for Net Stock of Private Fixed Assets by Industry Group and Legal Form of Organization (A)"
+  },
+  {
+    "TableName": "FAAt603",
+    "Description": "Table 6.3. Historical-Cost Net Stock of Private Fixed Assets by Industry Group and Legal Form of Organization (A)"
+  },
+  {
+    "TableName": "FAAt604",
+    "Description": "Table 6.4. Current-Cost Depreciation of Private Fixed Assets by Industry Group and Legal Form of Organization (A)"
+  },
+  {
+    "TableName": "FAAt605",
+    "Description": "Table 6.5. Chain-Type Quantity Indexes for Depreciation of Private Fixed Assets by Industry Group and Legal Form of Organization (A)"
+  },
+  {
+    "TableName": "FAAt606",
+    "Description": "Table 6.6. Historical-Cost Depreciation of Private Fixed Assets by Industry Group and Legal Form of Organization (A)"
+  },
+  {
+    "TableName": "FAAt607",
+    "Description": "Table 6.7. Investment in Private Fixed Assets by Industry Group and Legal Form of Organization (A)"
+  },
+  {
+    "TableName": "FAAt608",
+    "Description": "Table 6.8. Chain-Type Quantity Indexes for Investment in Private Fixed Assets by Industry Group and Legal Form of Organization (A)"
+  },
+  {
+    "TableName": "FAAt609",
+    "Description": "Table 6.9. Current-Cost Average Age at Yearend of Private Fixed Assets by Industry Group and Legal Form of Organization (A)"
+  },
+  {
+    "TableName": "FAAt610",
+    "Description": "Table 6.10. Historical-Cost Average Age at Yearend of Private Fixed Assets by Industry Group and Legal Form of Organization (A)"
+  },
+  {
+    "TableName": "FAAt701",
+    "Description": "Table 7.1. Current-Cost Net Stock of Government Fixed Assets (A)"
+  },
+  {
+    "TableName": "FAAt702",
+    "Description": "Table 7.2. Chain-Type Quantity Indexes for Net Stock of Government Fixed Assets (A)"
+  },
+  {
+    "TableName": "FAAt703",
+    "Description": "Table 7.3. Current-Cost Depreciation of Government Fixed Assets (A)"
+  },
+  {
+    "TableName": "FAAt704",
+    "Description": "Table 7.4. Chain-Type Quantity Indexes for Depreciation of Government Fixed Assets (A)"
+  },
+  {
+    "TableName": "FAAt705",
+    "Description": "Table 7.5. Investment in Government Fixed Assets (A)"
+  },
+  {
+    "TableName": "FAAt706",
+    "Description": "Table 7.6. Chain-Type Quantity Indexes for Investment in Government Fixed Assets (A)"
+  },
+  {
+    "TableName": "FAAt707",
+    "Description": "Table 7.7. Current-Cost Average Age at Yearend of Government Fixed Assets (A)"
+  },
+  {
+    "TableName": "FAAt801",
+    "Description": "Table 8.1. Current-Cost Net Stock of Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt802",
+    "Description": "Table 8.2. Chain-Type Quantity Indexes for Net Stock of Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt803",
+    "Description": "Table 8.3. Historical-Cost Net Stock of Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt804",
+    "Description": "Table 8.4. Current-Cost Depreciation of Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt805",
+    "Description": "Table 8.5. Chain-Type Quantity Indexes for Depreciation of Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt806",
+    "Description": "Table 8.6. Historical-Cost Depreciation of Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt807",
+    "Description": "Table 8.7. Investment in Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt808",
+    "Description": "Table 8.8. Chain-Type Quantity Indexes for Investment in Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt809",
+    "Description": "Table 8.9. Current-Cost Average Age at Yearend of Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt810",
+    "Description": "Table 8.10. Historical-Cost Average Age at Yearend of Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt901",
+    "Description": "Table 9.1. Real Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt902",
+    "Description": "Table 9.2. Real Depreciation of Fixed Assets and Consumer Durable Goods (A)"
+  },
+  {
+    "TableName": "FAAt903",
+    "Description": "Table 9.3. Real Investment in Fixed Assets and Consumer Durable Goods (A)"
+  }
+]

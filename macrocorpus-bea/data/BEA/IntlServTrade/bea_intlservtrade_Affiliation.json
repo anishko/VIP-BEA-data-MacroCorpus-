@@ -1,0 +1,22 @@
+[
+  {
+    "Key": "Affiliated",
+    "Desc": "Affiliated trade"
+  },
+  {
+    "Key": "AllAffiliations",
+    "Desc": "All affiliations"
+  },
+  {
+    "Key": "Unaffiliated",
+    "Desc": "Unaffiliated trade"
+  },
+  {
+    "Key": "UsAffiliates",
+    "Desc": "U.S. affiliates' trade with their foreign parent groups"
+  },
+  {
+    "Key": "UsParents",
+    "Desc": "U.S. parents' trade with their foreign affiliates"
+  }
+]

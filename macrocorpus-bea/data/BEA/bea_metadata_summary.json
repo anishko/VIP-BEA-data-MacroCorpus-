@@ -1,0 +1,845 @@
+{
+  "provider": "Bureau of Economic Analysis",
+  "provider_code": "BEA",
+  "audit_type": "representative_metadata_granularity_pilot",
+  "generated_at_utc": "2026-10-26T01:58:56.960130+00:00",
+  "scope": {
+    "dataset_families_sampled": 5,
+    "full_provider_coverage": false
+  },
+  "datasets": {
+    "IIP": {
+      "dataset": "IIP",
+      "errors": [],
+      "api_parameters": [
+        "TypeOfInvestment",
+        "Component",
+        "Frequency",
+        "Year"
+      ],
+      "parameter_descriptions": {
+        "TypeOfInvestment": "Type of investment",
+        "Component": "Component of changes in position",
+        "Frequency": "A - Annual, QNSA - Quarterly not seasonally adjusted",
+        "Year": "Year requested"
+      },
+      "required_parameters": [],
+      "classifications": {
+        "TypeOfInvestment": {
+          "values": 399,
+          "unique_keys": 399,
+          "duplicate_keys": [],
+          "with_description": 399
+        },
+        "Component": {
+          "values": 7,
+          "unique_keys": 7,
+          "duplicate_keys": [],
+          "with_description": 7
+        },
+        "Frequency": {
+          "values": 3,
+          "unique_keys": 3,
+          "duplicate_keys": [],
+          "with_description": 3
+        }
+      },
+      "sample_file": "IIP/bea_iip_sample.json",
+      "sample_top_level_keys": [
+        "dataset",
+        "type_of_investment",
+        "component",
+        "frequency",
+        "year",
+        "dimensions",
+        "notes",
+        "observations"
+      ],
+      "series_metadata_file": "IIP/bea_iip_series_metadata.json",
+      "proposed_hierarchy": [
+        "provider",
+        "dataset",
+        "type_of_investment",
+        "component",
+        "frequency",
+        "observation"
+      ],
+      "sample_request": {
+        "TypeOfInvestment": "FinAssetsExclFinDeriv",
+        "Component": "ALL",
+        "Frequency": "ALL",
+        "Year": "2023,2024"
+      },
+      "sample_observation_keys": [
+        "TypeOfInvestment",
+        "Component",
+        "Frequency",
+        "Year",
+        "TimeSeriesId",
+        "TimeSeriesDescription",
+        "TimePeriod",
+        "CL_UNIT",
+        "UNIT_MULT",
+        "DataValue",
+        "NoteRef"
+      ],
+      "dimension_columns": [
+        "TypeOfInvestment",
+        "Component",
+        "Frequency",
+        "Year",
+        "TimeSeriesId",
+        "TimeSeriesDescription",
+        "TimePeriod",
+        "CL_UNIT",
+        "UNIT_MULT",
+        "DataValue"
+      ],
+      "proposed_canonical_series_id": "BEA:IIP:{TypeOfInvestment}:{Component}:{Frequency}",
+      "source_series_id_field": "TimeSeriesId",
+      "unit_fields": [
+        "CL_UNIT/UNIT_MULT"
+      ],
+      "frequencies": [
+        "A",
+        "Q"
+      ],
+      "notes_count": 3,
+      "canonical_id_status": "verified_unique_in_sample",
+      "checks": {
+        "observations": 126,
+        "observations_linked_to_series": 126,
+        "observations_with_bad_time": 0,
+        "series": 21,
+        "ids_with_conflicting_values": 0,
+        "conflict_examples": [],
+        "ids_repeated_on_several_lines": 0,
+        "repeated_examples": [],
+        "ids_with_renamed_description": 0,
+        "renamed_examples": {},
+        "canonical_id_status": "unique_in_sample"
+      },
+      "example_series": {
+        "series_id": "BEA:IIP:FinAssetsExclFinDeriv:ChgPos:A",
+        "source_series_id": "TSI_IipFinAssetsExclFinDerivChgPos_A",
+        "dataset": "IIP",
+        "description": "U.S. assets excluding financial derivatives (Change in position); annual",
+        "classifications": {
+          "TypeOfInvestment": {
+            "code": "FinAssetsExclFinDeriv",
+            "label": "U.S. assets excluding financial derivatives"
+          },
+          "Component": {
+            "code": "ChgPos",
+            "label": "Change in position"
+          }
+        },
+        "frequency": "A",
+        "source_frequency": "A",
+        "unit": "USD",
+        "unit_multiplier": 6,
+        "unit_source": "CL_UNIT/UNIT_MULT",
+        "units_in_notes": [],
+        "metric": null,
+        "line_number": null,
+        "notes": [],
+        "n_obs": 2,
+        "n_missing": 0,
+        "missing_codes": {},
+        "first_period": "2023-01-01",
+        "last_period": "2024-01-01"
+      },
+      "findings": [
+        "Multiple frequencies in one table (A, Q); frequency must be part of the ID."
+      ]
+    },
+    "MNE": {
+      "dataset": "MNE",
+      "errors": [],
+      "api_parameters": [
+        "DirectionOfInvestment",
+        "OwnershipLevel",
+        "NonbankAffiliatesOnly",
+        "Classification",
+        "Country",
+        "Industry",
+        "Year",
+        "State",
+        "SeriesID",
+        "GetFootnotes",
+        "Investment",
+        "ParentInvestment"
+      ],
+      "parameter_descriptions": {
+        "DirectionOfInvestment": "Four Possible Values: (inward,outward,parent,state)",
+        "OwnershipLevel": "A value of 1 returns data for all affiliates. A value of 0 returns data for majority-owned affiliates only. Note that if directionOfInvestment = 'parent', then OwnershipLevel must be set to 1.",
+        "NonbankAffiliatesOnly": "A value of 1 returns data for nonbank affiliates only. A value of 0 returns data for both bank and nonbank affiliates. A value of 0 is required for data for 2007 forward (for FDIUS) for 2009 forward (for USDIA).",
+        "Classification": "Classification is a string used to obtain data that is broken down by both country and industry for either inward or outward data. It can take one of four possible values:",
+        "Country": "Country is usually a number. Because there can be several variants of a country's name, three-digit numeric codes are used to select countries. A full list of these codes is available near the end of this document or can be obtained by using the GETPARAMETERVALUES method. To obtain data for every country (including the all-country total) separately use 'all'. To obtain a total for all countries, use '0000'. To obtain data for multiple countries, each country code should be listed and separated by a comma.",
+        "Industry": "Industries are denoted by four-digit codes. With a few exceptions, these codes follow the NAICS. To obtain data for every industry separately use 'all'. To obtain a total for all industries, use '0000'.",
+        "Year": "Year is a 4-digit numeric variable. To obtain data for multiple years, each year should be listed and separated by a comma. To obtain data for all years use 'all'.",
+        "State": "State specifies the U.S. state or states for data on foreign direct investment in the United States. The state is specified by using the two-digit FIPS code. For \"Other U.S. areas\", use code '70'. For \"Foreign\", use code '75'. To obtain data for all states and areas use 'all'. To obtain a total U.S. figure, use '90'.",
+        "SeriesID": "Series IDs",
+        "GetFootnotes": "Footnotes for the datavalues",
+        "Investment": "Investments are denoted by Three-digit codes. To obtain data for every investment separately use 'all'. To obtain a total for all investments, use '000'.",
+        "ParentInvestment": "Investments are denoted by Three-digit codes. To obtain data for every investment separately use 'all'. To obtain a total for all investments, use '000'."
+      },
+      "required_parameters": [
+        "DirectionOfInvestment",
+        "Classification",
+        "Year"
+      ],
+      "classifications": {
+        "DirectionOfInvestment": {
+          "values": 4,
+          "unique_keys": 4,
+          "duplicate_keys": [],
+          "with_description": 4
+        },
+        "Classification": {
+          "values": 20,
+          "unique_keys": 20,
+          "duplicate_keys": [],
+          "with_description": 20
+        },
+        "SeriesID": {
+          "values": 58,
+          "unique_keys": 58,
+          "duplicate_keys": [],
+          "with_description": 58
+        },
+        "Country": {
+          "values": 260,
+          "unique_keys": 246,
+          "duplicate_keys": [
+            "000",
+            "296",
+            "299",
+            "399",
+            "408",
+            "417",
+            "450",
+            "514",
+            "607",
+            "637",
+            "657",
+            "660",
+            "699",
+            "899"
+          ],
+          "with_description": 260
+        },
+        "Industry": {
+          "values": 298,
+          "unique_keys": 274,
+          "duplicate_keys": [
+            "2350",
+            "3000",
+            "3116",
+            "3310",
+            "4238",
+            "4244",
+            "4251",
+            "4420",
+            "4431",
+            "4450",
+            "4461",
+            "4480",
+            "4510",
+            "4520",
+            "4930",
+            "5220",
+            "5221",
+            "5224",
+            "5512",
+            "5513",
+            "5600"
+          ],
+          "with_description": 298
+        }
+      },
+      "sample_file": "MNE/bea_mne_sample.json",
+      "sample_top_level_keys": [
+        "dataset",
+        "direction_of_investment",
+        "classification",
+        "series_id_code",
+        "country",
+        "year",
+        "dimensions",
+        "notes",
+        "observations"
+      ],
+      "series_metadata_file": "MNE/bea_mne_series_metadata.json",
+      "proposed_hierarchy": [
+        "provider",
+        "dataset",
+        "direction_of_investment",
+        "series_id_code",
+        "row_code",
+        "column_code",
+        "frequency",
+        "observation"
+      ],
+      "sample_request": {
+        "DirectionOfInvestment": "Outward",
+        "Classification": "Country",
+        "SeriesID": "30",
+        "Country": "all",
+        "Year": "2023,2024"
+      },
+      "sample_observation_keys": [
+        "Year",
+        "SeriesID",
+        "SeriesName",
+        "Row",
+        "ColumnGParent",
+        "ColumnParent",
+        "Column",
+        "RowCode",
+        "ColumnCode",
+        "ColumnParentCode",
+        "ColumnGParentCode",
+        "TableScale",
+        "DataValueUnformatted",
+        "TableColumnDisplayOrder",
+        "TableRowDisplayOrder",
+        "DataValue"
+      ],
+      "dimension_columns": [
+        "Year",
+        "SeriesID",
+        "SeriesName",
+        "Row",
+        "Column",
+        "RowCode",
+        "ColumnCode",
+        "TableScale",
+        "DataValueUnformatted",
+        "DataValue"
+      ],
+      "proposed_canonical_series_id": "BEA:MNE:{DirectionOfInvestment}:{SeriesID}:{RowCode}:{ColumnCode}:{frequency}",
+      "source_series_id_field": null,
+      "unit_fields": [
+        "TableScale"
+      ],
+      "frequencies": [
+        "A"
+      ],
+      "notes_count": 0,
+      "canonical_id_status": "verified_unique_in_sample",
+      "checks": {
+        "observations": 466,
+        "observations_linked_to_series": 466,
+        "observations_with_bad_time": 0,
+        "series": 233,
+        "ids_with_conflicting_values": 0,
+        "conflict_examples": [],
+        "ids_repeated_on_several_lines": 0,
+        "repeated_examples": [],
+        "ids_with_renamed_description": 0,
+        "renamed_examples": {},
+        "canonical_id_status": "unique_in_sample"
+      },
+      "example_series": {
+        "series_id": "BEA:MNE:Outward:30:000:0000:A",
+        "source_series_id": null,
+        "dataset": "MNE",
+        "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+        "classifications": {
+          "RowCode": {
+            "code": "000",
+            "label": "Total"
+          },
+          "ColumnCode": {
+            "code": "0000",
+            "label": "All Industries Total"
+          }
+        },
+        "frequency": "A",
+        "source_frequency": null,
+        "unit": "Millions of Dollars",
+        "unit_multiplier": 6,
+        "unit_source": "TableScale",
+        "units_in_notes": [],
+        "metric": null,
+        "line_number": null,
+        "notes": [],
+        "n_obs": 2,
+        "n_missing": 0,
+        "missing_codes": {},
+        "first_period": "2023-01-01",
+        "last_period": "2024-01-01"
+      },
+      "findings": [
+        "No TimePeriod field; time comes from Year (and Quarter if present).",
+        "No CL_UNIT/UNIT_MULT; units only in TableScale text.",
+        "No BEA series identifier in the rows; series must be identified by combining fields.",
+        "Missing values in sample, by BEA code: {'(*)': 18}."
+      ]
+    },
+    "IntlServTrade": {
+      "dataset": "IntlServTrade",
+      "errors": [],
+      "api_parameters": [
+        "TypeOfService",
+        "TradeDirection",
+        "Affiliation",
+        "AreaOrCountry",
+        "Year"
+      ],
+      "parameter_descriptions": {
+        "TypeOfService": "The type of service requested",
+        "TradeDirection": "The trade direction requested",
+        "Affiliation": "The affiliation requested",
+        "AreaOrCountry": "The area or country requested",
+        "Year": "The year requested"
+      },
+      "required_parameters": [],
+      "classifications": {
+        "TypeOfService": {
+          "values": 117,
+          "unique_keys": 117,
+          "duplicate_keys": [],
+          "with_description": 117
+        },
+        "TradeDirection": {
+          "values": 4,
+          "unique_keys": 4,
+          "duplicate_keys": [],
+          "with_description": 4
+        },
+        "Affiliation": {
+          "values": 5,
+          "unique_keys": 5,
+          "duplicate_keys": [],
+          "with_description": 5
+        },
+        "AreaOrCountry": {
+          "values": 243,
+          "unique_keys": 243,
+          "duplicate_keys": [],
+          "with_description": 243
+        }
+      },
+      "sample_file": "IntlServTrade/bea_intlservtrade_sample.json",
+      "sample_top_level_keys": [
+        "dataset",
+        "type_of_service",
+        "trade_direction",
+        "affiliation",
+        "area_or_country",
+        "year",
+        "dimensions",
+        "notes",
+        "observations"
+      ],
+      "series_metadata_file": "IntlServTrade/bea_intlservtrade_series_metadata.json",
+      "proposed_hierarchy": [
+        "provider",
+        "dataset",
+        "type_of_service",
+        "trade_direction",
+        "affiliation",
+        "area_or_country",
+        "frequency",
+        "observation"
+      ],
+      "sample_request": {
+        "TypeOfService": "Travel",
+        "TradeDirection": "ALL",
+        "Affiliation": "ALL",
+        "AreaOrCountry": "AllCountries",
+        "Year": "2022,2023"
+      },
+      "sample_observation_keys": [
+        "TypeOfService",
+        "TradeDirection",
+        "Affiliation",
+        "AreaOrCountry",
+        "Year",
+        "TimeSeriesId",
+        "TimeSeriesDescription",
+        "TimePeriod",
+        "CL_UNIT",
+        "UNIT_MULT",
+        "DataValue",
+        "NoteRef"
+      ],
+      "dimension_columns": [
+        "TypeOfService",
+        "TradeDirection",
+        "Affiliation",
+        "AreaOrCountry",
+        "Year",
+        "TimeSeriesId",
+        "TimeSeriesDescription",
+        "TimePeriod",
+        "CL_UNIT",
+        "UNIT_MULT",
+        "DataValue"
+      ],
+      "proposed_canonical_series_id": "BEA:IntlServTrade:{TypeOfService}:{TradeDirection}:{Affiliation}:{AreaOrCountry}:{frequency}",
+      "source_series_id_field": "TimeSeriesId",
+      "unit_fields": [
+        "CL_UNIT/UNIT_MULT"
+      ],
+      "frequencies": [
+        "A"
+      ],
+      "notes_count": 1,
+      "canonical_id_status": "verified_unique_in_sample",
+      "checks": {
+        "observations": 20,
+        "observations_linked_to_series": 20,
+        "observations_with_bad_time": 0,
+        "series": 10,
+        "ids_with_conflicting_values": 0,
+        "conflict_examples": [],
+        "ids_repeated_on_several_lines": 0,
+        "repeated_examples": [],
+        "ids_with_renamed_description": 0,
+        "renamed_examples": {},
+        "canonical_id_status": "unique_in_sample"
+      },
+      "example_series": {
+        "series_id": "BEA:IntlServTrade:Travel:Exports:Affiliated:AllCountries:A",
+        "source_series_id": "TSI_IstTravelExpAllCountriesAff_A",
+        "dataset": "IntlServTrade",
+        "description": "Exports of travel services (for all purposes including education); all countries; affiliated",
+        "classifications": {
+          "TypeOfService": {
+            "code": "Travel",
+            "label": "Travel services"
+          },
+          "TradeDirection": {
+            "code": "Exports",
+            "label": "Exports"
+          },
+          "Affiliation": {
+            "code": "Affiliated",
+            "label": "Affiliated trade"
+          }
+        },
+        "frequency": "A",
+        "source_frequency": null,
+        "unit": "USD",
+        "unit_multiplier": 6,
+        "unit_source": "CL_UNIT/UNIT_MULT",
+        "units_in_notes": [],
+        "metric": null,
+        "line_number": null,
+        "notes": [
+          "Not applicable"
+        ],
+        "n_obs": 2,
+        "n_missing": 2,
+        "missing_codes": {
+          "blank": 2
+        },
+        "first_period": "2022-01-01",
+        "last_period": "2023-01-01"
+      },
+      "findings": [
+        "Missing values in sample, by BEA code: {'blank': 12}."
+      ]
+    },
+    "FixedAssets": {
+      "dataset": "FixedAssets",
+      "errors": [],
+      "api_parameters": [
+        "TableName",
+        "Year"
+      ],
+      "parameter_descriptions": {
+        "TableName": "The new Fixed Assets identifier",
+        "Year": "List of year(s) of data to retrieve (X for All)"
+      },
+      "required_parameters": [
+        "TableName",
+        "Year"
+      ],
+      "classifications": {
+        "TableName": {
+          "values": 109,
+          "unique_keys": 109,
+          "duplicate_keys": [],
+          "with_description": 109
+        }
+      },
+      "sample_file": "FixedAssets/bea_fixedassets_sample.json",
+      "sample_top_level_keys": [
+        "dataset",
+        "table",
+        "year",
+        "dimensions",
+        "notes",
+        "observations"
+      ],
+      "series_metadata_file": "FixedAssets/bea_fixedassets_series_metadata.json",
+      "proposed_hierarchy": [
+        "provider",
+        "dataset",
+        "table",
+        "series_code",
+        "frequency",
+        "observation"
+      ],
+      "sample_request": {
+        "TableName": "FAAt101",
+        "Year": "2022,2023"
+      },
+      "sample_observation_keys": [
+        "TableName",
+        "SeriesCode",
+        "LineNumber",
+        "LineDescription",
+        "TimePeriod",
+        "METRIC_NAME",
+        "CL_UNIT",
+        "UNIT_MULT",
+        "DataValue",
+        "NoteRef"
+      ],
+      "dimension_columns": [
+        "TableName",
+        "SeriesCode",
+        "LineNumber",
+        "LineDescription",
+        "TimePeriod",
+        "CL_UNIT",
+        "UNIT_MULT",
+        "METRIC_NAME",
+        "DataValue"
+      ],
+      "proposed_canonical_series_id": "BEA:FixedAssets:{TableName}:{SeriesCode}:{frequency}",
+      "source_series_id_field": "SeriesCode",
+      "unit_fields": [
+        "CL_UNIT/UNIT_MULT"
+      ],
+      "frequencies": [
+        "A"
+      ],
+      "notes_count": 1,
+      "canonical_id_status": "verified_unique_in_sample",
+      "checks": {
+        "observations": 48,
+        "observations_linked_to_series": 48,
+        "observations_with_bad_time": 0,
+        "series": 22,
+        "ids_with_conflicting_values": 0,
+        "conflict_examples": [],
+        "ids_repeated_on_several_lines": 2,
+        "repeated_examples": [
+          "BEA:FixedAssets:FAAt101:k1gtotl1es00:A",
+          "BEA:FixedAssets:FAAt101:k1ttotl1es00:A"
+        ],
+        "ids_with_renamed_description": 0,
+        "renamed_examples": {},
+        "canonical_id_status": "unique_in_sample"
+      },
+      "example_series": {
+        "series_id": "BEA:FixedAssets:FAAt101:k1wtotl1es00:A",
+        "source_series_id": "k1wtotl1es00",
+        "dataset": "FixedAssets",
+        "description": "Fixed assets and consumer durable goods",
+        "classifications": {
+          "TableName": {
+            "code": "FAAt101",
+            "label": "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods (A)"
+          }
+        },
+        "frequency": "A",
+        "source_frequency": null,
+        "unit": "Level",
+        "unit_multiplier": 6,
+        "unit_source": "CL_UNIT/UNIT_MULT",
+        "units_in_notes": [
+          "Billions of dollars; yearend estimates"
+        ],
+        "metric": "Current Dollars",
+        "line_number": "1",
+        "notes": [
+          "Table 1.1. Current-Cost Net Stock of Fixed Assets and Consumer Durable Goods [Billions of dollars; yearend estimates] - LastRevised: September 30, 2026"
+        ],
+        "n_obs": 2,
+        "n_missing": 0,
+        "missing_codes": {},
+        "first_period": "2022-01-01",
+        "last_period": "2023-01-01"
+      },
+      "findings": [
+        "UNIT_MULT=6 (millions) but table note says billions: API returns millions.",
+        "2 series are printed on more than one line of the table (same numbers); line number is display only, the source ID is the real identity."
+      ]
+    },
+    "NIUnderlyingDetail": {
+      "dataset": "NIUnderlyingDetail",
+      "errors": [],
+      "api_parameters": [
+        "Frequency",
+        "TableID",
+        "TableName",
+        "Year"
+      ],
+      "parameter_descriptions": {
+        "Frequency": "A - Annual, Q-Quarterly, M-Monthly",
+        "TableID": "The standard NI underlying detail table identifier",
+        "TableName": "The new NIPA table identifier",
+        "Year": "List of year(s) of data to retrieve (X for All)"
+      },
+      "required_parameters": [
+        "Frequency",
+        "Year"
+      ],
+      "classifications": {
+        "TableName": {
+          "values": 58,
+          "unique_keys": 58,
+          "duplicate_keys": [],
+          "with_description": 58
+        },
+        "Frequency": {
+          "values": 3,
+          "unique_keys": 3,
+          "duplicate_keys": [],
+          "with_description": 3
+        }
+      },
+      "sample_file": "NIUnderlyingDetail/bea_niunderlyingdetail_sample.json",
+      "sample_top_level_keys": [
+        "dataset",
+        "table",
+        "frequency",
+        "year",
+        "dimensions",
+        "notes",
+        "observations"
+      ],
+      "series_metadata_file": "NIUnderlyingDetail/bea_niunderlyingdetail_series_metadata.json",
+      "proposed_hierarchy": [
+        "provider",
+        "dataset",
+        "table",
+        "series_code",
+        "frequency",
+        "observation"
+      ],
+      "sample_request": {
+        "TableName": "U20305",
+        "Frequency": "A,Q,M",
+        "Year": "2024"
+      },
+      "sample_observation_keys": [
+        "TableName",
+        "SeriesCode",
+        "LineNumber",
+        "LineDescription",
+        "TimePeriod",
+        "METRIC_NAME",
+        "CL_UNIT",
+        "UNIT_MULT",
+        "DataValue",
+        "NoteRef"
+      ],
+      "dimension_columns": [
+        "TableName",
+        "SeriesCode",
+        "LineNumber",
+        "LineDescription",
+        "TimePeriod",
+        "CL_UNIT",
+        "UNIT_MULT",
+        "METRIC_NAME",
+        "DataValue"
+      ],
+      "proposed_canonical_series_id": "BEA:NIUnderlyingDetail:{TableName}:{SeriesCode}:{frequency}",
+      "source_series_id_field": "SeriesCode",
+      "unit_fields": [
+        "CL_UNIT/UNIT_MULT"
+      ],
+      "frequencies": [
+        "A",
+        "M",
+        "Q"
+      ],
+      "notes_count": 8,
+      "canonical_id_status": "verified_unique_in_sample",
+      "checks": {
+        "observations": 782,
+        "observations_linked_to_series": 782,
+        "observations_with_bad_time": 0,
+        "series": 117,
+        "ids_with_conflicting_values": 0,
+        "conflict_examples": [],
+        "ids_repeated_on_several_lines": 21,
+        "repeated_examples": [
+          "BEA:NIUnderlyingDetail:U20305:DFSARC:A",
+          "BEA:NIUnderlyingDetail:U20305:DFSARC:M",
+          "BEA:NIUnderlyingDetail:U20305:DFSARC:Q",
+          "BEA:NIUnderlyingDetail:U20305:DFXARC:A",
+          "BEA:NIUnderlyingDetail:U20305:DFXARC:M"
+        ],
+        "ids_with_renamed_description": 0,
+        "renamed_examples": {},
+        "canonical_id_status": "unique_in_sample"
+      },
+      "example_series": {
+        "series_id": "BEA:NIUnderlyingDetail:U20305:DPCERC:A",
+        "source_series_id": "DPCERC",
+        "dataset": "NIUnderlyingDetail",
+        "description": "Personal consumption expenditures (PCE)",
+        "classifications": {
+          "TableName": {
+            "code": "U20305",
+            "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+          }
+        },
+        "frequency": "A",
+        "source_frequency": null,
+        "unit": "Level",
+        "unit_multiplier": 6,
+        "unit_source": "CL_UNIT/UNIT_MULT",
+        "units_in_notes": [
+          "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+        ],
+        "metric": "Current Dollars",
+        "line_number": "1",
+        "notes": [
+          "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+        ],
+        "n_obs": 1,
+        "n_missing": 0,
+        "missing_codes": {},
+        "first_period": "2024-01-01",
+        "last_period": "2024-01-01",
+        "appears_as": [
+          "Personal consumption expenditures (PCE) (line 1)",
+          "Personal consumption expenditures (line 29)"
+        ]
+      },
+      "findings": [
+        "21 series are printed on more than one line of the table (same numbers); line number is display only, the source ID is the real identity.",
+        "Multiple frequencies in one table (A, M, Q); frequency must be part of the ID."
+      ]
+    }
+  },
+  "findings": [
+    "IIP: Multiple frequencies in one table (A, Q); frequency must be part of the ID.",
+    "MNE: No TimePeriod field; time comes from Year (and Quarter if present).",
+    "MNE: No CL_UNIT/UNIT_MULT; units only in TableScale text.",
+    "MNE: No BEA series identifier in the rows; series must be identified by combining fields.",
+    "MNE: Missing values in sample, by BEA code: {'(*)': 18}.",
+    "IntlServTrade: Missing values in sample, by BEA code: {'blank': 12}.",
+    "FixedAssets: UNIT_MULT=6 (millions) but table note says billions: API returns millions.",
+    "FixedAssets: 2 series are printed on more than one line of the table (same numbers); line number is display only, the source ID is the real identity.",
+    "NIUnderlyingDetail: 21 series are printed on more than one line of the table (same numbers); line number is display only, the source ID is the real identity.",
+    "NIUnderlyingDetail: Multiple frequencies in one table (A, M, Q); frequency must be part of the ID."
+  ],
+  "limitations": [
+    "Samples cover one table/group per dataset and only a couple of years, not full histories.",
+    "Series IDs are checked for uniqueness within the sample only, not across all of BEA.",
+    "The API returns the latest revised values only (no real-time vintages).",
+    "Units follow BEA's own fields (CL_UNIT/UNIT_MULT, or TableScale for MNE); table notes can disagree."
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "Key": "ChgPos",
+    "Desc": "Change in position"
+  },
+  {
+    "Key": "ChgPosNie",
+    "Desc": "Change in position attributable to changes in volume and valuation n.i.e."
+  },
+  {
+    "Key": "ChgPosOth",
+    "Desc": "Change in position not attributable to financial-account transactions"
+  },
+  {
+    "Key": "ChgPosPrice",
+    "Desc": "Change in position attributable to price changes"
+  },
+  {
+    "Key": "ChgPosTrans",
+    "Desc": "Change in position attributable to financial-account transactions"
+  },
+  {
+    "Key": "ChgPosXRate",
+    "Desc": "Change in position attributable to exchange-rate changes"
+  },
+  {
+    "Key": "Pos",
+    "Desc": "Position"
+  }
+]

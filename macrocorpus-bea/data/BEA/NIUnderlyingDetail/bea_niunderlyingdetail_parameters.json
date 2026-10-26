@@ -1,0 +1,36 @@
+[
+  {
+    "ParameterName": "Frequency",
+    "ParameterDataType": "string",
+    "ParameterDescription": "A - Annual, Q-Quarterly, M-Monthly",
+    "ParameterIsRequiredFlag": "1",
+    "ParameterDefaultValue": "",
+    "MultipleAcceptedFlag": "1",
+    "AllValue": ""
+  },
+  {
+    "ParameterName": "TableID",
+    "ParameterDataType": "integer",
+    "ParameterDescription": "The standard NI underlying detail table identifier",
+    "ParameterIsRequiredFlag": "0",
+    "MultipleAcceptedFlag": "0",
+    "AllValue": ""
+  },
+  {
+    "ParameterName": "TableName",
+    "ParameterDataType": "string",
+    "ParameterDescription": "The new NIPA table identifier",
+    "ParameterIsRequiredFlag": "0",
+    "MultipleAcceptedFlag": "0",
+    "AllValue": ""
+  },
+  {
+    "ParameterName": "Year",
+    "ParameterDataType": "integer",
+    "ParameterDescription": "List of year(s) of data to retrieve (X for All)",
+    "ParameterIsRequiredFlag": "1",
+    "ParameterDefaultValue": "",
+    "MultipleAcceptedFlag": "1",
+    "AllValue": "X"
+  }
+]

@@ -1,0 +1,234 @@
+[
+  {
+    "TableName": "U001A",
+    "Description": "Table 1AU. Real Manufacturing and Trade Inventories, Seasonally Adjusted, End of Period [Chained 1996 dollars, 1967-96, SIC] (Q) (M)"
+  },
+  {
+    "TableName": "U001A2",
+    "Description": "Table 1AU2. Real Manufacturing and Trade Inventories, Seasonally Adjusted, End of Period [Chained 2017 dollars, 1967-96, SIC] (Q) (M)"
+  },
+  {
+    "TableName": "U001B",
+    "Description": "Table 1BU. Real Manufacturing and Trade Inventories, Seasonally Adjusted, End of Period [Chained 2017 dollars, 1997 forward, NAICS] (A) (Q) (M)"
+  },
+  {
+    "TableName": "U001BC",
+    "Description": "Table 1BUC. Current Dollar Manufacturing and Trade Inventories, Seasonally Adjusted, End of Period [1997 forward, NAICS] (A) (Q) (M)"
+  },
+  {
+    "TableName": "U002AU",
+    "Description": "Table 2AU. Real Manufacturing and Trade Sales, Seasonally Adjusted at Monthly Rate [Chained 1996 dollars, 1967-96, SIC] (Q) (M)"
+  },
+  {
+    "TableName": "U002AUI",
+    "Description": "Table 2AUI. Implicit Price Deflators for Manufacturing and Trade Sales [Index base 1996, 1967-96, SIC] (Q) (M)"
+  },
+  {
+    "TableName": "U002BU",
+    "Description": "Table 2BU. Real Manufacturing and Trade Sales, Seasonally Adjusted at Monthly Rate [Chained 2017 dollars, 1997 forward, NAICS] (A) (Q) (M)"
+  },
+  {
+    "TableName": "U002BUI",
+    "Description": "Table 2BUI. Implicit Price Deflators for Manufacturing and Trade Sales [Index base 2017, 1997 forward, NAICS] (A) (Q) (M)"
+  },
+  {
+    "TableName": "U003AU",
+    "Description": "Table 3AU. Real Inventory-Sales Ratios for Manufacturing and Trade, Seasonally Adjusted [Based on chained 1996 dollars, 1967-96, SIC] (Q) (M)"
+  },
+  {
+    "TableName": "U003BU",
+    "Description": "Table 3BU. Real Inventory-Sales Ratios for Manufacturing and Trade, Seasonally Adjusted [Based on chained 2017 dollars, 1997 forward, NAICS] (A) (Q) (M)"
+  },
+  {
+    "TableName": "U20304",
+    "Description": "Table 2.3.4U. Price Indexes for Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+  },
+  {
+    "TableName": "U20305",
+    "Description": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+  },
+  {
+    "TableName": "U20306",
+    "Description": "Table 2.3.6U. Real Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+  },
+  {
+    "TableName": "U20403",
+    "Description": "Table 2.4.3U. Real Personal Consumption Expenditures by Type of Product, Quantity Indexes (A) (Q) (M)"
+  },
+  {
+    "TableName": "U20404",
+    "Description": "Table 2.4.4U. Price Indexes for Personal Consumption Expenditures by Type of Product (A) (Q) (M)"
+  },
+  {
+    "TableName": "U20405",
+    "Description": "Table 2.4.5U. Personal Consumption Expenditures by Type of Product (A) (Q) (M)"
+  },
+  {
+    "TableName": "U20406",
+    "Description": "Table 2.4.6U. Real Personal Consumption Expenditures by Type of Product, Chained Dollars (A) (Q) (M)"
+  },
+  {
+    "TableName": "U30400",
+    "Description": "Table 3.4U. Personal Current Tax Receipts (Q)"
+  },
+  {
+    "TableName": "U30500",
+    "Description": "Table 3.5U. Taxes on Production and Imports (Q)"
+  },
+  {
+    "TableName": "U30600",
+    "Description": "Table 3.6U. Contributions for Government Social Insurance (Q)"
+  },
+  {
+    "TableName": "U30700",
+    "Description": "Table 3.7U. Government Current Transfer Receipts (Q)"
+  },
+  {
+    "TableName": "U30800",
+    "Description": "Table 3.8U. Current Surplus of Government Enterprises (Q)"
+  },
+  {
+    "TableName": "U31200",
+    "Description": "Table 3.12U. Government Social Benefits (Q)"
+  },
+  {
+    "TableName": "U31300",
+    "Description": "Table 3.13U. Subsidies (Q)"
+  },
+  {
+    "TableName": "U32400",
+    "Description": "Table 3.24U. Federal Grants-in-Aid to State and Local Governments (Q)"
+  },
+  {
+    "TableName": "U32500",
+    "Description": "Table 3.25U. Compensation of General Government Employees (A)"
+  },
+  {
+    "TableName": "U4030B",
+    "Description": "Table 4.3BU. Relation of Foreign Transactions in the National Income and Product Accounts to the Corresponding Items in the International Transactions Accounts (Q)"
+  },
+  {
+    "TableName": "U50203",
+    "Description": "Table 5.2.3U. Real Gross and Net Domestic Investment by Major Type, Quantity Indexes (Q)"
+  },
+  {
+    "TableName": "U50205",
+    "Description": "Table 5.2.5U. Gross and Net Domestic Investment by Major Type (Q)"
+  },
+  {
+    "TableName": "U50206",
+    "Description": "Table 5.2.6U. Real Gross and Net Domestic Investment by Major Type, Chained Dollars (Q)"
+  },
+  {
+    "TableName": "U50404",
+    "Description": "Table 5.4.4U. Price Indexes for Private Fixed Investment in Structures by Type (A) (Q)"
+  },
+  {
+    "TableName": "U50405",
+    "Description": "Table 5.4.5U. Private Fixed Investment in Structures by Type (A) (Q)"
+  },
+  {
+    "TableName": "U50406",
+    "Description": "Table 5.4.6U. Private Fixed Investment in Structures by Type, Chained dollars (A) (Q)"
+  },
+  {
+    "TableName": "U50504",
+    "Description": "Table 5.5.4U. Price Indexes for Private Fixed Investment in Equipment  by Type (A) (Q)"
+  },
+  {
+    "TableName": "U50505",
+    "Description": "Table 5.5.5U. Private Fixed Investment in Equipment  by Type (A) (Q)"
+  },
+  {
+    "TableName": "U50506",
+    "Description": "Table 5.5.6U. Private Fixed Investment in Equipment  by Type, Chained dollars (A) (Q)"
+  },
+  {
+    "TableName": "U50705AM1",
+    "Description": "Table 5.7.5AM1. Change in Private Inventories by Industry (M)"
+  },
+  {
+    "TableName": "U50705AM2",
+    "Description": "Table 5.7.5AM2. Change in Book Value by Industry (M)"
+  },
+  {
+    "TableName": "U50705AM3",
+    "Description": "Table 5.7.5AM3. Inventory Valuation Adjustment by Industry (M)"
+  },
+  {
+    "TableName": "U50705AU1",
+    "Description": "Table 5.7.5AU1. Change in Private Inventories by Industry (Q)"
+  },
+  {
+    "TableName": "U50705AU2",
+    "Description": "Table 5.7.5AU2. Change in Book Value by Industry (Q)"
+  },
+  {
+    "TableName": "U50705AU3",
+    "Description": "Table 5.7.5AU3. Inventory Valuation Adjustment by Industry (Q)"
+  },
+  {
+    "TableName": "U50705BM1",
+    "Description": "Table 5.7.5BM1. Change in Private Inventories by Industry (M)"
+  },
+  {
+    "TableName": "U50705BM2",
+    "Description": "Table 5.7.5BM2. Change in Book Value by Industry (M)"
+  },
+  {
+    "TableName": "U50705BM3",
+    "Description": "Table 5.7.5BM3. Inventory Valuation Adjustment by Industry (M)"
+  },
+  {
+    "TableName": "U50705BU1",
+    "Description": "Table 5.7.5BU1. Change in Private Inventories by Industry (A) (Q)"
+  },
+  {
+    "TableName": "U50705BU2",
+    "Description": "Table 5.7.5BU2. Change in Book Value by Industry (A) (Q)"
+  },
+  {
+    "TableName": "U50705BU3",
+    "Description": "Table 5.7.5BU3. Inventory Valuation Adjustment by Industry (A) (Q)"
+  },
+  {
+    "TableName": "U50706AM",
+    "Description": "Table 5.7.6AM. Change in Real Private Inventories by Industry (M)"
+  },
+  {
+    "TableName": "U50706AU",
+    "Description": "Table 5.7.6AU. Change in Real Private Inventories by Industry (Q)"
+  },
+  {
+    "TableName": "U50706BM",
+    "Description": "Table 5.7.6BM. Change in Real Private Inventories by Industry (M)"
+  },
+  {
+    "TableName": "U50706BU",
+    "Description": "Table 5.7.6BU. Change in Real Private Inventories by Industry (A) (Q)"
+  },
+  {
+    "TableName": "U51100",
+    "Description": "Table 5.11U. Capital Transfers Paid and Received, by Sector and by Type (Q)"
+  },
+  {
+    "TableName": "U70204",
+    "Description": "Table 7.2.4U. Price Indexes for Motor Vehicle Output (A) (Q)"
+  },
+  {
+    "TableName": "U70205",
+    "Description": "Table 7.2.5U. Motor Vehicle Output (A) (Q)"
+  },
+  {
+    "TableName": "U70205S",
+    "Description": "Table 7.2.5S. Auto and Truck Unit Sales, Production, Inventories, Expenditures, and Price (M)"
+  },
+  {
+    "TableName": "U70206",
+    "Description": "Table 7.2.6U. Real Motor Vehicle Output, Chained Dollars (A) (Q)"
+  },
+  {
+    "TableName": "U90100",
+    "Description": "Table 9.1U. Reconciliation of Percent Change in the CPI with Percent Change in the PCE Price Index (Q) (M)"
+  }
+]

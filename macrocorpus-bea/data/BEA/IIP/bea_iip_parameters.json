@@ -1,0 +1,38 @@
+[
+  {
+    "ParameterName": "TypeOfInvestment",
+    "ParameterDataType": "string",
+    "ParameterDescription": "Type of investment",
+    "ParameterIsRequiredFlag": "0",
+    "ParameterDefaultValue": "ALL",
+    "MultipleAcceptedFlag": "1",
+    "AllValue": "ALL"
+  },
+  {
+    "ParameterName": "Component",
+    "ParameterDataType": "string",
+    "ParameterDescription": "Component of changes in position",
+    "ParameterIsRequiredFlag": "0",
+    "ParameterDefaultValue": "ALL",
+    "MultipleAcceptedFlag": "1",
+    "AllValue": "ALL"
+  },
+  {
+    "ParameterName": "Frequency",
+    "ParameterDataType": "string",
+    "ParameterDescription": "A - Annual, QNSA - Quarterly not seasonally adjusted",
+    "ParameterIsRequiredFlag": "0",
+    "ParameterDefaultValue": "ALL",
+    "MultipleAcceptedFlag": "1",
+    "AllValue": "ALL"
+  },
+  {
+    "ParameterName": "Year",
+    "ParameterDataType": "string",
+    "ParameterDescription": "Year requested",
+    "ParameterIsRequiredFlag": "0",
+    "ParameterDefaultValue": "ALL",
+    "MultipleAcceptedFlag": "1",
+    "AllValue": "ALL"
+  }
+]

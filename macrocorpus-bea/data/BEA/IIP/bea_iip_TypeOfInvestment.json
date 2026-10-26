@@ -1,0 +1,1598 @@
+[
+  {
+    "Key": "CurrAndDepAssets",
+    "Desc": "U.S. assets; other investment; currency and deposits"
+  },
+  {
+    "Key": "CurrAndDepLiabs",
+    "Desc": "U.S. liabilities; other investment; currency and deposits"
+  },
+  {
+    "Key": "CurrAndDepLiabsFoa",
+    "Desc": "U.S. liabilities to foreign official agencies; other investment; currency and deposits"
+  },
+  {
+    "Key": "CurrAndDepReserveAssets",
+    "Desc": "U.S. assets; other reserve assets; currency and deposits"
+  },
+  {
+    "Key": "DebtAssetsExclReserve",
+    "Desc": "U.S. debt assets except reserve assets"
+  },
+  {
+    "Key": "DebtAssetsExclReserveCenBank",
+    "Desc": "U.S. debt assets except reserve assets; central bank"
+  },
+  {
+    "Key": "DebtAssetsExclReserveCenBankEuro",
+    "Desc": "U.S. debt assets except reserve assets; central bank; euro"
+  },
+  {
+    "Key": "DebtAssetsExclReserveCenBankEuroLt",
+    "Desc": "U.S. debt assets except reserve assets; central bank; euro; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveCenBankEuroSt",
+    "Desc": "U.S. debt assets except reserve assets; central bank; euro; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveCenBankFc",
+    "Desc": "U.S. debt assets except reserve assets; central bank; foreign currency"
+  },
+  {
+    "Key": "DebtAssetsExclReserveCenBankFcLt",
+    "Desc": "U.S. debt assets except reserve assets; central bank; foreign currency; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveCenBankFcSt",
+    "Desc": "U.S. debt assets except reserve assets; central bank; foreign currency; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveCenBankLt",
+    "Desc": "U.S. debt assets except reserve assets; central bank; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveCenBankOthFc",
+    "Desc": "U.S. debt assets except reserve assets; central bank; other foreign currency"
+  },
+  {
+    "Key": "DebtAssetsExclReserveCenBankOthFcLt",
+    "Desc": "U.S. debt assets except reserve assets; central bank; other foreign currency; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveCenBankOthFcSt",
+    "Desc": "U.S. debt assets except reserve assets; central bank; other foreign currency; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveCenBankSt",
+    "Desc": "U.S. debt assets except reserve assets; central bank; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveCenBankUsd",
+    "Desc": "U.S. debt assets except reserve assets; central bank; U.S. dollar"
+  },
+  {
+    "Key": "DebtAssetsExclReserveCenBankUsdLt",
+    "Desc": "U.S. debt assets except reserve assets; central bank; U.S. dollar; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveCenBankUsdSt",
+    "Desc": "U.S. debt assets except reserve assets; central bank; U.S. dollar; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveCenBankYen",
+    "Desc": "U.S. debt assets except reserve assets; central bank; yen"
+  },
+  {
+    "Key": "DebtAssetsExclReserveCenBankYenLt",
+    "Desc": "U.S. debt assets except reserve assets; central bank; yen; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveCenBankYenSt",
+    "Desc": "U.S. debt assets except reserve assets; central bank; yen; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveDepExclCenBank",
+    "Desc": "U.S. debt assets except reserve assets; deposit-taking institutions except central bank"
+  },
+  {
+    "Key": "DebtAssetsExclReserveDepExclCenBankEuro",
+    "Desc": "U.S. debt assets except reserve assets; deposit-taking institutions except central bank; euro"
+  },
+  {
+    "Key": "DebtAssetsExclReserveDepExclCenBankEuroLt",
+    "Desc": "U.S. debt assets except reserve assets; deposit-taking institutions except central bank; euro; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveDepExclCenBankEuroSt",
+    "Desc": "U.S. debt assets except reserve assets; deposit-taking institutions except central bank; euro; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveDepExclCenBankFc",
+    "Desc": "U.S. debt assets except reserve assets; deposit-taking institutions except central bank; foreign currency"
+  },
+  {
+    "Key": "DebtAssetsExclReserveDepExclCenBankFcLt",
+    "Desc": "U.S. debt assets except reserve assets; deposit-taking institutions except central bank; foreign currency; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveDepExclCenBankFcSt",
+    "Desc": "U.S. debt assets except reserve assets; deposit-taking institutions except central bank; foreign currency; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveDepExclCenBankLt",
+    "Desc": "U.S. debt assets except reserve assets; deposit-taking institutions except central bank; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveDepExclCenBankOthFc",
+    "Desc": "U.S. debt assets except reserve assets; deposit-taking institutions except central bank; other foreign currency"
+  },
+  {
+    "Key": "DebtAssetsExclReserveDepExclCenBankOthFcLt",
+    "Desc": "U.S. debt assets except reserve assets; deposit-taking institutions except central bank; other foreign currency; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveDepExclCenBankOthFcSt",
+    "Desc": "U.S. debt assets except reserve assets; deposit-taking institutions except central bank; other foreign currency; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveDepExclCenBankSt",
+    "Desc": "U.S. debt assets except reserve assets; deposit-taking institutions except central bank; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveDepExclCenBankUsd",
+    "Desc": "U.S. debt assets except reserve assets; deposit-taking institutions except central bank; U.S. dollar"
+  },
+  {
+    "Key": "DebtAssetsExclReserveDepExclCenBankUsdLt",
+    "Desc": "U.S. debt assets except reserve assets; deposit-taking institutions except central bank; U.S. dollar; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveDepExclCenBankUsdSt",
+    "Desc": "U.S. debt assets except reserve assets; deposit-taking institutions except central bank; U.S. dollar; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveDepExclCenBankYen",
+    "Desc": "U.S. debt assets except reserve assets; deposit-taking institutions except central bank; yen"
+  },
+  {
+    "Key": "DebtAssetsExclReserveDepExclCenBankYenLt",
+    "Desc": "U.S. debt assets except reserve assets; deposit-taking institutions except central bank; yen; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveDepExclCenBankYenSt",
+    "Desc": "U.S. debt assets except reserve assets; deposit-taking institutions except central bank; yen; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveEuro",
+    "Desc": "U.S. debt assets except reserve assets; euro"
+  },
+  {
+    "Key": "DebtAssetsExclReserveEuroLt",
+    "Desc": "U.S. debt assets except reserve assets; euro; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveEuroSt",
+    "Desc": "U.S. debt assets except reserve assets; euro; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveFc",
+    "Desc": "U.S. debt assets except reserve assets; foreign currency"
+  },
+  {
+    "Key": "DebtAssetsExclReserveFcLt",
+    "Desc": "U.S. debt assets except reserve assets; foreign currency; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveFcSt",
+    "Desc": "U.S. debt assets except reserve assets; foreign currency; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveGenGovt",
+    "Desc": "U.S. debt assets except reserve assets; general government"
+  },
+  {
+    "Key": "DebtAssetsExclReserveGenGovtEuro",
+    "Desc": "U.S. debt assets except reserve assets; general government; euro"
+  },
+  {
+    "Key": "DebtAssetsExclReserveGenGovtEuroLt",
+    "Desc": "U.S. debt assets except reserve assets; general government; euro; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveGenGovtEuroSt",
+    "Desc": "U.S. debt assets except reserve assets; general government; euro; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveGenGovtFc",
+    "Desc": "U.S. debt assets except reserve assets; general government; foreign currency"
+  },
+  {
+    "Key": "DebtAssetsExclReserveGenGovtFcLt",
+    "Desc": "U.S. debt assets except reserve assets; general government; foreign currency; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveGenGovtFcSt",
+    "Desc": "U.S. debt assets except reserve assets; general government; foreign currency; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveGenGovtLt",
+    "Desc": "U.S. debt assets except reserve assets; general government; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveGenGovtOthFc",
+    "Desc": "U.S. debt assets except reserve assets; general government; other foreign currency"
+  },
+  {
+    "Key": "DebtAssetsExclReserveGenGovtOthFcLt",
+    "Desc": "U.S. debt assets except reserve assets; general government; other foreign currency; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveGenGovtOthFcSt",
+    "Desc": "U.S. debt assets except reserve assets; general government; other foreign currency; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveGenGovtSt",
+    "Desc": "U.S. debt assets except reserve assets; general government; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveGenGovtUsd",
+    "Desc": "U.S. debt assets except reserve assets; general government; U.S. dollar"
+  },
+  {
+    "Key": "DebtAssetsExclReserveGenGovtUsdLt",
+    "Desc": "U.S. debt assets except reserve assets; general government; U.S. dollar; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveGenGovtUsdSt",
+    "Desc": "U.S. debt assets except reserve assets; general government; U.S. dollar; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveGenGovtYen",
+    "Desc": "U.S. debt assets except reserve assets; general government; yen"
+  },
+  {
+    "Key": "DebtAssetsExclReserveGenGovtYenLt",
+    "Desc": "U.S. debt assets except reserve assets; general government; yen; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveGenGovtYenSt",
+    "Desc": "U.S. debt assets except reserve assets; general government; yen; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveLt",
+    "Desc": "U.S. debt assets except reserve assets; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveNonFinExclGenGovt",
+    "Desc": "U.S. debt assets except reserve assets; nonfinancial institutions except general government"
+  },
+  {
+    "Key": "DebtAssetsExclReserveNonFinExclGenGovtEuro",
+    "Desc": "U.S. debt assets except reserve assets; nonfinancial institutions except general government; euro"
+  },
+  {
+    "Key": "DebtAssetsExclReserveNonFinExclGenGovtEuroLt",
+    "Desc": "U.S. debt assets except reserve assets; nonfinancial institutions except general government; euro; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveNonFinExclGenGovtEuroSt",
+    "Desc": "U.S. debt assets except reserve assets; nonfinancial institutions except general government; euro; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveNonFinExclGenGovtFc",
+    "Desc": "U.S. debt assets except reserve assets; nonfinancial institutions except general government; foreign currency"
+  },
+  {
+    "Key": "DebtAssetsExclReserveNonFinExclGenGovtFcLt",
+    "Desc": "U.S. debt assets except reserve assets; nonfinancial institutions except general government; foreign currency; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveNonFinExclGenGovtFcSt",
+    "Desc": "U.S. debt assets except reserve assets; nonfinancial institutions except general government; foreign currency; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveNonFinExclGenGovtLt",
+    "Desc": "U.S. debt assets except reserve assets; nonfinancial institutions except general government; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveNonFinExclGenGovtOthFc",
+    "Desc": "U.S. debt assets except reserve assets; nonfinancial institutions except general government; other foreign currency"
+  },
+  {
+    "Key": "DebtAssetsExclReserveNonFinExclGenGovtOthFcLt",
+    "Desc": "U.S. debt assets except reserve assets; nonfinancial institutions except general government; other foreign currency; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveNonFinExclGenGovtOthFcSt",
+    "Desc": "U.S. debt assets except reserve assets; nonfinancial institutions except general government; other foreign currency; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveNonFinExclGenGovtSt",
+    "Desc": "U.S. debt assets except reserve assets; nonfinancial institutions except general government; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveNonFinExclGenGovtUsd",
+    "Desc": "U.S. debt assets except reserve assets; nonfinancial institutions except general government; U.S. dollar"
+  },
+  {
+    "Key": "DebtAssetsExclReserveNonFinExclGenGovtUsdLt",
+    "Desc": "U.S. debt assets except reserve assets; nonfinancial institutions except general government; U.S. dollar; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveNonFinExclGenGovtUsdSt",
+    "Desc": "U.S. debt assets except reserve assets; nonfinancial institutions except general government; U.S. dollar; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveNonFinExclGenGovtYen",
+    "Desc": "U.S. debt assets except reserve assets; nonfinancial institutions except general government; yen"
+  },
+  {
+    "Key": "DebtAssetsExclReserveNonFinExclGenGovtYenLt",
+    "Desc": "U.S. debt assets except reserve assets; nonfinancial institutions except general government; yen; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveNonFinExclGenGovtYenSt",
+    "Desc": "U.S. debt assets except reserve assets; nonfinancial institutions except general government; yen; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFc",
+    "Desc": "U.S. debt assets except reserve assets; other foreign currency"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFcLt",
+    "Desc": "U.S. debt assets except reserve assets; other foreign currency; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFcSt",
+    "Desc": "U.S. debt assets except reserve assets; other foreign currency; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFin",
+    "Desc": "U.S. debt assets except reserve assets; other financial institutions"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFinEuro",
+    "Desc": "U.S. debt assets except reserve assets; other financial institutions; euro"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFinEuroLt",
+    "Desc": "U.S. debt assets except reserve assets; other financial institutions; euro; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFinEuroSt",
+    "Desc": "U.S. debt assets except reserve assets; other financial institutions; euro; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFinFc",
+    "Desc": "U.S. debt assets except reserve assets; other financial institutions; foreign currency"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFinFcLt",
+    "Desc": "U.S. debt assets except reserve assets; other financial institutions; foreign currency; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFinFcSt",
+    "Desc": "U.S. debt assets except reserve assets; other financial institutions; foreign currency; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFinLt",
+    "Desc": "U.S. debt assets except reserve assets; other financial institutions; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFinOthFc",
+    "Desc": "U.S. debt assets except reserve assets; other financial institutions; other foreign currency"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFinOthFcLt",
+    "Desc": "U.S. debt assets except reserve assets; other financial institutions; other foreign currency; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFinOthFcSt",
+    "Desc": "U.S. debt assets except reserve assets; other financial institutions; other foreign currency; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFinSt",
+    "Desc": "U.S. debt assets except reserve assets; other financial institutions; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFinUsd",
+    "Desc": "U.S. debt assets except reserve assets; other financial institutions; U.S. dollar"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFinUsdLt",
+    "Desc": "U.S. debt assets except reserve assets; other financial institutions; U.S. dollar; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFinUsdSt",
+    "Desc": "U.S. debt assets except reserve assets; other financial institutions; U.S. dollar; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFinYen",
+    "Desc": "U.S. debt assets except reserve assets; other financial institutions; yen"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFinYenLt",
+    "Desc": "U.S. debt assets except reserve assets; other financial institutions; yen; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveOthFinYenSt",
+    "Desc": "U.S. debt assets except reserve assets; other financial institutions; yen; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveSt",
+    "Desc": "U.S. debt assets except reserve assets; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveUsd",
+    "Desc": "U.S. debt assets except reserve assets; U.S. dollar"
+  },
+  {
+    "Key": "DebtAssetsExclReserveUsdLt",
+    "Desc": "U.S. debt assets except reserve assets; U.S. dollar; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveUsdSt",
+    "Desc": "U.S. debt assets except reserve assets; U.S. dollar; short term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveYen",
+    "Desc": "U.S. debt assets except reserve assets; yen"
+  },
+  {
+    "Key": "DebtAssetsExclReserveYenLt",
+    "Desc": "U.S. debt assets except reserve assets; yen; long term"
+  },
+  {
+    "Key": "DebtAssetsExclReserveYenSt",
+    "Desc": "U.S. debt assets except reserve assets; yen; short term"
+  },
+  {
+    "Key": "DebtLiabs",
+    "Desc": "U.S. debt liabilities"
+  },
+  {
+    "Key": "DebtLiabsCenBank",
+    "Desc": "U.S. debt liabilities; central bank"
+  },
+  {
+    "Key": "DebtLiabsCenBankEuro",
+    "Desc": "U.S. debt liabilities; central bank; euro"
+  },
+  {
+    "Key": "DebtLiabsCenBankEuroLt",
+    "Desc": "U.S. debt liabilities; central bank; euro; long term"
+  },
+  {
+    "Key": "DebtLiabsCenBankEuroSt",
+    "Desc": "U.S. debt liabilities; central bank; euro; short term"
+  },
+  {
+    "Key": "DebtLiabsCenBankFc",
+    "Desc": "U.S. debt liabilities; central bank; foreign currency"
+  },
+  {
+    "Key": "DebtLiabsCenBankFcLt",
+    "Desc": "U.S. debt liabilities; central bank; foreign currency; long term"
+  },
+  {
+    "Key": "DebtLiabsCenBankFcSt",
+    "Desc": "U.S. debt liabilities; central bank; foreign currency; short term"
+  },
+  {
+    "Key": "DebtLiabsCenBankLt",
+    "Desc": "U.S. debt liabilities; central bank; long term"
+  },
+  {
+    "Key": "DebtLiabsCenBankOthFc",
+    "Desc": "U.S. debt liabilities; central bank; other foreign currency"
+  },
+  {
+    "Key": "DebtLiabsCenBankOthFcLt",
+    "Desc": "U.S. debt liabilities; central bank; other foreign currency; long term"
+  },
+  {
+    "Key": "DebtLiabsCenBankOthFcSt",
+    "Desc": "U.S. debt liabilities; central bank; other foreign currency; short term"
+  },
+  {
+    "Key": "DebtLiabsCenBankSt",
+    "Desc": "U.S. debt liabilities; central bank; short term"
+  },
+  {
+    "Key": "DebtLiabsCenBankUsd",
+    "Desc": "U.S. debt liabilities; central bank; U.S. dollar"
+  },
+  {
+    "Key": "DebtLiabsCenBankUsdLt",
+    "Desc": "U.S. debt liabilities; central bank; U.S. dollar; long term"
+  },
+  {
+    "Key": "DebtLiabsCenBankUsdSt",
+    "Desc": "U.S. debt liabilities; central bank; U.S. dollar; short term"
+  },
+  {
+    "Key": "DebtLiabsCenBankYen",
+    "Desc": "U.S. debt liabilities; central bank; yen"
+  },
+  {
+    "Key": "DebtLiabsCenBankYenLt",
+    "Desc": "U.S. debt liabilities; central bank; yen; long term"
+  },
+  {
+    "Key": "DebtLiabsCenBankYenSt",
+    "Desc": "U.S. debt liabilities; central bank; yen; short term"
+  },
+  {
+    "Key": "DebtLiabsDepExclCenBank",
+    "Desc": "U.S. debt liabilities; deposit-taking institutions except central bank"
+  },
+  {
+    "Key": "DebtLiabsDepExclCenBankEuro",
+    "Desc": "U.S. debt liabilities; deposit-taking institutions except central bank; euro"
+  },
+  {
+    "Key": "DebtLiabsDepExclCenBankEuroLt",
+    "Desc": "U.S. debt liabilities; deposit-taking institutions except central bank; euro; long term"
+  },
+  {
+    "Key": "DebtLiabsDepExclCenBankEuroSt",
+    "Desc": "U.S. debt liabilities; deposit-taking institutions except central bank; euro; short term"
+  },
+  {
+    "Key": "DebtLiabsDepExclCenBankFc",
+    "Desc": "U.S. debt liabilities; deposit-taking institutions except central bank; foreign currency"
+  },
+  {
+    "Key": "DebtLiabsDepExclCenBankFcLt",
+    "Desc": "U.S. debt liabilities; deposit-taking institutions except central bank; foreign currency; long term"
+  },
+  {
+    "Key": "DebtLiabsDepExclCenBankFcSt",
+    "Desc": "U.S. debt liabilities; deposit-taking institutions except central bank; foreign currency; short term"
+  },
+  {
+    "Key": "DebtLiabsDepExclCenBankLt",
+    "Desc": "U.S. debt liabilities; deposit-taking institutions except central bank; long term"
+  },
+  {
+    "Key": "DebtLiabsDepExclCenBankOthFc",
+    "Desc": "U.S. debt liabilities; deposit-taking institutions except central bank; other foreign currency"
+  },
+  {
+    "Key": "DebtLiabsDepExclCenBankOthFcLt",
+    "Desc": "U.S. debt liabilities; deposit-taking institutions except central bank; other foreign currency; long term"
+  },
+  {
+    "Key": "DebtLiabsDepExclCenBankOthFcSt",
+    "Desc": "U.S. debt liabilities; deposit-taking institutions except central bank; other foreign currency; short term"
+  },
+  {
+    "Key": "DebtLiabsDepExclCenBankSt",
+    "Desc": "U.S. debt liabilities; deposit-taking institutions except central bank; short term"
+  },
+  {
+    "Key": "DebtLiabsDepExclCenBankUsd",
+    "Desc": "U.S. debt liabilities; deposit-taking institutions except central bank; U.S. dollar"
+  },
+  {
+    "Key": "DebtLiabsDepExclCenBankUsdLt",
+    "Desc": "U.S. debt liabilities; deposit-taking institutions except central bank; U.S. dollar; long term"
+  },
+  {
+    "Key": "DebtLiabsDepExclCenBankUsdSt",
+    "Desc": "U.S. debt liabilities; deposit-taking institutions except central bank; U.S. dollar; short term"
+  },
+  {
+    "Key": "DebtLiabsDepExclCenBankYen",
+    "Desc": "U.S. debt liabilities; deposit-taking institutions except central bank; yen"
+  },
+  {
+    "Key": "DebtLiabsDepExclCenBankYenLt",
+    "Desc": "U.S. debt liabilities; deposit-taking institutions except central bank; yen; long term"
+  },
+  {
+    "Key": "DebtLiabsDepExclCenBankYenSt",
+    "Desc": "U.S. debt liabilities; deposit-taking institutions except central bank; yen; short term"
+  },
+  {
+    "Key": "DebtLiabsEuro",
+    "Desc": "U.S. debt liabilities; euro"
+  },
+  {
+    "Key": "DebtLiabsEuroLt",
+    "Desc": "U.S. debt liabilities; euro; long term"
+  },
+  {
+    "Key": "DebtLiabsEuroSt",
+    "Desc": "U.S. debt liabilities; euro; short term"
+  },
+  {
+    "Key": "DebtLiabsFc",
+    "Desc": "U.S. debt liabilities; foreign currency"
+  },
+  {
+    "Key": "DebtLiabsFcLt",
+    "Desc": "U.S. debt liabilities; foreign currency; long term"
+  },
+  {
+    "Key": "DebtLiabsFcSt",
+    "Desc": "U.S. debt liabilities; foreign currency; short term"
+  },
+  {
+    "Key": "DebtLiabsGenGovt",
+    "Desc": "U.S. debt liabilities; general government"
+  },
+  {
+    "Key": "DebtLiabsGenGovtEuro",
+    "Desc": "U.S. debt liabilities; general government; euro"
+  },
+  {
+    "Key": "DebtLiabsGenGovtEuroLt",
+    "Desc": "U.S. debt liabilities; general government; euro; long term"
+  },
+  {
+    "Key": "DebtLiabsGenGovtEuroSt",
+    "Desc": "U.S. debt liabilities; general government; euro; short term"
+  },
+  {
+    "Key": "DebtLiabsGenGovtFc",
+    "Desc": "U.S. debt liabilities; general government; foreign currency"
+  },
+  {
+    "Key": "DebtLiabsGenGovtFcLt",
+    "Desc": "U.S. debt liabilities; general government; foreign currency; long term"
+  },
+  {
+    "Key": "DebtLiabsGenGovtFcSt",
+    "Desc": "U.S. debt liabilities; general government; foreign currency; short term"
+  },
+  {
+    "Key": "DebtLiabsGenGovtLt",
+    "Desc": "U.S. debt liabilities; general government; long term"
+  },
+  {
+    "Key": "DebtLiabsGenGovtOthFc",
+    "Desc": "U.S. debt liabilities; general government; other foreign currency"
+  },
+  {
+    "Key": "DebtLiabsGenGovtOthFcLt",
+    "Desc": "U.S. debt liabilities; general government; other foreign currency; long term"
+  },
+  {
+    "Key": "DebtLiabsGenGovtOthFcSt",
+    "Desc": "U.S. debt liabilities; general government; other foreign currency; short term"
+  },
+  {
+    "Key": "DebtLiabsGenGovtSt",
+    "Desc": "U.S. debt liabilities; general government; short term"
+  },
+  {
+    "Key": "DebtLiabsGenGovtUsd",
+    "Desc": "U.S. debt liabilities; general government; U.S. dollar"
+  },
+  {
+    "Key": "DebtLiabsGenGovtUsdLt",
+    "Desc": "U.S. debt liabilities; general government; U.S. dollar; long term"
+  },
+  {
+    "Key": "DebtLiabsGenGovtUsdSt",
+    "Desc": "U.S. debt liabilities; general government; U.S. dollar; short term"
+  },
+  {
+    "Key": "DebtLiabsGenGovtYen",
+    "Desc": "U.S. debt liabilities; general government; yen"
+  },
+  {
+    "Key": "DebtLiabsGenGovtYenLt",
+    "Desc": "U.S. debt liabilities; general government; yen; long term"
+  },
+  {
+    "Key": "DebtLiabsGenGovtYenSt",
+    "Desc": "U.S. debt liabilities; general government; yen; short term"
+  },
+  {
+    "Key": "DebtLiabsLt",
+    "Desc": "U.S. debt liabilities; long term"
+  },
+  {
+    "Key": "DebtLiabsNonFinExclGenGovt",
+    "Desc": "U.S. debt liabilities; nonfinancial institutions except general government"
+  },
+  {
+    "Key": "DebtLiabsNonFinExclGenGovtEuro",
+    "Desc": "U.S. debt liabilities; nonfinancial institutions except general government; euro"
+  },
+  {
+    "Key": "DebtLiabsNonFinExclGenGovtEuroLt",
+    "Desc": "U.S. debt liabilities; nonfinancial institutions except general government; euro; long term"
+  },
+  {
+    "Key": "DebtLiabsNonFinExclGenGovtEuroSt",
+    "Desc": "U.S. debt liabilities; nonfinancial institutions except general government; euro; short term"
+  },
+  {
+    "Key": "DebtLiabsNonFinExclGenGovtFc",
+    "Desc": "U.S. debt liabilities; nonfinancial institutions except general government; foreign currency"
+  },
+  {
+    "Key": "DebtLiabsNonFinExclGenGovtFcLt",
+    "Desc": "U.S. debt liabilities; nonfinancial institutions except general government; foreign currency; long term"
+  },
+  {
+    "Key": "DebtLiabsNonFinExclGenGovtFcSt",
+    "Desc": "U.S. debt liabilities; nonfinancial institutions except general government; foreign currency; short term"
+  },
+  {
+    "Key": "DebtLiabsNonFinExclGenGovtLt",
+    "Desc": "U.S. debt liabilities; nonfinancial institutions except general government; long term"
+  },
+  {
+    "Key": "DebtLiabsNonFinExclGenGovtOthFc",
+    "Desc": "U.S. debt liabilities; nonfinancial institutions except general government; other foreign currency"
+  },
+  {
+    "Key": "DebtLiabsNonFinExclGenGovtOthFcLt",
+    "Desc": "U.S. debt liabilities; nonfinancial institutions except general government; other foreign currency; long term"
+  },
+  {
+    "Key": "DebtLiabsNonFinExclGenGovtOthFcSt",
+    "Desc": "U.S. debt liabilities; nonfinancial institutions except general government; other foreign currency; short term"
+  },
+  {
+    "Key": "DebtLiabsNonFinExclGenGovtSt",
+    "Desc": "U.S. debt liabilities; nonfinancial institutions except general government; short term"
+  },
+  {
+    "Key": "DebtLiabsNonFinExclGenGovtUsd",
+    "Desc": "U.S. debt liabilities; nonfinancial institutions except general government; U.S. dollar"
+  },
+  {
+    "Key": "DebtLiabsNonFinExclGenGovtUsdLt",
+    "Desc": "U.S. debt liabilities; nonfinancial institutions except general government; U.S. dollar; long term"
+  },
+  {
+    "Key": "DebtLiabsNonFinExclGenGovtUsdSt",
+    "Desc": "U.S. debt liabilities; nonfinancial institutions except general government; U.S. dollar; short term"
+  },
+  {
+    "Key": "DebtLiabsNonFinExclGenGovtYen",
+    "Desc": "U.S. debt liabilities; nonfinancial institutions except general government; yen"
+  },
+  {
+    "Key": "DebtLiabsNonFinExclGenGovtYenLt",
+    "Desc": "U.S. debt liabilities; nonfinancial institutions except general government; yen; long term"
+  },
+  {
+    "Key": "DebtLiabsNonFinExclGenGovtYenSt",
+    "Desc": "U.S. debt liabilities; nonfinancial institutions except general government; yen; short term"
+  },
+  {
+    "Key": "DebtLiabsOthFc",
+    "Desc": "U.S. debt liabilities; other foreign currency"
+  },
+  {
+    "Key": "DebtLiabsOthFcLt",
+    "Desc": "U.S. debt liabilities; other foreign currency; long term"
+  },
+  {
+    "Key": "DebtLiabsOthFcSt",
+    "Desc": "U.S. debt liabilities; other foreign currency; short term"
+  },
+  {
+    "Key": "DebtLiabsOthFin",
+    "Desc": "U.S. debt liabilities; other financial institutions"
+  },
+  {
+    "Key": "DebtLiabsOthFinEuro",
+    "Desc": "U.S. debt liabilities; other financial institutions; euro"
+  },
+  {
+    "Key": "DebtLiabsOthFinEuroLt",
+    "Desc": "U.S. debt liabilities; other financial institutions; euro; long term"
+  },
+  {
+    "Key": "DebtLiabsOthFinEuroSt",
+    "Desc": "U.S. debt liabilities; other financial institutions; euro; short term"
+  },
+  {
+    "Key": "DebtLiabsOthFinFc",
+    "Desc": "U.S. debt liabilities; other financial institutions; foreign currency"
+  },
+  {
+    "Key": "DebtLiabsOthFinFcLt",
+    "Desc": "U.S. debt liabilities; other financial institutions; foreign currency; long term"
+  },
+  {
+    "Key": "DebtLiabsOthFinFcSt",
+    "Desc": "U.S. debt liabilities; other financial institutions; foreign currency; short term"
+  },
+  {
+    "Key": "DebtLiabsOthFinLt",
+    "Desc": "U.S. debt liabilities; other financial institutions; long term"
+  },
+  {
+    "Key": "DebtLiabsOthFinOthFc",
+    "Desc": "U.S. debt liabilities; other financial institutions; other foreign currency"
+  },
+  {
+    "Key": "DebtLiabsOthFinOthFcLt",
+    "Desc": "U.S. debt liabilities; other financial institutions; other foreign currency; long term"
+  },
+  {
+    "Key": "DebtLiabsOthFinOthFcSt",
+    "Desc": "U.S. debt liabilities; other financial institutions; other foreign currency; short term"
+  },
+  {
+    "Key": "DebtLiabsOthFinSt",
+    "Desc": "U.S. debt liabilities; other financial institutions; short term"
+  },
+  {
+    "Key": "DebtLiabsOthFinUsd",
+    "Desc": "U.S. debt liabilities; other financial institutions; U.S. dollar"
+  },
+  {
+    "Key": "DebtLiabsOthFinUsdLt",
+    "Desc": "U.S. debt liabilities; other financial institutions; U.S. dollar; long term"
+  },
+  {
+    "Key": "DebtLiabsOthFinUsdSt",
+    "Desc": "U.S. debt liabilities; other financial institutions; U.S. dollar; short term"
+  },
+  {
+    "Key": "DebtLiabsOthFinYen",
+    "Desc": "U.S. debt liabilities; other financial institutions; yen"
+  },
+  {
+    "Key": "DebtLiabsOthFinYenLt",
+    "Desc": "U.S. debt liabilities; other financial institutions; yen; long term"
+  },
+  {
+    "Key": "DebtLiabsOthFinYenSt",
+    "Desc": "U.S. debt liabilities; other financial institutions; yen; short term"
+  },
+  {
+    "Key": "DebtLiabsSt",
+    "Desc": "U.S. debt liabilities; short term"
+  },
+  {
+    "Key": "DebtLiabsUsd",
+    "Desc": "U.S. debt liabilities; U.S. dollar"
+  },
+  {
+    "Key": "DebtLiabsUsdLt",
+    "Desc": "U.S. debt liabilities; U.S. dollar; long term"
+  },
+  {
+    "Key": "DebtLiabsUsdSt",
+    "Desc": "U.S. debt liabilities; U.S. dollar; short term"
+  },
+  {
+    "Key": "DebtLiabsYen",
+    "Desc": "U.S. debt liabilities; yen"
+  },
+  {
+    "Key": "DebtLiabsYenLt",
+    "Desc": "U.S. debt liabilities; yen; long term"
+  },
+  {
+    "Key": "DebtLiabsYenSt",
+    "Desc": "U.S. debt liabilities; yen; short term"
+  },
+  {
+    "Key": "DebtSecAssets",
+    "Desc": "U.S. assets; portfolio investment; debt securities"
+  },
+  {
+    "Key": "DebtSecLiabs",
+    "Desc": "U.S. liabilities; portfolio investment; debt securities"
+  },
+  {
+    "Key": "DebtSecLiabsFoa",
+    "Desc": "U.S. liabilities to foreign official agencies; portfolio investment; debt securities"
+  },
+  {
+    "Key": "DiInvAssets",
+    "Desc": "U.S. assets; direct investment at market value, asset/liability basis"
+  },
+  {
+    "Key": "DiInvAssetsCurrCost",
+    "Desc": "U.S. assets; direct investment at current cost, asset/liability basis"
+  },
+  {
+    "Key": "DiInvAssetsHistCostToMarketValueAdj",
+    "Desc": "U.S. assets; direct investment; adjustment to revalue equity from historical cost to market value"
+  },
+  {
+    "Key": "DiInvAssetsNonSpe",
+    "Desc": "U.S. assets; direct investment at market value, asset/liability basis; non-SPEs"
+  },
+  {
+    "Key": "DiInvAssetsSpe",
+    "Desc": "U.S. assets; direct investment at market value, asset/liability basis; SPEs"
+  },
+  {
+    "Key": "DiInvDebtInstAssets",
+    "Desc": "U.S. assets; direct investment, asset/liability basis; debt instruments"
+  },
+  {
+    "Key": "DiInvDebtInstAssetsEuro",
+    "Desc": "U.S. assets; direct investment, asset/liability basis; debt instruments; euro"
+  },
+  {
+    "Key": "DiInvDebtInstAssetsEuroLt",
+    "Desc": "U.S. assets; direct investment, asset/liability basis; debt instruments; euro; long term"
+  },
+  {
+    "Key": "DiInvDebtInstAssetsEuroSt",
+    "Desc": "U.S. assets; direct investment, asset/liability basis; debt instruments; euro; short term"
+  },
+  {
+    "Key": "DiInvDebtInstAssetsFc",
+    "Desc": "U.S. assets; direct investment, asset/liability basis; debt instruments; foreign currency"
+  },
+  {
+    "Key": "DiInvDebtInstAssetsFcLt",
+    "Desc": "U.S. assets; direct investment, asset/liability basis; debt instruments; foreign currency; long term"
+  },
+  {
+    "Key": "DiInvDebtInstAssetsFcSt",
+    "Desc": "U.S. assets; direct investment, asset/liability basis; debt instruments; foreign currency; short term"
+  },
+  {
+    "Key": "DiInvDebtInstAssetsLt",
+    "Desc": "U.S. assets; direct investment, asset/liability basis; debt instruments; long term"
+  },
+  {
+    "Key": "DiInvDebtInstAssetsNonSpe",
+    "Desc": "U.S. assets; direct investment, asset/liability basis; debt instruments; non-SPEs"
+  },
+  {
+    "Key": "DiInvDebtInstAssetsOthFc",
+    "Desc": "U.S. assets; direct investment, asset/liability basis; debt instruments; other foreign currency"
+  },
+  {
+    "Key": "DiInvDebtInstAssetsOthFcLt",
+    "Desc": "U.S. assets; direct investment, asset/liability basis; debt instruments; other foreign currency; long term"
+  },
+  {
+    "Key": "DiInvDebtInstAssetsOthFcSt",
+    "Desc": "U.S. assets; direct investment, asset/liability basis; debt instruments; other foreign currency; short term"
+  },
+  {
+    "Key": "DiInvDebtInstAssetsSpe",
+    "Desc": "U.S. assets; direct investment, asset/liability basis; debt instruments; SPEs"
+  },
+  {
+    "Key": "DiInvDebtInstAssetsSt",
+    "Desc": "U.S. assets; direct investment, asset/liability basis; debt instruments; short term"
+  },
+  {
+    "Key": "DiInvDebtInstAssetsUsd",
+    "Desc": "U.S. assets; direct investment, asset/liability basis; debt instruments; U.S. dollar"
+  },
+  {
+    "Key": "DiInvDebtInstAssetsUsdLt",
+    "Desc": "U.S. assets; direct investment, asset/liability basis; debt instruments; U.S. dollar; long term"
+  },
+  {
+    "Key": "DiInvDebtInstAssetsUsdSt",
+    "Desc": "U.S. assets; direct investment, asset/liability basis; debt instruments; U.S. dollar; short term"
+  },
+  {
+    "Key": "DiInvDebtInstAssetsYen",
+    "Desc": "U.S. assets; direct investment, asset/liability basis; debt instruments; yen"
+  },
+  {
+    "Key": "DiInvDebtInstAssetsYenLt",
+    "Desc": "U.S. assets; direct investment, asset/liability basis; debt instruments; yen; long term"
+  },
+  {
+    "Key": "DiInvDebtInstAssetsYenSt",
+    "Desc": "U.S. assets; direct investment, asset/liability basis; debt instruments; yen; short term"
+  },
+  {
+    "Key": "DiInvDebtInstInward",
+    "Desc": "Inward direct investment (foreign direct investment in the United States), directional basis; debt instruments"
+  },
+  {
+    "Key": "DiInvDebtInstLiabs",
+    "Desc": "U.S. liabilities; direct investment, asset/liability basis; debt instruments"
+  },
+  {
+    "Key": "DiInvDebtInstLiabsEuro",
+    "Desc": "U.S. liabilities; direct investment, asset/liability basis; debt instruments; euro"
+  },
+  {
+    "Key": "DiInvDebtInstLiabsEuroLt",
+    "Desc": "U.S. liabilities; direct investment, asset/liability basis; debt instruments; euro; long term"
+  },
+  {
+    "Key": "DiInvDebtInstLiabsEuroSt",
+    "Desc": "U.S. liabilities; direct investment, asset/liability basis; debt instruments; euro; short term"
+  },
+  {
+    "Key": "DiInvDebtInstLiabsFc",
+    "Desc": "U.S. liabilities; direct investment, asset/liability basis; debt instruments; foreign currency"
+  },
+  {
+    "Key": "DiInvDebtInstLiabsFcLt",
+    "Desc": "U.S. liabilities; direct investment, asset/liability basis; debt instruments; foreign currency; long term"
+  },
+  {
+    "Key": "DiInvDebtInstLiabsFcSt",
+    "Desc": "U.S. liabilities; direct investment, asset/liability basis; debt instruments; foreign currency; short term"
+  },
+  {
+    "Key": "DiInvDebtInstLiabsLt",
+    "Desc": "U.S. liabilities; direct investment, asset/liability basis; debt instruments; long term"
+  },
+  {
+    "Key": "DiInvDebtInstLiabsNonSpe",
+    "Desc": "U.S. liabilities; direct investment, asset/liability basis; debt instruments; non-SPEs"
+  },
+  {
+    "Key": "DiInvDebtInstLiabsOthFc",
+    "Desc": "U.S. liabilities; direct investment, asset/liability basis; debt instruments; other foreign currency"
+  },
+  {
+    "Key": "DiInvDebtInstLiabsOthFcLt",
+    "Desc": "U.S. liabilities; direct investment, asset/liability basis; debt instruments; other foreign currency; long term"
+  },
+  {
+    "Key": "DiInvDebtInstLiabsOthFcSt",
+    "Desc": "U.S. liabilities; direct investment, asset/liability basis; debt instruments; other foreign currency; short term"
+  },
+  {
+    "Key": "DiInvDebtInstLiabsSpe",
+    "Desc": "U.S. liabilities; direct investment, asset/liability basis; debt instruments; SPEs"
+  },
+  {
+    "Key": "DiInvDebtInstLiabsSt",
+    "Desc": "U.S. liabilities; direct investment, asset/liability basis; debt instruments; short term"
+  },
+  {
+    "Key": "DiInvDebtInstLiabsUsd",
+    "Desc": "U.S. liabilities; direct investment, asset/liability basis; debt instruments; U.S. dollar"
+  },
+  {
+    "Key": "DiInvDebtInstLiabsUsdLt",
+    "Desc": "U.S. liabilities; direct investment, asset/liability basis; debt instruments; U.S. dollar; long term"
+  },
+  {
+    "Key": "DiInvDebtInstLiabsUsdSt",
+    "Desc": "U.S. liabilities; direct investment, asset/liability basis; debt instruments; U.S. dollar; short term"
+  },
+  {
+    "Key": "DiInvDebtInstLiabsYen",
+    "Desc": "U.S. liabilities; direct investment, asset/liability basis; debt instruments; yen"
+  },
+  {
+    "Key": "DiInvDebtInstLiabsYenLt",
+    "Desc": "U.S. liabilities; direct investment, asset/liability basis; debt instruments; yen; long term"
+  },
+  {
+    "Key": "DiInvDebtInstLiabsYenSt",
+    "Desc": "U.S. liabilities; direct investment, asset/liability basis; debt instruments; yen; short term"
+  },
+  {
+    "Key": "DiInvDebtInstOutward",
+    "Desc": "Outward direct investment (U.S. direct investment abroad), directional basis; debt instruments"
+  },
+  {
+    "Key": "DiInvDebtInstUsAffiliatesClaims",
+    "Desc": "Direct investment; debt instruments; U.S. affiliates' claims"
+  },
+  {
+    "Key": "DiInvDebtInstUsAffiliatesClaimsByNonSpe",
+    "Desc": "U.S. non-SPE affiliates' debt asset position in their foreign parent groups"
+  },
+  {
+    "Key": "DiInvDebtInstUsAffiliatesClaimsBySpe",
+    "Desc": "U.S. SPE affiliates' debt asset position in their foreign parent groups"
+  },
+  {
+    "Key": "DiInvDebtInstUsAffiliatesClaimsNonSpe",
+    "Desc": "Direct investment; debt instruments; U.S. affiliates' claims; non-SPEs"
+  },
+  {
+    "Key": "DiInvDebtInstUsAffiliatesClaimsSpe",
+    "Desc": "Direct investment; debt instruments; U.S. affiliates' claims; SPEs"
+  },
+  {
+    "Key": "DiInvDebtInstUsAffiliatesLiabs",
+    "Desc": "Direct investment; debt instruments; U.S. affiliates' liabilites"
+  },
+  {
+    "Key": "DiInvDebtInstUsAffiliatesLiabsNonSpe",
+    "Desc": "Direct investment; debt instruments; U.S. affiliates' liabilites; non-SPEs"
+  },
+  {
+    "Key": "DiInvDebtInstUsAffiliatesLiabsSpe",
+    "Desc": "Direct investment; debt instruments; U.S. affiliates' liabilites; SPEs"
+  },
+  {
+    "Key": "DiInvDebtInstUsParentsClaims",
+    "Desc": "Direct investment; debt instruments; U.S. parents' claims"
+  },
+  {
+    "Key": "DiInvDebtInstUsParentsClaimsNonSpe",
+    "Desc": "Direct investment; debt instruments; U.S. parents' claims; non-SPEs"
+  },
+  {
+    "Key": "DiInvDebtInstUsParentsClaimsSpe",
+    "Desc": "Direct investment; debt instruments; U.S. parents' claims; SPEs"
+  },
+  {
+    "Key": "DiInvDebtInstUsParentsLiabs",
+    "Desc": "Direct investment; debt instruments; U.S. parents' liabilites"
+  },
+  {
+    "Key": "DiInvDebtInstUsParentsLiabsInNonSpe",
+    "Desc": "U.S. parents' debt liability position in their foreign non-SPE affiliates"
+  },
+  {
+    "Key": "DiInvDebtInstUsParentsLiabsInSpe",
+    "Desc": "U.S. parents' debt liability position in their foreign SPE affiliates"
+  },
+  {
+    "Key": "DiInvDebtInstUsParentsLiabsNonSpe",
+    "Desc": "Direct investment; debt instruments; U.S. parents' liabilites; non-SPEs"
+  },
+  {
+    "Key": "DiInvDebtInstUsParentsLiabsSpe",
+    "Desc": "Direct investment; debt instruments; U.S. parents' liabilites; SPEs"
+  },
+  {
+    "Key": "DiInvDirectionalBasisAdj",
+    "Desc": "Direct investment; adjustments to convert to directional basis"
+  },
+  {
+    "Key": "DiInvEquityAssets",
+    "Desc": "U.S. assets; direct investment at market value; equity"
+  },
+  {
+    "Key": "DiInvEquityAssetsCurrCost",
+    "Desc": "U.S. assets; direct investment at current cost; equity"
+  },
+  {
+    "Key": "DiInvEquityAssetsHistCost",
+    "Desc": "U.S. assets; direct investment at historical cost; equity"
+  },
+  {
+    "Key": "DiInvEquityAssetsNonSpe",
+    "Desc": "U.S. assets; direct investment at market value; equity; non-SPEs"
+  },
+  {
+    "Key": "DiInvEquityAssetsSpe",
+    "Desc": "U.S. assets; direct investment at market value; equity; SPEs"
+  },
+  {
+    "Key": "DiInvEquityInward",
+    "Desc": "U.S. liabilities; direct investment at market value; equity"
+  },
+  {
+    "Key": "DiInvEquityLiabs",
+    "Desc": "U.S. liabilities; direct investment at market value; equity"
+  },
+  {
+    "Key": "DiInvEquityLiabsCurrCost",
+    "Desc": "U.S. liabilities; direct investment at current cost; equity"
+  },
+  {
+    "Key": "DiInvEquityLiabsHistCost",
+    "Desc": "U.S. liabilities; direct investment at historical cost; equity"
+  },
+  {
+    "Key": "DiInvEquityLiabsNonSpe",
+    "Desc": "U.S. liabilities; direct investment at market value; equity; non-SPEs"
+  },
+  {
+    "Key": "DiInvEquityLiabsSpe",
+    "Desc": "U.S. liabilities; direct investment at market value; equity; SPEs"
+  },
+  {
+    "Key": "DiInvInwardCurrCost",
+    "Desc": "Inward direct investment (foreign direct investment in the United States) at current cost, directional basis"
+  },
+  {
+    "Key": "DiInvInwardHistCost",
+    "Desc": "Inward direct investment (foreign direct investment in the United States) at historical cost, directional basis"
+  },
+  {
+    "Key": "DiInvInwardMarketValue",
+    "Desc": "Inward direct investment (foreign direct investment in the United States) at market value, directional basis"
+  },
+  {
+    "Key": "DiInvLiabs",
+    "Desc": "U.S. liabilities; direct investment at market value, asset/liability basis"
+  },
+  {
+    "Key": "DiInvLiabsCurrCost",
+    "Desc": "U.S. liabilities; direct investment at current cost, asset/liability basis"
+  },
+  {
+    "Key": "DiInvLiabsHistCostToMarketValueAdj",
+    "Desc": "U.S. liabilities; direct investment; adjustment to revalue equity from historical cost to market value"
+  },
+  {
+    "Key": "DiInvLiabsNonSpe",
+    "Desc": "U.S. liabilities; direct investment at market value, asset/liability basis; non-SPEs"
+  },
+  {
+    "Key": "DiInvLiabsSpe",
+    "Desc": "U.S. liabilities; direct investment at market value, asset/liability basis; SPEs"
+  },
+  {
+    "Key": "DiInvOutwardCurrCost",
+    "Desc": "Outward direct investment (U.S. direct investment abroad) at current cost, directional basis"
+  },
+  {
+    "Key": "DiInvOutwardHistCost",
+    "Desc": "Outward direct investment (U.S. direct investment abroad) at historical cost, directional basis"
+  },
+  {
+    "Key": "DiInvOutwardMarketValue",
+    "Desc": "Outward direct investment (U.S. direct investment abroad) at market value, directional basis"
+  },
+  {
+    "Key": "EquityAndInvFundSharesAssets",
+    "Desc": "U.S. assets; portfolio investment; equity and investment fund shares"
+  },
+  {
+    "Key": "EquityAndInvFundSharesLiabs",
+    "Desc": "U.S. liabilities; portfolio investment; equity and investment fund shares"
+  },
+  {
+    "Key": "EquityAndInvFundSharesLiabsFoa",
+    "Desc": "U.S. liabilities to foreign official agencies; portfolio investment; equity and investment fund shares"
+  },
+  {
+    "Key": "FinAssets",
+    "Desc": "U.S. assets"
+  },
+  {
+    "Key": "FinAssetsExclFinDeriv",
+    "Desc": "U.S. assets excluding financial derivatives"
+  },
+  {
+    "Key": "FinDerivAssets",
+    "Desc": "U.S. assets; financial derivatives other than reserves, gross positive fair value"
+  },
+  {
+    "Key": "FinDerivExchTradedAssets",
+    "Desc": "U.S. assets; financial derivatives other than reserves, gross positive fair value; exchange-traded contracts"
+  },
+  {
+    "Key": "FinDerivExchTradedLiabs",
+    "Desc": "U.S. liabilities; financial derivatives other than reserves, gross negative fair value; exchange-traded contracts"
+  },
+  {
+    "Key": "FinDerivForExAssets",
+    "Desc": "U.S. assets; financial derivatives other than reserves, gross positive fair value; over-the-counter contracts; foreign exchange contracts"
+  },
+  {
+    "Key": "FinDerivForExLiabs",
+    "Desc": "U.S. liabilities; financial derivatives other than reserves, gross negative fair value; over-the-counter contracts; foreign exchange contracts"
+  },
+  {
+    "Key": "FinDerivLiabs",
+    "Desc": "U.S. liabilities; financial derivatives other than reserves, gross negative fair value"
+  },
+  {
+    "Key": "FinDerivNet",
+    "Desc": "U.S. net international investment position; financial derivatives other than reserves"
+  },
+  {
+    "Key": "FinDerivOtcAssets",
+    "Desc": "U.S. assets; financial derivatives other than reserves, gross positive fair value; over-the-counter contracts"
+  },
+  {
+    "Key": "FinDerivOtcLiabs",
+    "Desc": "U.S. liabilities; financial derivatives other than reserves, gross negative fair value; over-the-counter contracts"
+  },
+  {
+    "Key": "FinDerivOthAssets",
+    "Desc": "U.S. assets; financial derivatives other than reserves, gross positive fair value; other over-the-counter contracts"
+  },
+  {
+    "Key": "FinDerivOthLiabs",
+    "Desc": "U.S. liabilities; financial derivatives other than reserves, gross negative fair value; other over-the-counter contracts"
+  },
+  {
+    "Key": "FinDerivReserveAssets",
+    "Desc": "U.S. assets; other reserve assets; financial derivatives"
+  },
+  {
+    "Key": "FinDerivSingleCurrAssets",
+    "Desc": "U.S. assets; financial derivatives other than reserves, gross positive fair value; over-the-counter contracts; single-currency interest rate contracts"
+  },
+  {
+    "Key": "FinDerivSingleCurrLiabs",
+    "Desc": "U.S. liabilities; financial derivatives other than reserves, gross negative fair value; over-the-counter contracts; single-currency interest rate contracts"
+  },
+  {
+    "Key": "FinLiabs",
+    "Desc": "U.S. liabilities"
+  },
+  {
+    "Key": "FinLiabsExclFinDeriv",
+    "Desc": "U.S. liabilities excluding financial derivatives"
+  },
+  {
+    "Key": "FinLiabsFoa",
+    "Desc": "U.S. liabilities to foreign official agencies"
+  },
+  {
+    "Key": "GoldReserveAssets",
+    "Desc": "U.S. assets; reserve assets; monetary gold"
+  },
+  {
+    "Key": "ImfReserveAssets",
+    "Desc": "U.S. assets; reserve assets; reserve position in the International Monetary Fund"
+  },
+  {
+    "Key": "InsTechReservesAssets",
+    "Desc": "U.S. assets; other investment; insurance technical reserves"
+  },
+  {
+    "Key": "InsTechReservesLiabs",
+    "Desc": "U.S. liabilities; other investment; insurance technical reserves"
+  },
+  {
+    "Key": "LoansAssets",
+    "Desc": "U.S. assets; other investment; loans"
+  },
+  {
+    "Key": "LoansLiabs",
+    "Desc": "U.S. liabilities; other investment; loans"
+  },
+  {
+    "Key": "LoansLiabsFoa",
+    "Desc": "U.S. liabilities to foreign official agencies; other investment; loans"
+  },
+  {
+    "Key": "LtDebtSecAssets",
+    "Desc": "U.S. assets; portfolio investment; long-term debt securities"
+  },
+  {
+    "Key": "LtDebtSecLiabs",
+    "Desc": "U.S. liabilities; portfolio investment; long-term debt securities"
+  },
+  {
+    "Key": "LtDebtSecLiabsFoa",
+    "Desc": "U.S. liabilities to foreign official agencies; portfolio investment; long-term debt securities"
+  },
+  {
+    "Key": "LtDebtSecTreasLiabsFoa",
+    "Desc": "U.S. liabilities to foreign official agencies; portfolio investment; long-term debt securities; Treasury bonds and notes"
+  },
+  {
+    "Key": "Net",
+    "Desc": "U.S. net international investment position"
+  },
+  {
+    "Key": "NetExclFinDeriv",
+    "Desc": "U.S. net international investment position excluding financial derivatives"
+  },
+  {
+    "Key": "OthClmReserveAssets",
+    "Desc": "U.S. assets; other reserve assets; other claims"
+  },
+  {
+    "Key": "OthEquityAssets",
+    "Desc": "U.S. assets; other investment; other equity"
+  },
+  {
+    "Key": "OthEquityLiabs",
+    "Desc": "U.S. liabilities; other investment; other equity"
+  },
+  {
+    "Key": "OthEquityLiabsFoa",
+    "Desc": "U.S. liabilities to foreign official agencies; other investment; other equity"
+  },
+  {
+    "Key": "OthInvAssets",
+    "Desc": "U.S. assets; other investment"
+  },
+  {
+    "Key": "OthInvLiabs",
+    "Desc": "U.S. liabilities; other investment"
+  },
+  {
+    "Key": "OthInvLiabsFoa",
+    "Desc": "U.S. liabilities to foreign official agencies; other investment"
+  },
+  {
+    "Key": "OthLtDebtSecLiabs",
+    "Desc": "U.S. liabilities; portfolio investment; long-term debt securities excluding Treasury bonds and notes"
+  },
+  {
+    "Key": "OthLtDebtSecLiabsFoa",
+    "Desc": "U.S. liabilities to foreign official agencies; portfolio investment; long-term debt securities excluding Treasury bonds and notes"
+  },
+  {
+    "Key": "OthReserveAssets",
+    "Desc": "U.S. assets; other reserve assets"
+  },
+  {
+    "Key": "OthStDebtSecLiabs",
+    "Desc": "U.S. liabilities; portfolio investment; short-term debt securities excluding Treasury bills and certificates"
+  },
+  {
+    "Key": "OthStDebtSecLiabsFoa",
+    "Desc": "U.S. liabilities to foreign official agencies; portfolio investment; short-term debt securities excluding Treasury bills and certificates"
+  },
+  {
+    "Key": "PfInvAssets",
+    "Desc": "U.S. assets; portfolio investment"
+  },
+  {
+    "Key": "PfInvLiabs",
+    "Desc": "U.S. liabilities; portfolio investment"
+  },
+  {
+    "Key": "PfInvLiabsFoa",
+    "Desc": "U.S. liabilities to foreign official agencies; portfolio investment"
+  },
+  {
+    "Key": "ReserveAssets",
+    "Desc": "U.S. assets; reserve assets"
+  },
+  {
+    "Key": "ReserveAssetsCenBank",
+    "Desc": "U.S. assets; reserve assets; central bank"
+  },
+  {
+    "Key": "ReserveAssetsCenBankLt",
+    "Desc": "U.S. assets; reserve assets; central bank; long term"
+  },
+  {
+    "Key": "ReserveAssetsCenBankNotSdrBasket",
+    "Desc": "U.S. assets; reserve assets; central bank; not in special drawing rights basket"
+  },
+  {
+    "Key": "ReserveAssetsCenBankNotSdrBasketLt",
+    "Desc": "U.S. assets; reserve assets; central bank; not in special drawing rights basket; long term"
+  },
+  {
+    "Key": "ReserveAssetsCenBankNotSdrBasketSt",
+    "Desc": "U.S. assets; reserve assets; central bank; not in special drawing rights basket; short term"
+  },
+  {
+    "Key": "ReserveAssetsCenBankSdrBasket",
+    "Desc": "U.S. assets; reserve assets; central bank; in special drawing rights basket"
+  },
+  {
+    "Key": "ReserveAssetsCenBankSdrBasketLt",
+    "Desc": "U.S. assets; reserve assets; central bank; in special drawing rights basket; long term"
+  },
+  {
+    "Key": "ReserveAssetsCenBankSdrBasketSt",
+    "Desc": "U.S. assets; reserve assets; central bank; in special drawing rights basket; short term"
+  },
+  {
+    "Key": "ReserveAssetsCenBankSt",
+    "Desc": "U.S. assets; reserve assets; central bank; short term"
+  },
+  {
+    "Key": "ReserveAssetsGenGovt",
+    "Desc": "U.S. assets; reserve assets; general government"
+  },
+  {
+    "Key": "ReserveAssetsGenGovtLt",
+    "Desc": "U.S. assets; reserve assets; general government; long term"
+  },
+  {
+    "Key": "ReserveAssetsGenGovtNotSdrBasket",
+    "Desc": "U.S. assets; reserve assets; general government; not in special drawing rights basket"
+  },
+  {
+    "Key": "ReserveAssetsGenGovtNotSdrBasketLt",
+    "Desc": "U.S. assets; reserve assets; general government; not in special drawing rights basket; long term"
+  },
+  {
+    "Key": "ReserveAssetsGenGovtNotSdrBasketSt",
+    "Desc": "U.S. assets; reserve assets; general government; not in special drawing rights basket; short term"
+  },
+  {
+    "Key": "ReserveAssetsGenGovtSdrBasket",
+    "Desc": "U.S. assets; reserve assets; general government; in special drawing rights basket"
+  },
+  {
+    "Key": "ReserveAssetsGenGovtSdrBasketLt",
+    "Desc": "U.S. assets; reserve assets; general government; in special drawing rights basket; long term"
+  },
+  {
+    "Key": "ReserveAssetsGenGovtSdrBasketSt",
+    "Desc": "U.S. assets; reserve assets; general government; in special drawing rights basket; short term"
+  },
+  {
+    "Key": "ReserveAssetsGenGovtSt",
+    "Desc": "U.S. assets; reserve assets; general government; short term"
+  },
+  {
+    "Key": "ReserveAssetsLt",
+    "Desc": "U.S. assets; reserve assets; long term"
+  },
+  {
+    "Key": "ReserveAssetsNotSdrBasket",
+    "Desc": "U.S. assets; reserve assets; not in special drawing rights basket"
+  },
+  {
+    "Key": "ReserveAssetsNotSdrBasketLt",
+    "Desc": "U.S. assets; reserve assets; not in special drawing rights basket; long term"
+  },
+  {
+    "Key": "ReserveAssetsNotSdrBasketSt",
+    "Desc": "U.S. assets; reserve assets; not in special drawing rights basket; short term"
+  },
+  {
+    "Key": "ReserveAssetsSdrBasket",
+    "Desc": "U.S. assets; reserve assets; in special drawing rights basket"
+  },
+  {
+    "Key": "ReserveAssetsSdrBasketLt",
+    "Desc": "U.S. assets; reserve assets; in special drawing rights basket; long term"
+  },
+  {
+    "Key": "ReserveAssetsSdrBasketSt",
+    "Desc": "U.S. assets; reserve assets; in special drawing rights basket; short term"
+  },
+  {
+    "Key": "ReserveAssetsSt",
+    "Desc": "U.S. assets; reserve assets; short term"
+  },
+  {
+    "Key": "SdrAllocLiabs",
+    "Desc": "U.S. liabilities; other investment; special drawing rights allocations"
+  },
+  {
+    "Key": "SdrAllocLiabsFoa",
+    "Desc": "U.S. liabilities to foreign official agencies; other investment; special drawing rights allocations"
+  },
+  {
+    "Key": "SdrReserveAssets",
+    "Desc": "U.S. assets; reserve assets; special drawing rights"
+  },
+  {
+    "Key": "SecReserveAssets",
+    "Desc": "U.S. assets; other reserve assets; securities"
+  },
+  {
+    "Key": "StDebtSecAssets",
+    "Desc": "U.S. assets; portfolio investment; short-term debt securities"
+  },
+  {
+    "Key": "StDebtSecLiabs",
+    "Desc": "U.S. liabilities; portfolio investment; short-term debt securities"
+  },
+  {
+    "Key": "StDebtSecLiabsFoa",
+    "Desc": "U.S. liabilities to foreign official agencies; portfolio investment; short-term debt securities"
+  },
+  {
+    "Key": "StDebtSecTreasLiabsFoa",
+    "Desc": "U.S. liabilities to foreign official agencies; portfolio investment; short-term debt securities; Treasury bills and certificates"
+  },
+  {
+    "Key": "TrdCredAndAdvAssets",
+    "Desc": "U.S. assets; other investment; trade credit and advances"
+  },
+  {
+    "Key": "TrdCredAndAdvLiabs",
+    "Desc": "U.S. liabilities; other investment; trade credit and advances"
+  },
+  {
+    "Key": "TrdCredAndAdvLiabsFoa",
+    "Desc": "U.S. liabilities to foreign official agencies; other investment; trade credit and advances"
+  },
+  {
+    "Key": "TreasBillsAndCertsLiabs",
+    "Desc": "U.S. liabilities; portfolio investment; short-term debt securities; Treasury bills and certificates"
+  },
+  {
+    "Key": "TreasBondsAndNotesLiabs",
+    "Desc": "U.S. liabilities; portfolio investment; long-term debt securities; Treasury bonds and notes"
+  }
+]

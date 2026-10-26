@@ -1,0 +1,366 @@
+[
+  {
+    "series_id": "BEA:IntlServTrade:Travel:Exports:Affiliated:AllCountries:A",
+    "source_series_id": "TSI_IstTravelExpAllCountriesAff_A",
+    "dataset": "IntlServTrade",
+    "description": "Exports of travel services (for all purposes including education); all countries; affiliated",
+    "classifications": {
+      "TypeOfService": {
+        "code": "Travel",
+        "label": "Travel services"
+      },
+      "TradeDirection": {
+        "code": "Exports",
+        "label": "Exports"
+      },
+      "Affiliation": {
+        "code": "Affiliated",
+        "label": "Affiliated trade"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "USD",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [
+      "Not applicable"
+    ],
+    "n_obs": 2,
+    "n_missing": 2,
+    "missing_codes": {
+      "blank": 2
+    },
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:IntlServTrade:Travel:Exports:AllAffiliations:AllCountries:A",
+    "source_series_id": "TSI_IstTravelExpAllCountriesAllAff_A",
+    "dataset": "IntlServTrade",
+    "description": "Exports of travel services (for all purposes including education); all countries",
+    "classifications": {
+      "TypeOfService": {
+        "code": "Travel",
+        "label": "Travel services"
+      },
+      "TradeDirection": {
+        "code": "Exports",
+        "label": "Exports"
+      },
+      "Affiliation": {
+        "code": "AllAffiliations",
+        "label": "All affiliations"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "USD",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:IntlServTrade:Travel:Exports:Unaffiliated:AllCountries:A",
+    "source_series_id": "TSI_IstTravelExpAllCountriesUnaff_A",
+    "dataset": "IntlServTrade",
+    "description": "Exports of travel services (for all purposes including education); all countries; unaffiliated",
+    "classifications": {
+      "TypeOfService": {
+        "code": "Travel",
+        "label": "Travel services"
+      },
+      "TradeDirection": {
+        "code": "Exports",
+        "label": "Exports"
+      },
+      "Affiliation": {
+        "code": "Unaffiliated",
+        "label": "Unaffiliated trade"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "USD",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:IntlServTrade:Travel:Exports:UsAffiliates:AllCountries:A",
+    "source_series_id": "TSI_IstTravelExpAllCountriesUsAff_A",
+    "dataset": "IntlServTrade",
+    "description": "Exports of travel services (for all purposes including education); all countries; U.S. affiliates' exports to their foreign parent groups",
+    "classifications": {
+      "TypeOfService": {
+        "code": "Travel",
+        "label": "Travel services"
+      },
+      "TradeDirection": {
+        "code": "Exports",
+        "label": "Exports"
+      },
+      "Affiliation": {
+        "code": "UsAffiliates",
+        "label": "U.S. affiliates' trade with their foreign parent groups"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "USD",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [
+      "Not applicable"
+    ],
+    "n_obs": 2,
+    "n_missing": 2,
+    "missing_codes": {
+      "blank": 2
+    },
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:IntlServTrade:Travel:Exports:UsParents:AllCountries:A",
+    "source_series_id": "TSI_IstTravelExpAllCountriesUsPar_A",
+    "dataset": "IntlServTrade",
+    "description": "Exports of travel services (for all purposes including education); all countries; U.S. parents' exports to their foreign affiliates",
+    "classifications": {
+      "TypeOfService": {
+        "code": "Travel",
+        "label": "Travel services"
+      },
+      "TradeDirection": {
+        "code": "Exports",
+        "label": "Exports"
+      },
+      "Affiliation": {
+        "code": "UsParents",
+        "label": "U.S. parents' trade with their foreign affiliates"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "USD",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [
+      "Not applicable"
+    ],
+    "n_obs": 2,
+    "n_missing": 2,
+    "missing_codes": {
+      "blank": 2
+    },
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:IntlServTrade:Travel:Imports:Affiliated:AllCountries:A",
+    "source_series_id": "TSI_IstTravelImpAllCountriesAff_A",
+    "dataset": "IntlServTrade",
+    "description": "Imports of travel services (for all purposes including education); all countries; affiliated",
+    "classifications": {
+      "TypeOfService": {
+        "code": "Travel",
+        "label": "Travel services"
+      },
+      "TradeDirection": {
+        "code": "Imports",
+        "label": "Imports"
+      },
+      "Affiliation": {
+        "code": "Affiliated",
+        "label": "Affiliated trade"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "USD",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [
+      "Not applicable"
+    ],
+    "n_obs": 2,
+    "n_missing": 2,
+    "missing_codes": {
+      "blank": 2
+    },
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:IntlServTrade:Travel:Imports:AllAffiliations:AllCountries:A",
+    "source_series_id": "TSI_IstTravelImpAllCountriesAllAff_A",
+    "dataset": "IntlServTrade",
+    "description": "Imports of travel services (for all purposes including education); all countries",
+    "classifications": {
+      "TypeOfService": {
+        "code": "Travel",
+        "label": "Travel services"
+      },
+      "TradeDirection": {
+        "code": "Imports",
+        "label": "Imports"
+      },
+      "Affiliation": {
+        "code": "AllAffiliations",
+        "label": "All affiliations"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "USD",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:IntlServTrade:Travel:Imports:Unaffiliated:AllCountries:A",
+    "source_series_id": "TSI_IstTravelImpAllCountriesUnaff_A",
+    "dataset": "IntlServTrade",
+    "description": "Imports of travel services (for all purposes including education); all countries; unaffiliated",
+    "classifications": {
+      "TypeOfService": {
+        "code": "Travel",
+        "label": "Travel services"
+      },
+      "TradeDirection": {
+        "code": "Imports",
+        "label": "Imports"
+      },
+      "Affiliation": {
+        "code": "Unaffiliated",
+        "label": "Unaffiliated trade"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "USD",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:IntlServTrade:Travel:Imports:UsAffiliates:AllCountries:A",
+    "source_series_id": "TSI_IstTravelImpAllCountriesUsAff_A",
+    "dataset": "IntlServTrade",
+    "description": "Imports of travel services (for all purposes including education); all countries; U.S. affiliates' imports from their foreign parent groups",
+    "classifications": {
+      "TypeOfService": {
+        "code": "Travel",
+        "label": "Travel services"
+      },
+      "TradeDirection": {
+        "code": "Imports",
+        "label": "Imports"
+      },
+      "Affiliation": {
+        "code": "UsAffiliates",
+        "label": "U.S. affiliates' trade with their foreign parent groups"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "USD",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [
+      "Not applicable"
+    ],
+    "n_obs": 2,
+    "n_missing": 2,
+    "missing_codes": {
+      "blank": 2
+    },
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  },
+  {
+    "series_id": "BEA:IntlServTrade:Travel:Imports:UsParents:AllCountries:A",
+    "source_series_id": "TSI_IstTravelImpAllCountriesUsPar_A",
+    "dataset": "IntlServTrade",
+    "description": "Imports of travel services (for all purposes including education); all countries; U.S. parents' imports from their foreign affiliates",
+    "classifications": {
+      "TypeOfService": {
+        "code": "Travel",
+        "label": "Travel services"
+      },
+      "TradeDirection": {
+        "code": "Imports",
+        "label": "Imports"
+      },
+      "Affiliation": {
+        "code": "UsParents",
+        "label": "U.S. parents' trade with their foreign affiliates"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "USD",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [
+      "Not applicable"
+    ],
+    "n_obs": 2,
+    "n_missing": 2,
+    "missing_codes": {
+      "blank": 2
+    },
+    "first_period": "2022-01-01",
+    "last_period": "2023-01-01"
+  }
+]

@@ -1,0 +1,3620 @@
+[
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DPCERC:A",
+    "source_series_id": "DPCERC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Personal consumption expenditures (PCE)",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "1",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01",
+    "appears_as": [
+      "Personal consumption expenditures (PCE) (line 1)",
+      "Personal consumption expenditures (line 29)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DPCERC:M",
+    "source_series_id": "DPCERC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Personal consumption expenditures (PCE)",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "1",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01",
+    "appears_as": [
+      "Personal consumption expenditures (PCE) (line 1)",
+      "Personal consumption expenditures (line 29)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DPCERC:Q",
+    "source_series_id": "DPCERC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Personal consumption expenditures (PCE)",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "1",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01",
+    "appears_as": [
+      "Personal consumption expenditures (PCE) (line 1)",
+      "Personal consumption expenditures (line 29)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DGDSRC:A",
+    "source_series_id": "DGDSRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Goods",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "2",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DGDSRC:M",
+    "source_series_id": "DGDSRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Goods",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "2",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DGDSRC:Q",
+    "source_series_id": "DGDSRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Goods",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "2",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DDURRC:A",
+    "source_series_id": "DDURRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Durable goods",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "3",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DDURRC:M",
+    "source_series_id": "DDURRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Durable goods",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "3",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DDURRC:Q",
+    "source_series_id": "DDURRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Durable goods",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "3",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DMOTRC:A",
+    "source_series_id": "DMOTRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Motor vehicles and parts",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "4",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DMOTRC:M",
+    "source_series_id": "DMOTRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Motor vehicles and parts",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "4",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DMOTRC:Q",
+    "source_series_id": "DMOTRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Motor vehicles and parts",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "4",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DFDHRC:A",
+    "source_series_id": "DFDHRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Furnishings and durable household equipment",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "5",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DFDHRC:M",
+    "source_series_id": "DFDHRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Furnishings and durable household equipment",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "5",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DFDHRC:Q",
+    "source_series_id": "DFDHRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Furnishings and durable household equipment",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "5",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DREQRC:A",
+    "source_series_id": "DREQRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Recreational goods and vehicles",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "6",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DREQRC:M",
+    "source_series_id": "DREQRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Recreational goods and vehicles",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "6",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DREQRC:Q",
+    "source_series_id": "DREQRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Recreational goods and vehicles",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "6",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DODGRC:A",
+    "source_series_id": "DODGRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Other durable goods",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "7",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DODGRC:M",
+    "source_series_id": "DODGRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Other durable goods",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "7",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DODGRC:Q",
+    "source_series_id": "DODGRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Other durable goods",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "7",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DNDGRC:A",
+    "source_series_id": "DNDGRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Nondurable goods",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "8",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DNDGRC:M",
+    "source_series_id": "DNDGRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Nondurable goods",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "8",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DNDGRC:Q",
+    "source_series_id": "DNDGRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Nondurable goods",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "8",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DFXARC:A",
+    "source_series_id": "DFXARC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Food and beverages purchased for off-premises consumption",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "9",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01",
+    "appears_as": [
+      "Food and beverages purchased for off-premises consumption (line 31)",
+      "Food and beverages purchased for off-premises consumption (line 9)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DFXARC:M",
+    "source_series_id": "DFXARC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Food and beverages purchased for off-premises consumption",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "9",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01",
+    "appears_as": [
+      "Food and beverages purchased for off-premises consumption (line 31)",
+      "Food and beverages purchased for off-premises consumption (line 9)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DFXARC:Q",
+    "source_series_id": "DFXARC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Food and beverages purchased for off-premises consumption",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "9",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01",
+    "appears_as": [
+      "Food and beverages purchased for off-premises consumption (line 31)",
+      "Food and beverages purchased for off-premises consumption (line 9)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DCLORC:A",
+    "source_series_id": "DCLORC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Clothing and footwear",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "10",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DCLORC:M",
+    "source_series_id": "DCLORC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Clothing and footwear",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "10",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DCLORC:Q",
+    "source_series_id": "DCLORC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Clothing and footwear",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "10",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DGOERC:A",
+    "source_series_id": "DGOERC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Gasoline and other energy goods",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "11",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DGOERC:M",
+    "source_series_id": "DGOERC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Gasoline and other energy goods",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "11",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DGOERC:Q",
+    "source_series_id": "DGOERC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Gasoline and other energy goods",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "11",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DONGRC:A",
+    "source_series_id": "DONGRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Other nondurable goods",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "12",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DONGRC:M",
+    "source_series_id": "DONGRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Other nondurable goods",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "12",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DONGRC:Q",
+    "source_series_id": "DONGRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Other nondurable goods",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "12",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DSERRC:A",
+    "source_series_id": "DSERRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "13",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DSERRC:M",
+    "source_series_id": "DSERRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "13",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DSERRC:Q",
+    "source_series_id": "DSERRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "13",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DHCERC:A",
+    "source_series_id": "DHCERC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Household consumption expenditures (for services)",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "14",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DHCERC:M",
+    "source_series_id": "DHCERC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Household consumption expenditures (for services)",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "14",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DHCERC:Q",
+    "source_series_id": "DHCERC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Household consumption expenditures (for services)",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "14",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DHUTRC:A",
+    "source_series_id": "DHUTRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Housing and utilities",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "15",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DHUTRC:M",
+    "source_series_id": "DHUTRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Housing and utilities",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "15",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DHUTRC:Q",
+    "source_series_id": "DHUTRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Housing and utilities",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "15",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DHLCRC:A",
+    "source_series_id": "DHLCRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Health care",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "16",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DHLCRC:M",
+    "source_series_id": "DHLCRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Health care",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "16",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DHLCRC:Q",
+    "source_series_id": "DHLCRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Health care",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "16",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DTRSRC:A",
+    "source_series_id": "DTRSRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Transportation services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "17",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DTRSRC:M",
+    "source_series_id": "DTRSRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Transportation services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "17",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DTRSRC:Q",
+    "source_series_id": "DTRSRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Transportation services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "17",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DRCARC:A",
+    "source_series_id": "DRCARC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Recreation services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "18",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DRCARC:M",
+    "source_series_id": "DRCARC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Recreation services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "18",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DRCARC:Q",
+    "source_series_id": "DRCARC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Recreation services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "18",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DFSARC:A",
+    "source_series_id": "DFSARC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Food services and accommodations",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "19",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01",
+    "appears_as": [
+      "Food services and accommodations (line 19)",
+      "Food services and accommodations (line 40)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DFSARC:M",
+    "source_series_id": "DFSARC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Food services and accommodations",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "19",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01",
+    "appears_as": [
+      "Food services and accommodations (line 19)",
+      "Food services and accommodations (line 40)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DFSARC:Q",
+    "source_series_id": "DFSARC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Food services and accommodations",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "19",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01",
+    "appears_as": [
+      "Food services and accommodations (line 19)",
+      "Food services and accommodations (line 40)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DIFSRC:A",
+    "source_series_id": "DIFSRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Financial services and insurance",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "20",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01",
+    "appears_as": [
+      "Financial services and insurance (line 20)",
+      "Financial services and insurance (line 41)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DIFSRC:M",
+    "source_series_id": "DIFSRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Financial services and insurance",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "20",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01",
+    "appears_as": [
+      "Financial services and insurance (line 20)",
+      "Financial services and insurance (line 41)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DIFSRC:Q",
+    "source_series_id": "DIFSRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Financial services and insurance",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "20",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01",
+    "appears_as": [
+      "Financial services and insurance (line 20)",
+      "Financial services and insurance (line 41)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DOTSRC:A",
+    "source_series_id": "DOTSRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Other services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "21",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DOTSRC:M",
+    "source_series_id": "DOTSRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Other services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "21",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DOTSRC:Q",
+    "source_series_id": "DOTSRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Other services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "21",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DNPIRC:A",
+    "source_series_id": "DNPIRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Final consumption expenditures of nonprofit institutions serving households (NPISHs)",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "22",
+    "notes": [
+      "1. Net expenses of NPISHs, defined as their gross operating expenses less primary sales to households.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01",
+    "appears_as": [
+      "Final consumption expenditures of nonprofit institutions serving households (NPISHs) (line 22)",
+      "Final consumption expenditures of nonprofit institutions serving households (NPISHs) (line 44)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DNPIRC:M",
+    "source_series_id": "DNPIRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Final consumption expenditures of nonprofit institutions serving households (NPISHs)",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "22",
+    "notes": [
+      "1. Net expenses of NPISHs, defined as their gross operating expenses less primary sales to households.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01",
+    "appears_as": [
+      "Final consumption expenditures of nonprofit institutions serving households (NPISHs) (line 22)",
+      "Final consumption expenditures of nonprofit institutions serving households (NPISHs) (line 44)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DNPIRC:Q",
+    "source_series_id": "DNPIRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Final consumption expenditures of nonprofit institutions serving households (NPISHs)",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "22",
+    "notes": [
+      "1. Net expenses of NPISHs, defined as their gross operating expenses less primary sales to households.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01",
+    "appears_as": [
+      "Final consumption expenditures of nonprofit institutions serving households (NPISHs) (line 22)",
+      "Final consumption expenditures of nonprofit institutions serving households (NPISHs) (line 44)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DNPERC:A",
+    "source_series_id": "DNPERC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Gross output of nonprofit institutions",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "23",
+    "notes": [
+      "2. Gross output is net of unrelated sales, secondary sales, and sales to business, to government, and to the rest of the world; excludes own-account investment (construction and software).",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01",
+    "appears_as": [
+      "Gross output of nonprofit institutions (line 23)",
+      "Gross output of nonprofit institutions (line 45)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DNPERC:M",
+    "source_series_id": "DNPERC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Gross output of nonprofit institutions",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "23",
+    "notes": [
+      "2. Gross output is net of unrelated sales, secondary sales, and sales to business, to government, and to the rest of the world; excludes own-account investment (construction and software).",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01",
+    "appears_as": [
+      "Gross output of nonprofit institutions (line 23)",
+      "Gross output of nonprofit institutions (line 45)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DNPERC:Q",
+    "source_series_id": "DNPERC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Gross output of nonprofit institutions",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "23",
+    "notes": [
+      "2. Gross output is net of unrelated sales, secondary sales, and sales to business, to government, and to the rest of the world; excludes own-account investment (construction and software).",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01",
+    "appears_as": [
+      "Gross output of nonprofit institutions (line 23)",
+      "Gross output of nonprofit institutions (line 45)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DNPSRC:A",
+    "source_series_id": "DNPSRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Less: Receipts from sales of goods and services by nonprofit institutions",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "24",
+    "notes": [
+      "3. Excludes unrelated sales, secondary sales, and sales to business, to government, and to the rest of the world; includes membership dues and fees.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01",
+    "appears_as": [
+      "Less: Receipts from sales of goods and services by nonprofit institutions (line 24)",
+      "Less: Receipts from sales of goods and services by nonprofit institutions (line 46)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DNPSRC:M",
+    "source_series_id": "DNPSRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Less: Receipts from sales of goods and services by nonprofit institutions",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "24",
+    "notes": [
+      "3. Excludes unrelated sales, secondary sales, and sales to business, to government, and to the rest of the world; includes membership dues and fees.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01",
+    "appears_as": [
+      "Less: Receipts from sales of goods and services by nonprofit institutions (line 24)",
+      "Less: Receipts from sales of goods and services by nonprofit institutions (line 46)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DNPSRC:Q",
+    "source_series_id": "DNPSRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Less: Receipts from sales of goods and services by nonprofit institutions",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "24",
+    "notes": [
+      "3. Excludes unrelated sales, secondary sales, and sales to business, to government, and to the rest of the world; includes membership dues and fees.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01",
+    "appears_as": [
+      "Less: Receipts from sales of goods and services by nonprofit institutions (line 24)",
+      "Less: Receipts from sales of goods and services by nonprofit institutions (line 46)"
+    ]
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DPCCRC:A",
+    "source_series_id": "DPCCRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "PCE excluding food and energy",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "25",
+    "notes": [
+      "4. Food consists of food and beverages purchased for off-premises consumption; food services, which include purchased meals and beverages, are not classified as food.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DPCCRC:M",
+    "source_series_id": "DPCCRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "PCE excluding food and energy",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "25",
+    "notes": [
+      "4. Food consists of food and beverages purchased for off-premises consumption; food services, which include purchased meals and beverages, are not classified as food.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DPCCRC:Q",
+    "source_series_id": "DPCCRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "PCE excluding food and energy",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "25",
+    "notes": [
+      "4. Food consists of food and beverages purchased for off-premises consumption; food services, which include purchased meals and beverages, are not classified as food.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DNRGRC:A",
+    "source_series_id": "DNRGRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Energy goods and services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "26",
+    "notes": [
+      "5. Consists of gasoline and other energy goods and of electricity and gas services.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DNRGRC:M",
+    "source_series_id": "DNRGRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Energy goods and services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "26",
+    "notes": [
+      "5. Consists of gasoline and other energy goods and of electricity and gas services.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DNRGRC:Q",
+    "source_series_id": "DNRGRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Energy goods and services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "26",
+    "notes": [
+      "5. Consists of gasoline and other energy goods and of electricity and gas services.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DPCMRC:A",
+    "source_series_id": "DPCMRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Market-based PCE",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "27",
+    "notes": [
+      "6. Market-based PCE is a supplemental measure that is based on household expenditures for which there are observable price measures.It excludes most imputed transactions (for example, financial services furnished without payment) and the final consumption expenditures of nonprofit institutions serving households.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DPCMRC:M",
+    "source_series_id": "DPCMRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Market-based PCE",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "27",
+    "notes": [
+      "6. Market-based PCE is a supplemental measure that is based on household expenditures for which there are observable price measures.It excludes most imputed transactions (for example, financial services furnished without payment) and the final consumption expenditures of nonprofit institutions serving households.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DPCMRC:Q",
+    "source_series_id": "DPCMRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Market-based PCE",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "27",
+    "notes": [
+      "6. Market-based PCE is a supplemental measure that is based on household expenditures for which there are observable price measures.It excludes most imputed transactions (for example, financial services furnished without payment) and the final consumption expenditures of nonprofit institutions serving households.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DPCXRC:A",
+    "source_series_id": "DPCXRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Market-based PCE excluding food and energy",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "28",
+    "notes": [
+      "6. Market-based PCE is a supplemental measure that is based on household expenditures for which there are observable price measures.It excludes most imputed transactions (for example, financial services furnished without payment) and the final consumption expenditures of nonprofit institutions serving households.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DPCXRC:M",
+    "source_series_id": "DPCXRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Market-based PCE excluding food and energy",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "28",
+    "notes": [
+      "6. Market-based PCE is a supplemental measure that is based on household expenditures for which there are observable price measures.It excludes most imputed transactions (for example, financial services furnished without payment) and the final consumption expenditures of nonprofit institutions serving households.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DPCXRC:Q",
+    "source_series_id": "DPCXRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Market-based PCE excluding food and energy",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "28",
+    "notes": [
+      "6. Market-based PCE is a supplemental measure that is based on household expenditures for which there are observable price measures.It excludes most imputed transactions (for example, financial services furnished without payment) and the final consumption expenditures of nonprofit institutions serving households.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DPHCRC:A",
+    "source_series_id": "DPHCRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Household consumption expenditures",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "30",
+    "notes": [
+      "7. Consists of household purchases of goods and services from business, government, nonprofit institutions, and the rest of the world.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DPHCRC:M",
+    "source_series_id": "DPHCRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Household consumption expenditures",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "30",
+    "notes": [
+      "7. Consists of household purchases of goods and services from business, government, nonprofit institutions, and the rest of the world.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DPHCRC:Q",
+    "source_series_id": "DPHCRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Household consumption expenditures",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "30",
+    "notes": [
+      "7. Consists of household purchases of goods and services from business, government, nonprofit institutions, and the rest of the world.",
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DCAFRC:A",
+    "source_series_id": "DCAFRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Clothing, footwear, and related services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "32",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DCAFRC:M",
+    "source_series_id": "DCAFRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Clothing, footwear, and related services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "32",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DCAFRC:Q",
+    "source_series_id": "DCAFRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Clothing, footwear, and related services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "32",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DHUFRC:A",
+    "source_series_id": "DHUFRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Housing, utilities, and fuels",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "33",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DHUFRC:M",
+    "source_series_id": "DHUFRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Housing, utilities, and fuels",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "33",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DHUFRC:Q",
+    "source_series_id": "DHUFRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Housing, utilities, and fuels",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "33",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DFHHRC:A",
+    "source_series_id": "DFHHRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Furnishings, household equipment, and routine household maintenance",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "34",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DFHHRC:M",
+    "source_series_id": "DFHHRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Furnishings, household equipment, and routine household maintenance",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "34",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DFHHRC:Q",
+    "source_series_id": "DFHHRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Furnishings, household equipment, and routine household maintenance",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "34",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DHLTRC:A",
+    "source_series_id": "DHLTRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Health",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "35",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DHLTRC:M",
+    "source_series_id": "DHLTRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Health",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "35",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DHLTRC:Q",
+    "source_series_id": "DHLTRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Health",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "35",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DTRNRC:A",
+    "source_series_id": "DTRNRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Transportation",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "36",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DTRNRC:M",
+    "source_series_id": "DTRNRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Transportation",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "36",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DTRNRC:Q",
+    "source_series_id": "DTRNRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Transportation",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "36",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DCMCRC:A",
+    "source_series_id": "DCMCRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Communication",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "37",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DCMCRC:M",
+    "source_series_id": "DCMCRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Communication",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "37",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DCMCRC:Q",
+    "source_series_id": "DCMCRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Communication",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "37",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DRRLRC:A",
+    "source_series_id": "DRRLRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Recreation",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "38",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DRRLRC:M",
+    "source_series_id": "DRRLRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Recreation",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "38",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DRRLRC:Q",
+    "source_series_id": "DRRLRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Recreation",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "38",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DEDURC:A",
+    "source_series_id": "DEDURC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Education",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "39",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DEDURC:M",
+    "source_series_id": "DEDURC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Education",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "39",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DEDURC:Q",
+    "source_series_id": "DEDURC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Education",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "39",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DOISRC:A",
+    "source_series_id": "DOISRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Other goods and services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "42",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DOISRC:M",
+    "source_series_id": "DOISRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Other goods and services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "42",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DOISRC:Q",
+    "source_series_id": "DOISRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Other goods and services",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "42",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DNFTRC:A",
+    "source_series_id": "DNFTRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Net foreign travel and expenditures abroad by U.S. residents",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "43",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 1,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DNFTRC:M",
+    "source_series_id": "DNFTRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Net foreign travel and expenditures abroad by U.S. residents",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "M",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "43",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 12,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-12-01"
+  },
+  {
+    "series_id": "BEA:NIUnderlyingDetail:U20305:DNFTRC:Q",
+    "source_series_id": "DNFTRC",
+    "dataset": "NIUnderlyingDetail",
+    "description": "Net foreign travel and expenditures abroad by U.S. residents",
+    "classifications": {
+      "TableName": {
+        "code": "U20305",
+        "label": "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function (A) (Q) (M)"
+      }
+    },
+    "frequency": "Q",
+    "source_frequency": null,
+    "unit": "Level",
+    "unit_multiplier": 6,
+    "unit_source": "CL_UNIT/UNIT_MULT",
+    "units_in_notes": [
+      "Millions of dollars; quarters and months are seasonally adjusted at annual rates"
+    ],
+    "metric": "Current Dollars",
+    "line_number": "43",
+    "notes": [
+      "Table 2.3.5U. Personal Consumption Expenditures by Major Type of Product and by Major Function [Millions of dollars; quarters and months are seasonally adjusted at annual rates] - LastRevised: September 30, 2026"
+    ],
+    "n_obs": 4,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2024-01-01",
+    "last_period": "2024-10-01"
+  }
+]

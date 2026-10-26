@@ -1,0 +1,47 @@
+[
+  {
+    "ParameterName": "TypeOfService",
+    "ParameterDataType": "string",
+    "ParameterDescription": "The type of service requested",
+    "ParameterIsRequiredFlag": "0",
+    "ParameterDefaultValue": "ALL",
+    "MultipleAcceptedFlag": "1",
+    "AllValue": "ALL"
+  },
+  {
+    "ParameterName": "TradeDirection",
+    "ParameterDataType": "string",
+    "ParameterDescription": "The trade direction requested",
+    "ParameterIsRequiredFlag": "0",
+    "ParameterDefaultValue": "ALL",
+    "MultipleAcceptedFlag": "1",
+    "AllValue": "ALL"
+  },
+  {
+    "ParameterName": "Affiliation",
+    "ParameterDataType": "string",
+    "ParameterDescription": "The affiliation requested",
+    "ParameterIsRequiredFlag": "0",
+    "ParameterDefaultValue": "ALL",
+    "MultipleAcceptedFlag": "1",
+    "AllValue": "ALL"
+  },
+  {
+    "ParameterName": "AreaOrCountry",
+    "ParameterDataType": "string",
+    "ParameterDescription": "The area or country requested",
+    "ParameterIsRequiredFlag": "0",
+    "ParameterDefaultValue": "AllCountries",
+    "MultipleAcceptedFlag": "1",
+    "AllValue": "ALL"
+  },
+  {
+    "ParameterName": "Year",
+    "ParameterDataType": "string",
+    "ParameterDescription": "The year requested",
+    "ParameterIsRequiredFlag": "0",
+    "ParameterDefaultValue": "ALL",
+    "MultipleAcceptedFlag": "1",
+    "AllValue": "ALL"
+  }
+]

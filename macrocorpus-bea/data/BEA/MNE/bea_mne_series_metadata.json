@@ -1,0 +1,7012 @@
+[
+  {
+    "series_id": "BEA:MNE:Outward:30:000:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "000",
+        "label": "Total"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:100:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "100",
+        "label": "Canada"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:399:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "399",
+        "label": "Total Europe"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:301:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "301",
+        "label": "Austria"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:302:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "302",
+        "label": "Belgium"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:364:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "364",
+        "label": "Czech Republic"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:305:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "305",
+        "label": "Denmark"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:306:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "306",
+        "label": "Finland"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:307:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "307",
+        "label": "France"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:308:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "308",
+        "label": "Germany"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:310:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "310",
+        "label": "Greece"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:354:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "354",
+        "label": "Hungary"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:313:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "313",
+        "label": "Ireland"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:314:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "314",
+        "label": "Italy"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:316:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "316",
+        "label": "Luxembourg"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:319:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "319",
+        "label": "Netherlands"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:320:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "320",
+        "label": "Norway"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:355:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "355",
+        "label": "Poland"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:321:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "321",
+        "label": "Portugal"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:341:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "341",
+        "label": "Russia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:323:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "323",
+        "label": "Spain"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:324:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "324",
+        "label": "Sweden"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:325:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "325",
+        "label": "Switzerland"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:326:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "326",
+        "label": "Turkey"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:327:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "327",
+        "label": "United Kingdom"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:397:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "397",
+        "label": ""
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:350:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "350",
+        "label": "Albania"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:300:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "300",
+        "label": "Andorra"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:334:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "334",
+        "label": "Armenia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:335:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "335",
+        "label": "Azerbaijan"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:336:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "336",
+        "label": "Belarus"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:358:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "358",
+        "label": "Bosnia and Herzegovina"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:351:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "351",
+        "label": "Bulgaria"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:359:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "359",
+        "label": "Croatia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:304:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "304",
+        "label": "Cyprus"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:331:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "331",
+        "label": "Estonia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:337:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "337",
+        "label": "Georgia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:309:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "309",
+        "label": "Gibraltar"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:311:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "311",
+        "label": "Greenland"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:312:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "312",
+        "label": "Iceland"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:338:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "338",
+        "label": "Kazakhstan"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:366:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "366",
+        "label": "Kosovo"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:339:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "339",
+        "label": "Kyrgyzstan"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:332:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "332",
+        "label": "Latvia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:315:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "315",
+        "label": "Liechtenstein"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:333:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "333",
+        "label": "Lithuania"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:317:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "317",
+        "label": "Malta"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:340:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "340",
+        "label": "Moldova"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:318:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "318",
+        "label": "Monaco"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:361:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "361",
+        "label": "Montenegro"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:360:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "360",
+        "label": "North Macedonia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:356:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "356",
+        "label": "Romania"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:322:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "322",
+        "label": "San Marino"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 2,
+    "missing_codes": {
+      "(*)": 2
+    },
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:362:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "362",
+        "label": "Serbia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:365:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "365",
+        "label": "Slovakia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:363:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "363",
+        "label": "Slovenia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 1,
+    "missing_codes": {
+      "(*)": 1
+    },
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:342:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "342",
+        "label": "Tajikistan"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:343:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "343",
+        "label": "Turkmenistan"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:344:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "344",
+        "label": "Ukraine"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:345:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "345",
+        "label": "Uzbekistan"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 1,
+    "missing_codes": {
+      "(*)": 1
+    },
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:330:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "330",
+        "label": "Vatican City"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:299:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "299",
+        "label": "Total LA and OWH"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:296:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "296",
+        "label": "South and Central America"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:200:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "200",
+        "label": "Argentina"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:202:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "202",
+        "label": "Brazil"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:203:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "203",
+        "label": "Chile"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:204:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "204",
+        "label": "Colombia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:208:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "208",
+        "label": "Ecuador"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:217:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "217",
+        "label": "Peru"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:219:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "219",
+        "label": "Venezuela"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:295:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "295",
+        "label": ""
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:201:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "201",
+        "label": "Bolivia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:256:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "256",
+        "label": "French Guiana"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:257:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "257",
+        "label": "Guyana"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:216:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "216",
+        "label": "Paraguay"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:260:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "260",
+        "label": "Suriname"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:218:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "218",
+        "label": "Uruguay"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:297:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "297",
+        "label": "Central America"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:205:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "205",
+        "label": "Costa Rica"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:212:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "212",
+        "label": "Honduras"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:213:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "213",
+        "label": "Mexico"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:215:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "215",
+        "label": "Panama"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:294:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "294",
+        "label": ""
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:254:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "254",
+        "label": "Belize"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:209:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "209",
+        "label": "El Salvador"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:210:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "210",
+        "label": "Guatemala"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:214:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "214",
+        "label": "Nicaragua"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:298:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "298",
+        "label": "Other Western Hemisphere"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:251:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "251",
+        "label": "Barbados"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:252:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "252",
+        "label": "Bermuda"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:207:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "207",
+        "label": "Dominican Republic"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:266:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "266",
+        "label": "United Kingdom Islands, Caribbean"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:293:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "293",
+        "label": ""
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:272:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "272",
+        "label": "Anguilla"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:273:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "273",
+        "label": "Antigua and Barbuda"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:274:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "274",
+        "label": "Aruba"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:250:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "250",
+        "label": "Bahamas"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:206:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "206",
+        "label": "Cuba"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:275:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "275",
+        "label": "Curacao"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:269:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "269",
+        "label": "Dominica"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:255:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "255",
+        "label": "French Islands, Caribbean"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:265:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "265",
+        "label": "Grenada"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:211:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "211",
+        "label": "Haiti"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:258:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "258",
+        "label": "Jamaica"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:277:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "277",
+        "label": "Netherlands Islands, Caribbean"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:276:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "276",
+        "label": "Sint Maarten"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:267:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "267",
+        "label": "St. Kitts and Nevis"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:270:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "270",
+        "label": "St. Lucia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:263:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "263",
+        "label": "St. Pierre and Miquelon"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:271:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "271",
+        "label": "St. Vincent and the Grenadines"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 2,
+    "missing_codes": {
+      "(*)": 2
+    },
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:261:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "261",
+        "label": "Trinidad and Tobago"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:268:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "268",
+        "label": "United Kingdom Islands, Atlantic (OWH)"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:499:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "499",
+        "label": "Africa"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:410:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "410",
+        "label": "Egypt"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:429:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "429",
+        "label": "Nigeria"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:436:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "436",
+        "label": "South Africa"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:498:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "498",
+        "label": ""
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:400:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "400",
+        "label": "Algeria"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:401:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "401",
+        "label": "Angola"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:409:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "409",
+        "label": "Benin"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:402:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "402",
+        "label": "Botswana"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:447:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "447",
+        "label": "Burkina Faso"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:403:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "403",
+        "label": "Burundi"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 2,
+    "missing_codes": {
+      "(*)": 2
+    },
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:450:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "450",
+        "label": "Cape Verde"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:404:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "404",
+        "label": "Cameroon"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:405:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "405",
+        "label": "Central African Republic"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:406:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "406",
+        "label": "Chad"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:456:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "456",
+        "label": "Comoros"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:407:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "407",
+        "label": "Congo"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:417:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "417",
+        "label": "Ivory Coast"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:408:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "408",
+        "label": "Zaire"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:412:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "412",
+        "label": "Djibouti"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:438:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "438",
+        "label": "Equatorial Guinea"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:457:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "457",
+        "label": "Eritrea"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:442:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "442",
+        "label": "Eswatini"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:411:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "411",
+        "label": "Ethiopia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:413:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "413",
+        "label": "Gabon"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:414:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "414",
+        "label": "Gambia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:415:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "415",
+        "label": "Ghana"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:416:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "416",
+        "label": "Guinea"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:430:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "430",
+        "label": "Guinea-Bissau"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:418:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "418",
+        "label": "Kenya"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:419:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "419",
+        "label": "Lesotho"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 2,
+    "missing_codes": {
+      "(*)": 2
+    },
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:420:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "420",
+        "label": "Liberia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:421:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "421",
+        "label": "Libya"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:422:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "422",
+        "label": "Madagascar"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:423:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "423",
+        "label": "Malawi"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:424:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "424",
+        "label": "Mali"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:425:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "425",
+        "label": "Mauritania"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:453:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "453",
+        "label": "Mauritius"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:426:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "426",
+        "label": "Morocco"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:427:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "427",
+        "label": "Mozambique"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:437:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "437",
+        "label": "Namibia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:428:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "428",
+        "label": "Niger"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 2,
+    "missing_codes": {
+      "(*)": 2
+    },
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:432:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "432",
+        "label": "Rwanda"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:451:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "451",
+        "label": "Sao Tome and Principe"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:433:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "433",
+        "label": "Senegal"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:454:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "454",
+        "label": "Seychelles"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:434:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "434",
+        "label": "Sierra Leone"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:435:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "435",
+        "label": "Somalia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:458:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "458",
+        "label": "South Sudan"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:441:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "441",
+        "label": "Sudan"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:443:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "443",
+        "label": "Tanzania"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:444:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "444",
+        "label": "Togo"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:445:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "445",
+        "label": "Tunisia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:446:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "446",
+        "label": "Uganda"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:455:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "455",
+        "label": "United Kingdom Islands, Atlantic (Africa)"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:448:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "448",
+        "label": "Zambia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:431:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "431",
+        "label": "Zimbabwe"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:599:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "599",
+        "label": "Middle East"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:504:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "504",
+        "label": "Israel"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:511:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "511",
+        "label": "Saudi Arabia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:513:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "513",
+        "label": "United Arab Emirates"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:598:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "598",
+        "label": ""
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:501:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "501",
+        "label": "Bahrain"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:502:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "502",
+        "label": "Iran"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:503:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "503",
+        "label": "Iraq"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:505:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "505",
+        "label": "Jordan"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:506:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "506",
+        "label": "Kuwait"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:507:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "507",
+        "label": "Lebanon"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:508:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "508",
+        "label": "Oman"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:510:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "510",
+        "label": "Qatar"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:512:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "512",
+        "label": "Syria"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:514:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "514",
+        "label": "Yemen (Sanaa)"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:699:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "699",
+        "label": "Total Asia and Pac."
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:601:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "601",
+        "label": "Australia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:650:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "650",
+        "label": "China"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:611:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "611",
+        "label": "Hong Kong"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:612:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "612",
+        "label": "India"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:613:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "613",
+        "label": "Indonesia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:614:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "614",
+        "label": "Japan"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:617:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "617",
+        "label": "Malaysia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:620:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "620",
+        "label": "New Zealand"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:623:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "623",
+        "label": "Philippines"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:625:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "625",
+        "label": "Singapore"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:626:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "626",
+        "label": "South Korea"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:628:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "628",
+        "label": "Taiwan"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:629:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "629",
+        "label": "Thailand"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:698:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "698",
+        "label": "Other"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:600:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "600",
+        "label": "Afghanistan"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:631:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "631",
+        "label": "Bangladesh"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:602:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "602",
+        "label": "Bhutan"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:603:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "603",
+        "label": "Brunei"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:606:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "606",
+        "label": "Burma"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:607:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "607",
+        "label": "Kampuchea"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:661:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "661",
+        "label": "Cook Islands"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:632:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "632",
+        "label": "Fiji"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:609:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "609",
+        "label": "French Islands, Indian Ocean"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 2,
+    "missing_codes": {
+      "(*)": 2
+    },
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:610:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "610",
+        "label": "French Islands, Pacific"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:655:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "655",
+        "label": "Kiribati"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 2,
+    "missing_codes": {
+      "(*)": 2
+    },
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:615:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "615",
+        "label": "Laos"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:616:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "616",
+        "label": "Macau"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:633:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "633",
+        "label": "Maldives"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:658:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "658",
+        "label": "Marshall Islands"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:657:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "657",
+        "label": "Micronesia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:651:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "651",
+        "label": "Mongolia"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:635:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "635",
+        "label": "Nauru"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:618:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "618",
+        "label": "Nepal"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:662:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "662",
+        "label": "Niue"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:652:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "652",
+        "label": "North Korea"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:622:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "622",
+        "label": "Pakistan"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:659:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "659",
+        "label": "Palau"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:619:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "619",
+        "label": "Papua New Guinea"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:637:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "637",
+        "label": "Western Samoa"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:654:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "654",
+        "label": "Solomon Islands"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:608:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "608",
+        "label": "Sri Lanka"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:660:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "660",
+        "label": "Timor-Leste"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:638:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "638",
+        "label": "Tonga"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:656:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "656",
+        "label": "Tuvalu"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:605:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "605",
+        "label": "United Kingdom Islands, Indian Ocean"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 2,
+    "missing_codes": {
+      "(*)": 2
+    },
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:604:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "604",
+        "label": "United Kingdom Islands, Pacific"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:636:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "636",
+        "label": "Vanuatu"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  },
+  {
+    "series_id": "BEA:MNE:Outward:30:653:0000:A",
+    "source_series_id": null,
+    "dataset": "MNE",
+    "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+    "classifications": {
+      "RowCode": {
+        "code": "653",
+        "label": "Vietnam"
+      },
+      "ColumnCode": {
+        "code": "0000",
+        "label": "All Industries Total"
+      }
+    },
+    "frequency": "A",
+    "source_frequency": null,
+    "unit": "Millions of Dollars",
+    "unit_multiplier": 6,
+    "unit_source": "TableScale",
+    "units_in_notes": [],
+    "metric": null,
+    "line_number": null,
+    "notes": [],
+    "n_obs": 2,
+    "n_missing": 0,
+    "missing_codes": {},
+    "first_period": "2023-01-01",
+    "last_period": "2024-01-01"
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "ParameterName": "DirectionOfInvestment",
+    "ParameterDataType": "string",
+    "ParameterDescription": "Four Possible Values:  (inward,outward,parent,state)",
+    "ParameterIsRequiredFlag": "1",
+    "ParameterDefaultValue": "",
+    "MultipleAcceptedFlag": "0"
+  },
+  {
+    "ParameterName": "OwnershipLevel",
+    "ParameterDataType": "integer",
+    "ParameterDescription": "A value of 1 returns data for all affiliates.  A value of 0 returns data for majority-owned affiliates only.  Note that if directionOfInvestment = 'parent', then OwnershipLevel must be set to 1.",
+    "ParameterIsRequiredFlag": "0",
+    "ParameterDefaultValue": "2",
+    "MultipleAcceptedFlag": "0"
+  },
+  {
+    "ParameterName": "NonbankAffiliatesOnly",
+    "ParameterDataType": "integer",
+    "ParameterDescription": "A value of 1 returns data for nonbank affiliates only.  A value of 0 returns data for both bank and nonbank affiliates.  A value of 0 is required for data for 2007 forward (for FDIUS) for 2009 forward (for USDIA).",
+    "ParameterIsRequiredFlag": "0",
+    "ParameterDefaultValue": "2",
+    "MultipleAcceptedFlag": "0"
+  },
+  {
+    "ParameterName": "Classification ",
+    "ParameterDataType": "string",
+    "ParameterDescription": "Classification is a string used to obtain data that is broken down by both country and industry for either inward or outward data.  It can take one of four possible values:",
+    "ParameterIsRequiredFlag": "1",
+    "MultipleAcceptedFlag": "0"
+  },
+  {
+    "ParameterName": "Country",
+    "ParameterDataType": "string",
+    "ParameterDescription": "Country is usually a number.  Because there can be several variants of a country's name, three-digit numeric codes are used to select countries.  A full list of these codes is available near the end of this document or can be obtained by using the GETPARAMETERVALUES method.  To obtain data for every country (including the all-country total) separately use 'all'.  To obtain a total for all countries, use '0000'.   To obtain data for multiple countries, each country code should be listed and separated by a comma.",
+    "ParameterIsRequiredFlag": "0",
+    "MultipleAcceptedFlag": "1",
+    "AllValue": "all"
+  },
+  {
+    "ParameterName": "Industry",
+    "ParameterDataType": "string",
+    "ParameterDescription": "Industries are denoted by four-digit codes.  With a few exceptions, these codes follow the NAICS. To obtain data for every industry separately use 'all'.  To obtain a total for all industries, use '0000'.",
+    "ParameterIsRequiredFlag": "0",
+    "MultipleAcceptedFlag": "1",
+    "AllValue": "all"
+  },
+  {
+    "ParameterName": "Year",
+    "ParameterDataType": "integer",
+    "ParameterDescription": "Year is a 4-digit numeric variable.  To obtain data for multiple years, each year should be listed and separated by a comma. To obtain data for all years use 'all'.",
+    "ParameterIsRequiredFlag": "1",
+    "ParameterDefaultValue": "",
+    "MultipleAcceptedFlag": "1",
+    "AllValue": "all"
+  },
+  {
+    "ParameterName": "State",
+    "ParameterDataType": "string",
+    "ParameterDescription": "State specifies the U.S. state or states for data on foreign direct investment in the United States.  The state is specified by using the two-digit FIPS code.  For \"Other U.S. areas\", use code '70'.  For \"Foreign\", use code '75'.  To obtain data for all states and areas use 'all'.  To obtain a total U.S. figure, use '90'.  ",
+    "ParameterIsRequiredFlag": "0",
+    "MultipleAcceptedFlag": "1",
+    "AllValue": "all"
+  },
+  {
+    "ParameterName": "SeriesID",
+    "ParameterDataType": "string",
+    "ParameterDescription": "Series IDs",
+    "ParameterIsRequiredFlag": "0",
+    "ParameterDefaultValue": "all",
+    "MultipleAcceptedFlag": "1",
+    "AllValue": "all"
+  },
+  {
+    "ParameterName": "GetFootnotes",
+    "ParameterDataType": "string",
+    "ParameterDescription": "Footnotes for the datavalues",
+    "ParameterIsRequiredFlag": "0",
+    "ParameterDefaultValue": "no",
+    "MultipleAcceptedFlag": "0"
+  },
+  {
+    "ParameterName": "Investment",
+    "ParameterDataType": "string",
+    "ParameterDescription": "Investments are denoted by Three-digit codes. To obtain data for every investment separately use 'all'.  To obtain a total for all investments, use '000'.",
+    "ParameterIsRequiredFlag": "0",
+    "MultipleAcceptedFlag": "1",
+    "AllValue": "all"
+  },
+  {
+    "ParameterName": "ParentInvestment",
+    "ParameterDataType": "string",
+    "ParameterDescription": "Investments are denoted by Three-digit codes. To obtain data for every investment separately use 'all'.  To obtain a total for all investments, use '000'.",
+    "ParameterIsRequiredFlag": "0",
+    "MultipleAcceptedFlag": "1",
+    "AllValue": "all"
+  }
+]

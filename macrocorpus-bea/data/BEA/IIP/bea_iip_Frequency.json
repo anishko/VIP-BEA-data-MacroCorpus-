@@ -1,0 +1,14 @@
+[
+  {
+    "Key": "A",
+    "Desc": "Annual"
+  },
+  {
+    "Key": "QNSA",
+    "Desc": "Quarterly not seasonally adjusted"
+  },
+  {
+    "Key": "QSA",
+    "Desc": "Quarterly seasonally adjusted"
+  }
+]

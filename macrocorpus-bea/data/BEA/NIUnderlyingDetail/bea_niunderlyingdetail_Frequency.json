@@ -1,0 +1,14 @@
+[
+  {
+    "FrequencyID": "A",
+    "Description": "Annual"
+  },
+  {
+    "FrequencyID": "Q",
+    "Description": "Quarterly"
+  },
+  {
+    "FrequencyID": "M",
+    "Description": "Monthly"
+  }
+]

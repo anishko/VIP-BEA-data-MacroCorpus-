@@ -1,0 +1,470 @@
+[
+  {
+    "Key": "AccountAuditBookkeep",
+    "Desc": "Accounting, auditing, and bookkeeping services "
+  },
+  {
+    "Key": "Advertising",
+    "Desc": "Advertising services"
+  },
+  {
+    "Key": "AdvertisingAndRelated",
+    "Desc": "Advertising and related services"
+  },
+  {
+    "Key": "AgForAndFish",
+    "Desc": "Services incidental to agriculture, forestry, and fishing"
+  },
+  {
+    "Key": "AllTypesOfService",
+    "Desc": "All types of service"
+  },
+  {
+    "Key": "ArchEngSciAndOthTech",
+    "Desc": "Architectural, engineering, scientific, and other technical services"
+  },
+  {
+    "Key": "Architectural",
+    "Desc": "Architectural services"
+  },
+  {
+    "Key": "ArtisticRelated",
+    "Desc": "Artistic-related services "
+  },
+  {
+    "Key": "AudioVisual",
+    "Desc": "Audiovisual services "
+  },
+  {
+    "Key": "AudVisOriginals",
+    "Desc": "Audiovisual originals "
+  },
+  {
+    "Key": "AudVisOriginalsBooksAndSound",
+    "Desc": "Books and sound recordings "
+  },
+  {
+    "Key": "AudVisOriginalsMoviesAndTv",
+    "Desc": "Movies and television programming "
+  },
+  {
+    "Key": "AudVisProduction",
+    "Desc": "Audiovisual production services "
+  },
+  {
+    "Key": "AudVisRightsToUse",
+    "Desc": "Rights to use audiovisual products "
+  },
+  {
+    "Key": "AudVisRightsToUseBooksAndSound",
+    "Desc": "Books and sound recordings "
+  },
+  {
+    "Key": "AudVisRightsToUseMoviesAndTv",
+    "Desc": "Movies and television programming "
+  },
+  {
+    "Key": "BusMgmtConsPubRel",
+    "Desc": "Business and management consulting and public relations services"
+  },
+  {
+    "Key": "ChargesForTheUseOfIpNie",
+    "Desc": "Charges for the use of intellectual property n.i.e."
+  },
+  {
+    "Key": "CipCompSoftIct",
+    "Desc": "Charges for the use of intellectual property for licenses to reproduce and/or distribute computer software (backcasted for ICT services)"
+  },
+  {
+    "Key": "CipLicensesAudVis",
+    "Desc": "Charges for the use of intellectual property n.i.e.; licenses to reproduce and/or distribute audio-visual and related products"
+  },
+  {
+    "Key": "CipLicensesBooksSoundRecord",
+    "Desc": "Charges for the use of intellectual property n.i.e.; books and sound recordings"
+  },
+  {
+    "Key": "CipLicensesBroadcastLiveRecord",
+    "Desc": "Charges for the use of intellectual property n.i.e.; broadcasting and recording of live events"
+  },
+  {
+    "Key": "CipLicensesCompSoftware",
+    "Desc": "Charges for the use of intellectual property n.i.e.; licenses to reproduce and/or distribute computer software"
+  },
+  {
+    "Key": "CipLicensesFranchiseFees",
+    "Desc": "Charges for the use of intellectual property n.i.e.; franchise fees"
+  },
+  {
+    "Key": "CipLicensesFranchisesTrademarks",
+    "Desc": "Charges for the use of intellectual property n.i.e.; franchises and trademarks licensing fees"
+  },
+  {
+    "Key": "CipLicensesMoviesTv",
+    "Desc": "Charges for the use of intellectual property n.i.e.; movies and television programming"
+  },
+  {
+    "Key": "CipLicensesOutcomesResearchAndDev",
+    "Desc": "Charges for the use of intellectual property n.i.e.; licenses for the use of outcomes of research and development"
+  },
+  {
+    "Key": "CipLicensesTrademarks",
+    "Desc": "Charges for the use of intellectual property n.i.e.; trademarks"
+  },
+  {
+    "Key": "CloudCompAndDataStor",
+    "Desc": "Cloud computing and data storage services"
+  },
+  {
+    "Key": "Comp",
+    "Desc": "Computer services"
+  },
+  {
+    "Key": "CompSoftware",
+    "Desc": "Computer software, including end-user licenses and customization"
+  },
+  {
+    "Key": "Const",
+    "Desc": "Construction services"
+  },
+  {
+    "Key": "ConstAbroadUs",
+    "Desc": "Construction services abroad or in the United States"
+  },
+  {
+    "Key": "ConstExpend",
+    "Desc": "Construction services; contractor's expenditures"
+  },
+  {
+    "Key": "DatabaseAndOthInfo",
+    "Desc": "Database and other information services"
+  },
+  {
+    "Key": "Education",
+    "Desc": "Education services "
+  },
+  {
+    "Key": "Engineering",
+    "Desc": "Engineering services"
+  },
+  {
+    "Key": "FinAdvCust",
+    "Desc": "Financial advisory and custody services"
+  },
+  {
+    "Key": "Financial",
+    "Desc": "Financial services"
+  },
+  {
+    "Key": "FinCredCardOthCredRelated",
+    "Desc": "Credit card and other credit-related services"
+  },
+  {
+    "Key": "FinExplicitAndOth",
+    "Desc": "Explicitly charged and other financial services"
+  },
+  {
+    "Key": "FinFinMan",
+    "Desc": "Financial management services"
+  },
+  {
+    "Key": "FinFisim",
+    "Desc": "Financial intermediation services indirectly measured"
+  },
+  {
+    "Key": "FinSecBrokAndMM",
+    "Desc": "Brokerage and market-making services"
+  },
+  {
+    "Key": "FinSecLendEftOth",
+    "Desc": "Securities lending, electronic funds transfer, and other services"
+  },
+  {
+    "Key": "FinUwAndPP",
+    "Desc": "Underwriting and private placement services"
+  },
+  {
+    "Key": "GovtGoodsAndServicesNie",
+    "Desc": "Government goods and services n.i.e."
+  },
+  {
+    "Key": "Health",
+    "Desc": "Health services "
+  },
+  {
+    "Key": "HeritageAndRec",
+    "Desc": "Heritage and recreational services "
+  },
+  {
+    "Key": "IctServ",
+    "Desc": "ICT services"
+  },
+  {
+    "Key": "Info",
+    "Desc": "Information services"
+  },
+  {
+    "Key": "InsLossesPaid",
+    "Desc": "Insurance losses paid"
+  },
+  {
+    "Key": "InsLossesPaidDirIns",
+    "Desc": "Insurance losses paid direct insurance"
+  },
+  {
+    "Key": "InsLossesPaidReins",
+    "Desc": "Insurance losses paid reinsurance"
+  },
+  {
+    "Key": "InsLossesRecovered",
+    "Desc": "Insurance losses recovered"
+  },
+  {
+    "Key": "InsLossesRecoveredDirIns",
+    "Desc": "Insurance losses recovered direct insurance"
+  },
+  {
+    "Key": "InsLossesRecoveredReins",
+    "Desc": "Insurance losses recovered reinsurance"
+  },
+  {
+    "Key": "InsPremiumsPaid",
+    "Desc": "Insurance premiums paid"
+  },
+  {
+    "Key": "InsPremiumsPaidDirIns",
+    "Desc": "Insurance premiums paid direct insurance"
+  },
+  {
+    "Key": "InsPremiumsPaidReins",
+    "Desc": "Insurance premiums paid reinsurance"
+  },
+  {
+    "Key": "InsPremiumsReceived",
+    "Desc": "Insurance premiums received"
+  },
+  {
+    "Key": "InsPremiumsReceivedDirIns",
+    "Desc": "Insurance premiums received direct insurance"
+  },
+  {
+    "Key": "InsPremiumsReceivedReins",
+    "Desc": "Insurance premiums received reinsurance"
+  },
+  {
+    "Key": "Insurance",
+    "Desc": "Insurance services"
+  },
+  {
+    "Key": "InsuranceAuxIns",
+    "Desc": "Auxiliary insurance services"
+  },
+  {
+    "Key": "InsuranceDirect",
+    "Desc": "Direct insurance services"
+  },
+  {
+    "Key": "InsuranceReIns",
+    "Desc": "Reinsurance services"
+  },
+  {
+    "Key": "Legal",
+    "Desc": "Legal services"
+  },
+  {
+    "Key": "LegalAccountMgmtConsAndPubRel",
+    "Desc": "Legal, accounting, management consulting, and public relations services"
+  },
+  {
+    "Key": "MaintenanceAndRepairNie",
+    "Desc": "Maintenance and repair services n.i.e."
+  },
+  {
+    "Key": "Manufacturing",
+    "Desc": "Manufacturing services on physical inputs owned by others"
+  },
+  {
+    "Key": "MarResAndPubOpinPoll",
+    "Desc": "Market research and public opinion polling services"
+  },
+  {
+    "Key": "Mining",
+    "Desc": "Mining services"
+  },
+  {
+    "Key": "NewsAgency",
+    "Desc": "News agency services"
+  },
+  {
+    "Key": "OperatingLeasing",
+    "Desc": "Operating leasing services"
+  },
+  {
+    "Key": "OthBusinessNie",
+    "Desc": "Other business services n.i.e. "
+  },
+  {
+    "Key": "OthComp",
+    "Desc": "Other computer services"
+  },
+  {
+    "Key": "OtherBusiness",
+    "Desc": "Other business services"
+  },
+  {
+    "Key": "OthPersonalCulturalAndRecreational",
+    "Desc": "Other personal, cultural, and recreational services "
+  },
+  {
+    "Key": "PersonalCulturalAndRecreational",
+    "Desc": "Personal, cultural, and recreational services "
+  },
+  {
+    "Key": "PotIctEnServ",
+    "Desc": "Digitally deliverable services"
+  },
+  {
+    "Key": "PotIctEnServOthBusServ",
+    "Desc": "Other business services that are digitally deliverable"
+  },
+  {
+    "Key": "PotIctEnServPerCultRec",
+    "Desc": "Personal, cultural, and recreational services that are digitally deliverable"
+  },
+  {
+    "Key": "PotIctEnServTechTradeRelatedOth",
+    "Desc": "Technical, trade-related, and other business services that are digitally deliverable"
+  },
+  {
+    "Key": "ProfMgmtConsult",
+    "Desc": "Professional and management consulting services"
+  },
+  {
+    "Key": "RDOthRD",
+    "Desc": "Other research and development services"
+  },
+  {
+    "Key": "RDProvision",
+    "Desc": "Provision of customized and non-customized research and development services"
+  },
+  {
+    "Key": "RDSaleRights",
+    "Desc": "Sale of proprietary rights arising from research and development"
+  },
+  {
+    "Key": "RDStockKnowledge",
+    "Desc": "Work undertaken on a systematic basis to increase the stock of knowledge"
+  },
+  {
+    "Key": "ResearchAndDev",
+    "Desc": "Research and development services"
+  },
+  {
+    "Key": "SciAndOthTech",
+    "Desc": "Scientific and other technical services"
+  },
+  {
+    "Key": "TechTradeRelatedOth",
+    "Desc": "Technical, trade-related, and other business services"
+  },
+  {
+    "Key": "Telecom",
+    "Desc": "Telecommunications services"
+  },
+  {
+    "Key": "TelecomCompAndInfo",
+    "Desc": "Telecommunications, computer, and information services"
+  },
+  {
+    "Key": "TradeExhAndSalesConv",
+    "Desc": "Trade exhibition and sales convention services"
+  },
+  {
+    "Key": "TradeRelated",
+    "Desc": "Trade-related services"
+  },
+  {
+    "Key": "Transport",
+    "Desc": "Transport services"
+  },
+  {
+    "Key": "TransportAir",
+    "Desc": "Air transport services"
+  },
+  {
+    "Key": "TransportAirFreight",
+    "Desc": "Air freight services"
+  },
+  {
+    "Key": "TransportAirPass",
+    "Desc": "Air passenger services"
+  },
+  {
+    "Key": "TransportAirPort",
+    "Desc": "Air port services"
+  },
+  {
+    "Key": "TransportOth",
+    "Desc": "Transport services; other modes of transport"
+  },
+  {
+    "Key": "TransportPostal",
+    "Desc": "Transport services; other modes of transport; postal"
+  },
+  {
+    "Key": "TransportRoadAndOth",
+    "Desc": "Transport services; other modes of transport; road and other transport"
+  },
+  {
+    "Key": "TransportSea",
+    "Desc": "Sea transport services"
+  },
+  {
+    "Key": "TransportSeaFreight",
+    "Desc": "Sea freight services"
+  },
+  {
+    "Key": "TransportSeaPort",
+    "Desc": "Sea port services"
+  },
+  {
+    "Key": "Travel",
+    "Desc": "Travel services"
+  },
+  {
+    "Key": "TravelBusiness",
+    "Desc": "Business travel services"
+  },
+  {
+    "Key": "TravelBusinessOth",
+    "Desc": "Other business travel services"
+  },
+  {
+    "Key": "TravelEducation",
+    "Desc": "Education-related services"
+  },
+  {
+    "Key": "TravelHealth",
+    "Desc": "Health-related services"
+  },
+  {
+    "Key": "TravelPersonal",
+    "Desc": "Personal travel services"
+  },
+  {
+    "Key": "TravelPersonalOth",
+    "Desc": "Other personal travel services"
+  },
+  {
+    "Key": "TravelShortTermWork",
+    "Desc": "Expenditures by border, seasonal, and other short-term workers"
+  },
+  {
+    "Key": "WasteTreatAndDePol",
+    "Desc": "Waste treatment and de-pollution services"
+  },
+  {
+    "Key": "WasteTreatAndDePolAgAndMining",
+    "Desc": "Waste treatment and de-pollution, agricultural, and mining services"
+  }
+]

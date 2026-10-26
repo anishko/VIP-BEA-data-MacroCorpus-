@@ -1,0 +1,234 @@
+[
+  {
+    "key": "0",
+    "desc": "all"
+  },
+  {
+    "key": "16",
+    "desc": "Balance Sheet - Balance sheet data present items typically found on corporate balance sheets, including assets and liabilities."
+  },
+  {
+    "key": "69",
+    "desc": "Balance Sheet of New Affiliates (Data Available Through 2023) - Balance sheet data present items typically found on corporate balance sheets, including assets and liabilities."
+  },
+  {
+    "key": "3",
+    "desc": "Capital Expenditures - The expenditures made by a firm to acquire, to add to, or to improve property, plant, and equipment (PPandE).  PPandE includes land, timber, mineral and like-rights owned; structures, machinery, equipment, special tools, and other depreciable property; construction in progress; and tangible and intangible exploration and development costs.  It excludes the changes in PPandE that are due to changes in the entity--such as mergers, acquisitions, and divestitures--or that are due to changes in accounting methods.  The expenditures are measured on a gross basis; sales and other dispositions of fixed assets are not netted against them."
+  },
+  {
+    "key": "7",
+    "desc": "Compensation of Employees - The income received from an employer as remuneration for work.  It includes cash payments, payments-in-kind, and employer expenditures for employee benefit plans including those mandated by government statute, such as employer contributions for government social insurance."
+  },
+  {
+    "key": "26",
+    "desc": "Debt Instruments Inflows (Data Available Through 2023) - Transactions in debt instruments (previously called intercompany debt flows) are the result of changes in net outstanding loans between foreign parent companies and their U.S. affiliates, including loans by parents to affiliates and loans by affiliates to parents."
+  },
+  {
+    "key": "33",
+    "desc": "Debt Instruments Outflows (Data Available Through 2023) - Transactions in debt instruments (previously called intercompany debt flows) are the result of changes in net outstanding loans between U.S. parent companies and their foreign affiliates, including loans by parents to affiliates and loans by affiliates to parents."
+  },
+  {
+    "key": "27",
+    "desc": "Direct Investment Income Without Current-Cost Adjustment - Income is the return on the direct investment position. It consists of earnings, which include the parents' shares in the net income from the operations of their affiliates and net interest received by parents from affiliates from outstanding loans and trade accounts."
+  },
+  {
+    "key": "8",
+    "desc": "Employment - The number of full-time and part-time employees on the payroll at yearend.  If the employment of a parent or an affiliate was unusually high or low because of temporary factors (such as a strike) or large seasonal variations, the number that reflected normal operations or an average for the year is shown."
+  },
+  {
+    "key": "9",
+    "desc": "Employment - Manufacturing - Consists of the employees on the payrolls of manufacturing plants of affiliates. It includes employees of manufacturing plants of affiliates that are not classified in manufacturing, and it excludes employees of nonmanufacturing plants of affiliates that are classified in manufacturing."
+  },
+  {
+    "key": "64",
+    "desc": "Employment of New Affiliates - The number of full-time and part-time employees on the payroll at yearend.  If the employment of a parent or an affiliate was unusually high or low because of temporary factors (such as a strike) or large seasonal variations, the number that reflected normal operations or an average for the year is shown."
+  },
+  {
+    "key": "24",
+    "desc": "Equity Inflows Other than Reinvestment of Earnings (Data Available Through 2023) - Equity investment other than reinvestment of earnings is the net of equity increases and decreases other than those due to reinvestment of earnings. Equity increases consist of payments by parents for the purchase of capital stock or other equity interests when they acquire an existing business, payments made by parents to acquire additional ownership interests in their affiliates, and capital contributions to their affiliates. Equity decreases are the funds parents receive when they reduce their equity interest in their affiliates."
+  },
+  {
+    "key": "32",
+    "desc": "Equity Outflows Other than Reinvestment of Earnings (Data Available Through 2023) - Equity investment other than reinvestment of earnings is the net of equity increases and decreases other than those due to reinvestment of earnings. Equity increases consist of payments by parents for the purchase of capital stock or other equity interests when they acquire an existing business, payments made by parents to acquire additional ownership interests in their affiliates, and capital contributions to their affiliates. Equity decreases are the funds parents receive when they reduce their equity interest in their affiliates."
+  },
+  {
+    "key": "23",
+    "desc": "Financial Inflow Transactions Without Current-Cost Adjustment - Direct investment financial inflow transactions (previously called financial flows) measure the funds that foreign parent companies provide to their U.S. affiliates, net of funds that affiliates provide to their parents, in a given time period. Direct investment financial transactions consist of equity investment other than reinvestment of earnings, reinvestment of earnings, and transactions in debt instruments."
+  },
+  {
+    "key": "31",
+    "desc": "Financial Outflow Transactions Without Current-Cost Adjustment - Direct investment financial outflow transactions (previously called financial flows) measure the funds that U.S. parent companies provide to their foreign affiliates, net of funds that affiliates provide to their parents, in a given time period. Direct investment financial transactions consist of equity investment other than reinvestment of earnings, reinvestment of earnings, and transactions in debt instruments."
+  },
+  {
+    "key": "22",
+    "desc": "Foreign Direct Investment Position in the United States on a Historical-Cost Basis - The foreign direct investment position in the United States is the value of foreign direct investors' equity in their U.S. affiliates plus the value of net outstanding loans to their U.S. affiliates. It may be viewed as the direct investors' net financial claims on their affiliates."
+  },
+  {
+    "key": "58",
+    "desc": "Goods Supplied - For most industries, goods supplied are generally defined as sales of outputs that are tangible. For wholesalers and retailers, goods supplied includes only the value of goods resold; BEA estimates the value of the distributive services provided by selling, or arranging for the sale of goods and includes it in services supplied."
+  },
+  {
+    "key": "2",
+    "desc": "Gross Property, Plant, and Equipment - Property, Plant, and Equipment (PPE) consists of land, mineral rights, buildings, structures, machinery, and equipment (production, office, and transportation equipment). This measure records the value of PPE before the deduction of accumulated depreciation and depletion."
+  },
+  {
+    "key": "62",
+    "desc": "Investment Expenditures - Investment Expenditures"
+  },
+  {
+    "key": "20",
+    "desc": "Liabilities - The total debts or obligations of the firm."
+  },
+  {
+    "key": "5",
+    "desc": "Net Income - The profits that a firm earns in a given time period.  It equals total sales or gross operating revenues and other income less total expenses.  It is net of, i.e. after deduction of, income taxes and includes income from equity investments. "
+  },
+  {
+    "key": "68",
+    "desc": "Net Income of New Affiliates (Data Available Through 2023) - The profits that a firm earns in a given time period.  It equals total sales or gross operating revenues and other income less total expenses.  It is net of, i.e. after deduction of, income taxes and includes income from equity investments."
+  },
+  {
+    "key": "54",
+    "desc": "Net Property, Plant, and Equipment - Property, Plant, and Equipment (PPE) consists of land, mineral rights, buildings, structures, machinery, and equipment (production, office, and transportation equipment). This measure records the value of PPE after the deduction of accumulated depreciation and depletion"
+  },
+  {
+    "key": "44",
+    "desc": "Other Private Services, Net Payments (Data Available Through 2005) - Other Private Services, Net Payments represent net payments between U.S. affiliates and their foreign parents for services provided to one another. They consist of service charges, including management fees and allocated expenses and rentals for tangible property."
+  },
+  {
+    "key": "35",
+    "desc": "Other Private Services, U.S.  Parents' Receipts (Data Available Through 2005) - Other Private Services, U.S. Parents' Receipts represent receipts by U.S. parents from their foreign affiliates for services provided. They consist of service charges, including management fees and allocated expenses and rentals for tangible property."
+  },
+  {
+    "key": "29",
+    "desc": "Other Private Services, U.S. Affiliates' Payments (Data Available Through 2005) - Other Private Services, U.S. Affiliates' Payments represent payments by U.S. affiliates to their foreign parents for services provided. They consist of service charges, including management fees and allocated expenses and rentals for tangible property."
+  },
+  {
+    "key": "42",
+    "desc": "Other Private Services, U.S. Affiliates' Receipts (Data Available Through 2005) - Other Private Services, U.S. Affiliates' Receipts represent receipts by U.S. affiliates from their foreign parents for services provided. They consist of service charges, including management fees and allocated expenses and rentals for tangible property."
+  },
+  {
+    "key": "40",
+    "desc": "Other Private Services, U.S. Parents' Payments (Data Available Through 2005) - Other Private Services, U.S. Parents' Payments represent payments by U.S. parents to their foreign affiliates for services provided. They consist of service charges, including management fees and allocated expenses and rentals for tangible property."
+  },
+  {
+    "key": "21",
+    "desc": "Owners Equity - Total assets of the firm less total liabilities."
+  },
+  {
+    "key": "53",
+    "desc": "Property, Plant, and Equipment Expenditures - The expenditures made by a firm to acquire, to add to, or to improve property, plant, and equipment (PPandE).  PPandE includes land, timber, mineral and like-rights owned; structures, machinery, equipment, special tools, and other depreciable property; construction in progress; and tangible and intangible exploration and development costs.  It excludes the changes in PPandE that are due to changes in the entity--such as mergers, acquisitions, and divestitures--or that are due to changes in accounting methods.  The expenditures are measured on a gross basis; sales and other dispositions of fixed assets are not netted against them."
+  },
+  {
+    "key": "25",
+    "desc": "Reinvestment of Earnings Without Current-Cost Adjustment (Data Available Through 2023) - Reinvestment of earnings (a component of direct investment financial transactions) are the parents' claim on the current period undistributed earnings of their affiliates."
+  },
+  {
+    "key": "14",
+    "desc": "Research and Development Expenditures - Includes expenditures for the following: the planned, systematic pursuit of new knowledge or understanding toward general application (basic research); the acquisition of knowledge or understanding to meet a specific, recognized need (applied research); and the application of knowledge or understanding toward the production or improvement of a product, service, process, or method (development).  It excludes quality control, routine product testing, market research, sales promotion, sales service and other nontechnical activities; routine technical services; geological and geophysical exploration activities, and advertising programs to promote or demonstrate new products or processes.  Also excluded are capital expenditures, expenditures for tests and evaluations once a prototype becomes a production model, patent expenses, and income taxes and interest."
+  },
+  {
+    "key": "43",
+    "desc": "Royalties and License Fees Net of Withholding Taxes, Net Payments (Data Available Through 2005) - Royalties and License Fees Net of Withholding Taxes, Net Payments represent receipts and payments between U.S. affiliates and their foreign parents for the use or sale of intangible property or rights (including patents, trademarks, and copyrights)."
+  },
+  {
+    "key": "28",
+    "desc": "Royalties and License Fees Net of Withholding Taxes, U.S. Affiliates' Payments (Data Through 2005) - Royalties and License Fees Net of Withholding Taxes, U.S. Affiliates' Payments represent payments by U.S. affiliates from their foreign parents for the use or sale of intangible property or rights (including patents, trademarks, and copyrights)."
+  },
+  {
+    "key": "41",
+    "desc": "Royalties and License Fees Net of Withholding Taxes, U.S. Affiliates' Receipts (Data Through 2005) - Royalties and License Fees Net of Withholding Taxes, U.S. Affiliates' Receipts represent receipts by U.S. affiliates from their foreign parents for the use or sale of intangible property or rights (including patents, trademarks, and copyrights)."
+  },
+  {
+    "key": "39",
+    "desc": "Royalties and License Fees Net of Withholding Taxes, U.S. Parents' Payments (Data Through 2005) - Royalties and License Feed Net of Withholding Taxes, U.S. Parents' Payments represent payments by U.S. parents from their foreign affiliates for the use or sale of intangible property or rights (including patents, trademarks, and copyrights)."
+  },
+  {
+    "key": "34",
+    "desc": "Royalties and License Fees Net of Withholding Taxes, U.S. Parents' Receipts (Data Through 2005) - Royalties and License Fees Net of Withholding Taxes, U.S. Parents' Receipts represent receipts of U.S. parents from their foreign affiliates for the use or sale of intangible property or rights (including patents, trademarks, and copyrights)."
+  },
+  {
+    "key": "56",
+    "desc": "Sales of Goods - For purposes of disaggregating sales into goods, services, and investment income, sales of goods are defined as sales that are typical of establishments in any of the following six NAICS sectors: Agriculture, forestry, fishing and hunting (except support activities for agriculture and forestry); mining (except support activities); construction; manufacturing; wholesale trade; and retail trade. (A parent or affiliate need not be classified in any of these sectors to have sales of goods.) Sales of services are defined as sales that are typical of establishments in the 14 other NAICS sectors and the support activities for agriculture, forestry, fishing and hunting and for mining. (A parent or affiliate need not be classified in one of these sectors to have sales of services.)"
+  },
+  {
+    "key": "55",
+    "desc": "Sales of Services - For purposes of disaggregating sales into goods, services, and investment income, sales of goods are defined as sales that are typical of establishments in any of the following six NAICS sectors: Agriculture, forestry, fishing and hunting (except support activities for agriculture and forestry); mining (except support activities); construction; manufacturing; wholesale trade; and retail trade. (A parent or affiliate need not be classified in any of these sectors to have sales of goods.) Sales of services are defined as sales that are typical of establishments in the 14 other NAICS sectors and the support activities for agriculture, forestry, fishing and hunting and for mining. (A parent or affiliate need not be classified in one of these sectors to have sales of services.)"
+  },
+  {
+    "key": "60",
+    "desc": "Services Supplied - For most industries, services supplied generally are defined as sales of outputs that are intangible. For insurance, services supplied consists of BEA's estimate of the portion of premiums remaining after provision for expected or normal losses and a measure of premium supplements, which represent income earned on funds insurers hold on policyholders' behalf. For banks, it includes explicit fees and commissions and an estimate of the value of implicit services provided by banks. For wholesalers and retailers, services supplied includes an estimate of the distributive services provided by selling, or arranging for the sales of, goods."
+  },
+  {
+    "key": "61",
+    "desc": "Services Supplied to Foreigners - Services Supplied to Foreigners - Sales of outputs that are intangible to foreign persons.  Sales may be to other foreign affiliates or unaffiliated foreigners, and the foreign persons may be local or in another foreign country."
+  },
+  {
+    "key": "1",
+    "desc": "Total Assets - Any owned physical object or intangible right having economic value to a firm.  It typically includes items such as cash, inventories, receivables, and property, plant, and equipment.  It also includes equity investments in unconsolidated domestic and foreign businesses.  "
+  },
+  {
+    "key": "52",
+    "desc": "Total Assets - Affiliates - Any owned physical object or intangible right  "
+  },
+  {
+    "key": "51",
+    "desc": "Total Assets - U.S. Parent - Any owned physical object or intangible right  "
+  },
+  {
+    "key": "4",
+    "desc": "Total Sales - The value of goods and services sold and, for financial firms, also includes investment income.  It is net of returns, allowances, and discounts and excludes sale or consumption taxes levied directly on the consumer and excise taxes levied on manufacturers, wholesalers, and retailers."
+  },
+  {
+    "key": "66",
+    "desc": "Total Sales of New Affiliates (Data Available Through 2023) - The value of goods and services sold and, for financial firms, also includes investment income.  It is net of returns, allowances, and discounts and excludes sale or consumption taxes levied directly on the consumer and excise taxes levied on manufacturers, wholesalers, and retailers."
+  },
+  {
+    "key": "30",
+    "desc": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis - The U.S. direct investment position abroad is the value of U.S. direct investors' equity in their foreign affiliates plus the value of net outstanding loans to their affiliates. It may be viewed as the direct investors' net financial claims on their affiliates"
+  },
+  {
+    "key": "10",
+    "desc": "U.S. Exports of Goods - Exports are valued on an f.a.s. (free alongside ship) basis--they exclude transit costs, such as the costs of shipping and insurance."
+  },
+  {
+    "key": "57",
+    "desc": "U.S. Exports of Goods Shipped by U.S. Parents to Foreign Affiliates - Exports are valued on an f.a.s. (free alongside ship) basis--they exclude transit costs, such as the costs of shipping and insurance."
+  },
+  {
+    "key": "46",
+    "desc": "U.S. Exports of Goods Shipped by U.S. Parents to Foreigners Other Than Foreign Affiliates - Exports are valued on an f.a.s. (free alongside ship) basis--they exclude transit costs, such as the costs of shipping and insurance."
+  },
+  {
+    "key": "11",
+    "desc": "U.S. Exports of Goods to the Foreign Parent Group - U.S. Exports of Goods to the Foreign Parent Group represents total exports of goods from U.S. affiliates to their foreign parent groups"
+  },
+  {
+    "key": "12",
+    "desc": "U.S. Imports of Goods -  Imports are valued on an f.a.s. (free alongside ship) basis--they exclude transit costs, such as the costs of shipping and insurance."
+  },
+  {
+    "key": "13",
+    "desc": "U.S. Imports of Goods from the Foreign Parent Group - U.S. Imports of Goods from the Foreign Parent Group represents total imports of goods by U.S. parent enterprises from their foreign affiliates"
+  },
+  {
+    "key": "47",
+    "desc": "U.S. Imports of Goods Shipped to U.S. Parents by Foreign Affiliates - Imports are valued on an f.a.s. (free alongside ship) basis--they exclude transit costs, such as the costs of shipping and insurance."
+  },
+  {
+    "key": "48",
+    "desc": "U.S. Imports of Goods Shipped to U.S. Parents by Foreigners Other Than Foreign Affiliates - Imports are valued on an f.a.s. (free alongside ship) basis--they exclude transit costs, such as the costs of shipping and insurance."
+  },
+  {
+    "key": "50",
+    "desc": "U.S. Trade in Goods of Affiliates - U.S. Trade in Goods of Affiliates represents U.S. exports and imports of goods associated with a U.S. affiliate or foreign affiliate"
+  },
+  {
+    "key": "19",
+    "desc": "U.S. Trade in Goods of Majority-Owned Affiliates - U.S. Trade in Goods of Majority-Owned Affiliates represents U.S. exports and imports of goods associated with a majority-owned U.S. affiliate or majority-owned foreign affiliate"
+  },
+  {
+    "key": "6",
+    "desc": "Value Added (Gross Product) - The portion of the goods and services sold or added to inventory or fixed investment by a firm that reflects the production of the firm itself.  It represents the firm's contribution to a country's gross domestic product, which is the value of goods and services produced by labor and property located in the country.  Compared to sales, value added is a preferable measure of production because it indicates the extent to which a firm's sales result from their own production rather than from production that originates elsewhere, whereas sales data do not distinguish between these two sources of production.  Value added can be measured as gross output minus intermediate inputs; alternatively, it can be measured as the sum of the costs incurred (except for intermediate inputs) and the profits earned in production.  The value-added estimates presented here were prepared by summing the costs and profits data."
+  }
+]

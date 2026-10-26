@@ -1,0 +1,18 @@
+[
+  {
+    "Key": "Balance",
+    "Desc": "Balance"
+  },
+  {
+    "Key": "Exports",
+    "Desc": "Exports"
+  },
+  {
+    "Key": "Imports",
+    "Desc": "Imports"
+  },
+  {
+    "Key": "SupplementalIns",
+    "Desc": "Supplemental detail on insurance transactions"
+  }
+]

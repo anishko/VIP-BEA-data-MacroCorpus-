@@ -1,0 +1,18 @@
+[
+  {
+    "key": "inward",
+    "desc": "Provides data for U.S. affiliates of foreign multinational companies.  Note that for state-level data on U.S. affiliates, directionOfInvestment should be ‘state’."
+  },
+  {
+    "key": "outward",
+    "desc": "Provides data for foreign affiliates of U.S. multinational companies."
+  },
+  {
+    "key": "parent",
+    "desc": "Provides data on U.S. parent companies."
+  },
+  {
+    "key": "state",
+    "desc": "Provides data for U.S. affiliates of foreign multinational companies at the state level.  Note that only data on employment and (prior to 2007) gross property, plant, and equipment are available at the state level."
+  }
+]

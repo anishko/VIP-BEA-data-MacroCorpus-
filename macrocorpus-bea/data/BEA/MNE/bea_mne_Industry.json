@@ -1,0 +1,1194 @@
+[
+  {
+    "key": "all",
+    "desc": " all"
+  },
+  {
+    "key": "0000",
+    "desc": " All Industries Total"
+  },
+  {
+    "key": "7210",
+    "desc": "Accommodation"
+  },
+  {
+    "key": "7200",
+    "desc": "Accommodation and food services"
+  },
+  {
+    "key": "5412",
+    "desc": "Accounting, tax preparation, bookkeeping, and payroll services"
+  },
+  {
+    "key": "5223",
+    "desc": "Activities related to credit intermediation"
+  },
+  {
+    "key": "5600",
+    "desc": "Administration, support, and waste management"
+  },
+  {
+    "key": "5600",
+    "desc": "Administrative and support services"
+  },
+  {
+    "key": "5418",
+    "desc": "Advertising and related services"
+  },
+  {
+    "key": "3364",
+    "desc": "Aerospace products and parts"
+  },
+  {
+    "key": "5242",
+    "desc": "Agencies, brokerages, and other insurance related activities"
+  },
+  {
+    "key": "3331",
+    "desc": "Agriculture, construction, and mining machinery"
+  },
+  {
+    "key": "1100",
+    "desc": "Agriculture, forestry, fishing, and hunting"
+  },
+  {
+    "key": "4810",
+    "desc": "Air transportation"
+  },
+  {
+    "key": "3313",
+    "desc": "Alumina and aluminum production and processing"
+  },
+  {
+    "key": "6210",
+    "desc": "Ambulatory health care services"
+  },
+  {
+    "key": "7130",
+    "desc": "Amusement, gambling, and recreation industries"
+  },
+  {
+    "key": "3111",
+    "desc": "Animal foods"
+  },
+  {
+    "key": "1120",
+    "desc": "Animal production"
+  },
+  {
+    "key": "3116",
+    "desc": "Animal slaughtering and processing"
+  },
+  {
+    "key": "3150",
+    "desc": "Apparel"
+  },
+  {
+    "key": "4243",
+    "desc": "Apparel, piece goods, and notions"
+  },
+  {
+    "key": "3323",
+    "desc": "Architectural and structural metals"
+  },
+  {
+    "key": "5413",
+    "desc": "Architectural, engineering, and related services"
+  },
+  {
+    "key": "7100",
+    "desc": "Arts, entertainment, and recreation"
+  },
+  {
+    "key": "3244",
+    "desc": "Asphalt and other petroleum and coal products"
+  },
+  {
+    "key": "3343",
+    "desc": "Audio and video equipment"
+  },
+  {
+    "key": "5321",
+    "desc": "Automotive equipment rental and leasing"
+  },
+  {
+    "key": "3118",
+    "desc": "Bakeries and tortilla manufacturing"
+  },
+  {
+    "key": "5221",
+    "desc": "Banks"
+  },
+  {
+    "key": "3251",
+    "desc": "Basic chemicals"
+  },
+  {
+    "key": "4248",
+    "desc": "Beer, wine, and distilled alcoholic beverages"
+  },
+  {
+    "key": "3121",
+    "desc": "Beverages"
+  },
+  {
+    "key": "3120",
+    "desc": "Beverages and tobacco products"
+  },
+  {
+    "key": "3324",
+    "desc": "Boilers, tanks, and shipping containers"
+  },
+  {
+    "key": "5229",
+    "desc": "Branches and agencies"
+  },
+  {
+    "key": "5150",
+    "desc": "Broadcasting (except internet)"
+  },
+  {
+    "key": "5149",
+    "desc": "Broadcasting (except internet) and telecommunications"
+  },
+  {
+    "key": "5148",
+    "desc": "Broadcasting and telecommunications"
+  },
+  {
+    "key": "5147",
+    "desc": "Broadcasting, cable networks, and program distribution"
+  },
+  {
+    "key": "4440",
+    "desc": "Building material and garden equipment and supplies dealers"
+  },
+  {
+    "key": "2330",
+    "desc": "Building, developing, and general contracting"
+  },
+  {
+    "key": "5614",
+    "desc": "Business support services"
+  },
+  {
+    "key": "5175",
+    "desc": "Cable and other program distribution"
+  },
+  {
+    "key": "5152",
+    "desc": "Cable and other subscription programming"
+  },
+  {
+    "key": "5176",
+    "desc": "Cable networks and program distribution"
+  },
+  {
+    "key": "3273",
+    "desc": "Cement and concrete products"
+  },
+  {
+    "key": "4246",
+    "desc": "Chemical and allied products"
+  },
+  {
+    "key": "3250",
+    "desc": "Chemicals"
+  },
+  {
+    "key": "3271",
+    "desc": "Clay products and refractories"
+  },
+  {
+    "key": "4480",
+    "desc": "Clothing and clothing accessories stores"
+  },
+  {
+    "key": "4480",
+    "desc": "Clothing, clothing accessories, shoe, and jewelry retailers"
+  },
+  {
+    "key": "2121",
+    "desc": "Coal mining"
+  },
+  {
+    "key": "3328",
+    "desc": "Coating, engraving, heat treating, and allied activities"
+  },
+  {
+    "key": "3333",
+    "desc": "Commercial and service industry machinery"
+  },
+  {
+    "key": "3342",
+    "desc": "Communications equipment"
+  },
+  {
+    "key": "5415",
+    "desc": "Computer systems design and related services"
+  },
+  {
+    "key": "3340",
+    "desc": "Computers and electronic products"
+  },
+  {
+    "key": "3341",
+    "desc": "Computers and peripheral equipment"
+  },
+  {
+    "key": "2300",
+    "desc": "Construction"
+  },
+  {
+    "key": "2360",
+    "desc": "Construction of buildings"
+  },
+  {
+    "key": "3222",
+    "desc": "Converted paper products"
+  },
+  {
+    "key": "2126",
+    "desc": "Copper, nickel, lead, and zinc ores"
+  },
+  {
+    "key": "5513",
+    "desc": "Corporate, subsidiary, and regional management offices"
+  },
+  {
+    "key": "4920",
+    "desc": "Couriers and messengers"
+  },
+  {
+    "key": "1110",
+    "desc": "Crop production"
+  },
+  {
+    "key": "3322",
+    "desc": "Cutlery and hand tools"
+  },
+  {
+    "key": "3115",
+    "desc": "Dairy products"
+  },
+  {
+    "key": "5142",
+    "desc": "Data processing services"
+  },
+  {
+    "key": "5182",
+    "desc": "Data processing, hosting, and related services"
+  },
+  {
+    "key": "5221",
+    "desc": "Depository credit intermediation (banking)"
+  },
+  {
+    "key": "5225",
+    "desc": "Depository Institutions"
+  },
+  {
+    "key": "5221",
+    "desc": "Depository institutions (banking)"
+  },
+  {
+    "key": "5249",
+    "desc": "Direct life insurance carriers"
+  },
+  {
+    "key": "4242",
+    "desc": "Drugs and druggists' sundries"
+  },
+  {
+    "key": "6110",
+    "desc": "Educational services"
+  },
+  {
+    "key": "3351",
+    "desc": "Electric lighting equipment"
+  },
+  {
+    "key": "2211",
+    "desc": "Electric power generation, transmission, and distribution"
+  },
+  {
+    "key": "3353",
+    "desc": "Electrical equipment"
+  },
+  {
+    "key": "3350",
+    "desc": "Electrical equipment, appliances, and components"
+  },
+  {
+    "key": "4236",
+    "desc": "Electrical goods"
+  },
+  {
+    "key": "4431",
+    "desc": "Electronics and appliance retailers"
+  },
+  {
+    "key": "4431",
+    "desc": "Electronics and appliance stores"
+  },
+  {
+    "key": "5613",
+    "desc": "Employment services"
+  },
+  {
+    "key": "3336",
+    "desc": "Engines, turbines, and power transmission equipment"
+  },
+  {
+    "key": "3320",
+    "desc": "Fabricated metal products"
+  },
+  {
+    "key": "5612",
+    "desc": "Facilities support services"
+  },
+  {
+    "key": "4245",
+    "desc": "Farm product raw materials"
+  },
+  {
+    "key": "5220",
+    "desc": "Finance (except depository institutions) and insurance"
+  },
+  {
+    "key": "5200",
+    "desc": "Finance and insurance"
+  },
+  {
+    "key": "5220",
+    "desc": "Finance, except depository institutions"
+  },
+  {
+    "key": "1140",
+    "desc": "Fishing, hunting, and trapping"
+  },
+  {
+    "key": "3110",
+    "desc": "Food"
+  },
+  {
+    "key": "4450",
+    "desc": "Food and beverage retailers"
+  },
+  {
+    "key": "4450",
+    "desc": "Food and beverage stores"
+  },
+  {
+    "key": "7220",
+    "desc": "Food services and drinking places"
+  },
+  {
+    "key": "1130",
+    "desc": "Forestry and logging"
+  },
+  {
+    "key": "3321",
+    "desc": "Forging and stamping"
+  },
+  {
+    "key": "3315",
+    "desc": "Foundries"
+  },
+  {
+    "key": "3114",
+    "desc": "Fruit and vegetable preserving and specialty foods"
+  },
+  {
+    "key": "5252",
+    "desc": "Funds, trusts, and other financial vehicles"
+  },
+  {
+    "key": "4232",
+    "desc": "Furniture and home furnishings"
+  },
+  {
+    "key": "4420",
+    "desc": "Furniture and home furnishings retailers"
+  },
+  {
+    "key": "4420",
+    "desc": "Furniture and home furnishings stores"
+  },
+  {
+    "key": "3370",
+    "desc": "Furniture and related products"
+  },
+  {
+    "key": "4471",
+    "desc": "Gasoline stations"
+  },
+  {
+    "key": "4520",
+    "desc": "General merchandise retailers"
+  },
+  {
+    "key": "4520",
+    "desc": "General merchandise stores"
+  },
+  {
+    "key": "3272",
+    "desc": "Glass and glass products"
+  },
+  {
+    "key": "2125",
+    "desc": "Gold and silver ores"
+  },
+  {
+    "key": "3112",
+    "desc": "Grain and oilseed milling"
+  },
+  {
+    "key": "4244",
+    "desc": "Groceries and related products"
+  },
+  {
+    "key": "4244",
+    "desc": "Grocery and related products"
+  },
+  {
+    "key": "3325",
+    "desc": "Hardware"
+  },
+  {
+    "key": "4237",
+    "desc": "Hardware, and plumbing and heating equipment and supplies"
+  },
+  {
+    "key": "4461",
+    "desc": "Health and personal care retailers"
+  },
+  {
+    "key": "4461",
+    "desc": "Health and personal care stores"
+  },
+  {
+    "key": "6200",
+    "desc": "Health care and social assistance"
+  },
+  {
+    "key": "2370",
+    "desc": "Heavy and civil engineering construction"
+  },
+  {
+    "key": "2340",
+    "desc": "Heavy construction"
+  },
+  {
+    "key": "5512",
+    "desc": "Holding Companies (nonbank)"
+  },
+  {
+    "key": "5513",
+    "desc": "Holding companies (nonbank), excluding management offices"
+  },
+  {
+    "key": "5512",
+    "desc": "Holding companies, except bank holding companies"
+  },
+  {
+    "key": "6220",
+    "desc": "Hospitals"
+  },
+  {
+    "key": "3352",
+    "desc": "Household appliances"
+  },
+  {
+    "key": "3332",
+    "desc": "Industrial machinery"
+  },
+  {
+    "key": "5100",
+    "desc": "Information"
+  },
+  {
+    "key": "5141",
+    "desc": "Information services"
+  },
+  {
+    "key": "5188",
+    "desc": "Information services and data processing services"
+  },
+  {
+    "key": "5240",
+    "desc": "Insurance carriers and related activities"
+  },
+  {
+    "key": "5243",
+    "desc": "Insurance carriers, except direct life insurance carriers"
+  },
+  {
+    "key": "3242",
+    "desc": "Integrated petroleum refining and extraction"
+  },
+  {
+    "key": "5161",
+    "desc": "Internet publishing and broadcasting"
+  },
+  {
+    "key": "5181",
+    "desc": "Internet service providers and web search portals"
+  },
+  {
+    "key": "5180",
+    "desc": "Internet service providers, web search portals, and data processing services"
+  },
+  {
+    "key": "5189",
+    "desc": "Internet, data processing, and other information services"
+  },
+  {
+    "key": "5616",
+    "desc": "Investigation and security services"
+  },
+  {
+    "key": "3311",
+    "desc": "Iron and steel mills and ferroalloys"
+  },
+  {
+    "key": "2124",
+    "desc": "Iron ores"
+  },
+  {
+    "key": "3160",
+    "desc": "Leather and allied products"
+  },
+  {
+    "key": "5411",
+    "desc": "Legal services"
+  },
+  {
+    "key": "5331",
+    "desc": "Lessors of nonfinancial intangible assets (except copyrighted works)"
+  },
+  {
+    "key": "3274",
+    "desc": "Lime and gypsum products"
+  },
+  {
+    "key": "4233",
+    "desc": "Lumber and other construction materials"
+  },
+  {
+    "key": "3327",
+    "desc": "Machine shops, turned products, and screws, nuts, and bolts"
+  },
+  {
+    "key": "3330",
+    "desc": "Machinery"
+  },
+  {
+    "key": "4238",
+    "desc": "Machinery, equipment, and supplies"
+  },
+  {
+    "key": "4238",
+    "desc": "Machinery, equipment, and supplies merchant wholesalers"
+  },
+  {
+    "key": "3346",
+    "desc": "Magnetic and optical media"
+  },
+  {
+    "key": "5512",
+    "desc": "Management of nonbank companies and enterprises"
+  },
+  {
+    "key": "5416",
+    "desc": "Management, scientific, and technical consulting"
+  },
+  {
+    "key": "3000",
+    "desc": "Manufacturing"
+  },
+  {
+    "key": "3116",
+    "desc": "Meat products"
+  },
+  {
+    "key": "3391",
+    "desc": "Medical equipment and supplies"
+  },
+  {
+    "key": "2128",
+    "desc": "Metal ore mining"
+  },
+  {
+    "key": "4235",
+    "desc": "Metals and minerals (except petroleum)"
+  },
+  {
+    "key": "3335",
+    "desc": "Metalworking machinery"
+  },
+  {
+    "key": "2100",
+    "desc": "Mining"
+  },
+  {
+    "key": "2199",
+    "desc": "Mining (except oil and gas)"
+  },
+  {
+    "key": "4239",
+    "desc": "Miscellaneous durable goods"
+  },
+  {
+    "key": "3390",
+    "desc": "Miscellaneous manufacturing"
+  },
+  {
+    "key": "4249",
+    "desc": "Miscellaneous nondurable goods"
+  },
+  {
+    "key": "6000",
+    "desc": "Miscellaneous services"
+  },
+  {
+    "key": "4530",
+    "desc": "Miscellaneous store retailers"
+  },
+  {
+    "key": "5120",
+    "desc": "Motion picture and sound recording industries"
+  },
+  {
+    "key": "5121",
+    "desc": "Motion picture and video industries"
+  },
+  {
+    "key": "4410",
+    "desc": "Motor vehicle and parts dealers"
+  },
+  {
+    "key": "3362",
+    "desc": "Motor vehicle bodies and trailers"
+  },
+  {
+    "key": "3363",
+    "desc": "Motor vehicle parts"
+  },
+  {
+    "key": "3361",
+    "desc": "Motor vehicles"
+  },
+  {
+    "key": "4231",
+    "desc": "Motor vehicles and motor vehicle parts and supplies"
+  },
+  {
+    "key": "3368",
+    "desc": "Motor vehicles, bodies and trailers, and parts"
+  },
+  {
+    "key": "7121",
+    "desc": "Museums, historical sites, and similar institutions"
+  },
+  {
+    "key": "2212",
+    "desc": "Natural gas distribution"
+  },
+  {
+    "key": "3345",
+    "desc": "Navigational, measuring, and other instruments"
+  },
+  {
+    "key": "5111",
+    "desc": "Newspaper, periodical, book, and database publishers"
+  },
+  {
+    "key": "5224",
+    "desc": "Non-depository credit intermediation"
+  },
+  {
+    "key": "5224",
+    "desc": "Non-depository credit intermediation, except branches and agencies"
+  },
+  {
+    "key": "9100",
+    "desc": "Nonbusiness Entities, Except Government"
+  },
+  {
+    "key": "5224",
+    "desc": "Nondepository credit intermediation and related services"
+  },
+  {
+    "key": "3314",
+    "desc": "Nonferrous metal (except aluminum) production and processing"
+  },
+  {
+    "key": "2123",
+    "desc": "Nonmetallic mineral mining and quarrying"
+  },
+  {
+    "key": "3270",
+    "desc": "Nonmetallic mineral products"
+  },
+  {
+    "key": "4540",
+    "desc": "Nonstore retailers"
+  },
+  {
+    "key": "6230",
+    "desc": "Nursing and residential care facilities"
+  },
+  {
+    "key": "5611",
+    "desc": "Office administrative services"
+  },
+  {
+    "key": "2111",
+    "desc": "Oil and gas extraction"
+  },
+  {
+    "key": "3259",
+    "desc": "Other chemical products and preparations"
+  },
+  {
+    "key": "4299",
+    "desc": "Other durable goods"
+  },
+  {
+    "key": "3359",
+    "desc": "Other electrical equipment and components"
+  },
+  {
+    "key": "3329",
+    "desc": "Other fabricated metal products"
+  },
+  {
+    "key": "5299",
+    "desc": "Other finance, except depository institutions"
+  },
+  {
+    "key": "5238",
+    "desc": "Other financial investment activities and exchanges"
+  },
+  {
+    "key": "3119",
+    "desc": "Other food products"
+  },
+  {
+    "key": "3339",
+    "desc": "Other general purpose machinery"
+  },
+  {
+    "key": "9999",
+    "desc": "Other industries"
+  },
+  {
+    "key": "5191",
+    "desc": "Other information services"
+  },
+  {
+    "key": "3999",
+    "desc": "Other Manufacturing"
+  },
+  {
+    "key": "2127",
+    "desc": "Other metal ores"
+  },
+  {
+    "key": "3399",
+    "desc": "Other miscellaneous manufacturing"
+  },
+  {
+    "key": "4298",
+    "desc": "Other nondurable goods"
+  },
+  {
+    "key": "3279",
+    "desc": "Other nonmetallic mineral products"
+  },
+  {
+    "key": "4868",
+    "desc": "Other pipeline transportation"
+  },
+  {
+    "key": "5419",
+    "desc": "Other professional, scientific, and technical services"
+  },
+  {
+    "key": "5329",
+    "desc": "Other rental and leasing services"
+  },
+  {
+    "key": "8100",
+    "desc": "Other services (except public administration and private households)"
+  },
+  {
+    "key": "5619",
+    "desc": "Other support services"
+  },
+  {
+    "key": "5179",
+    "desc": "Other telecommunications"
+  },
+  {
+    "key": "3369",
+    "desc": "Other transportation equipment"
+  },
+  {
+    "key": "4939",
+    "desc": "Other warehousing and storage"
+  },
+  {
+    "key": "4839",
+    "desc": "Other water transportation"
+  },
+  {
+    "key": "3255",
+    "desc": "Paints, coatings, and adhesives"
+  },
+  {
+    "key": "3220",
+    "desc": "Paper"
+  },
+  {
+    "key": "4241",
+    "desc": "Paper and paper products"
+  },
+  {
+    "key": "7110",
+    "desc": "Performing arts, spectator sports, and related industries"
+  },
+  {
+    "key": "8120",
+    "desc": "Personal and laundry services"
+  },
+  {
+    "key": "3253",
+    "desc": "Pesticides, fertilizers, and other agricultural chemicals"
+  },
+  {
+    "key": "8999",
+    "desc": "Petroleum"
+  },
+  {
+    "key": "3240",
+    "desc": "Petroleum and coal products"
+  },
+  {
+    "key": "4247",
+    "desc": "Petroleum and petroleum products"
+  },
+  {
+    "key": "3243",
+    "desc": "Petroleum refining excluding oil and gas extraction"
+  },
+  {
+    "key": "4932",
+    "desc": "Petroleum storage for hire"
+  },
+  {
+    "key": "4833",
+    "desc": "Petroleum tanker operations"
+  },
+  {
+    "key": "3254",
+    "desc": "Pharmaceuticals and medicines"
+  },
+  {
+    "key": "4860",
+    "desc": "Pipeline transportation"
+  },
+  {
+    "key": "4863",
+    "desc": "Pipeline transportation of crude oil, refined petroleum products, and natural gas"
+  },
+  {
+    "key": "3260",
+    "desc": "Plastics and rubber products"
+  },
+  {
+    "key": "3261",
+    "desc": "Plastics products"
+  },
+  {
+    "key": "3310",
+    "desc": "Primary and fabricated metals"
+  },
+  {
+    "key": "3310",
+    "desc": "Primary metals"
+  },
+  {
+    "key": "3231",
+    "desc": "Printing and related support activities"
+  },
+  {
+    "key": "4214",
+    "desc": "Professional and commercial equipment and supplies"
+  },
+  {
+    "key": "5400",
+    "desc": "Professional, scientific, and technical services"
+  },
+  {
+    "key": "5110",
+    "desc": "Publishing industries"
+  },
+  {
+    "key": "3221",
+    "desc": "Pulp, paper, and paperboard mills"
+  },
+  {
+    "key": "5151",
+    "desc": "Radio and television broadcasting"
+  },
+  {
+    "key": "4821",
+    "desc": "Rail transportation"
+  },
+  {
+    "key": "3365",
+    "desc": "Railroad rolling stock"
+  },
+  {
+    "key": "5310",
+    "desc": "Real estate"
+  },
+  {
+    "key": "5300",
+    "desc": "Real estate and rental and leasing"
+  },
+  {
+    "key": "8130",
+    "desc": "Religious, grantmaking, civic, professional, and similar organizations"
+  },
+  {
+    "key": "5320",
+    "desc": "Rental and leasing (except real estate)"
+  },
+  {
+    "key": "8110",
+    "desc": "Repair and maintenance"
+  },
+  {
+    "key": "3252",
+    "desc": "Resins and synthetic rubber, fibers, and filaments"
+  },
+  {
+    "key": "4400",
+    "desc": "Retail trade"
+  },
+  {
+    "key": "3262",
+    "desc": "Rubber products"
+  },
+  {
+    "key": "5174",
+    "desc": "Satellite telecommunications"
+  },
+  {
+    "key": "4870",
+    "desc": "Scenic and sightseeing transportation"
+  },
+  {
+    "key": "5417",
+    "desc": "Scientific research and development services"
+  },
+  {
+    "key": "3117",
+    "desc": "Seafood product preparation and packaging"
+  },
+  {
+    "key": "5231",
+    "desc": "Securities and commodity contracts intermediation and brokerage"
+  },
+  {
+    "key": "5230",
+    "desc": "Securities, commodity contracts, and other intermediation and related activities"
+  },
+  {
+    "key": "3344",
+    "desc": "Semiconductors and other electronic components"
+  },
+  {
+    "key": "5000",
+    "desc": "Services 10"
+  },
+  {
+    "key": "5617",
+    "desc": "Services to buildings and dwellings"
+  },
+  {
+    "key": "3366",
+    "desc": "Ship and boat building"
+  },
+  {
+    "key": "3256",
+    "desc": "Soap, cleaning compounds, and toilet preparations"
+  },
+  {
+    "key": "6240",
+    "desc": "Social assistance"
+  },
+  {
+    "key": "5112",
+    "desc": "Software publishers"
+  },
+  {
+    "key": "5122",
+    "desc": "Sound recording industries"
+  },
+  {
+    "key": "2350",
+    "desc": "Special trade contractors"
+  },
+  {
+    "key": "5414",
+    "desc": "Specialized design services"
+  },
+  {
+    "key": "2350",
+    "desc": "Specialty trade contractors"
+  },
+  {
+    "key": "4510",
+    "desc": "Sporting goods, hobby, and musical instrument retailers"
+  },
+  {
+    "key": "4510",
+    "desc": "Sporting goods, hobby, book, and music stores"
+  },
+  {
+    "key": "3326",
+    "desc": "Spring and wire products"
+  },
+  {
+    "key": "3312",
+    "desc": "Steel products from purchased steel"
+  },
+  {
+    "key": "3113",
+    "desc": "Sugar and confectionery products"
+  },
+  {
+    "key": "1150",
+    "desc": "Support activities for agriculture and forestry"
+  },
+  {
+    "key": "2130",
+    "desc": "Support activities for mining"
+  },
+  {
+    "key": "2133",
+    "desc": "Support activities for mining, except for oil and gas extraction"
+  },
+  {
+    "key": "2132",
+    "desc": "Support activities for oil and gas extraction"
+  },
+  {
+    "key": "4880",
+    "desc": "Support activities for transportation"
+  },
+  {
+    "key": "5133",
+    "desc": "Telecommunications"
+  },
+  {
+    "key": "5173",
+    "desc": "Telecommunications resellers"
+  },
+  {
+    "key": "3130",
+    "desc": "Textile mills"
+  },
+  {
+    "key": "3140",
+    "desc": "Textile product mills"
+  },
+  {
+    "key": "3170",
+    "desc": "Textiles, apparel, and leather products"
+  },
+  {
+    "key": "3122",
+    "desc": "Tobacco products"
+  },
+  {
+    "key": "3000",
+    "desc": "Total Manufacturing"
+  },
+  {
+    "key": "4850",
+    "desc": "Transit and ground passenger transportation"
+  },
+  {
+    "key": "4800",
+    "desc": "Transportation and warehousing"
+  },
+  {
+    "key": "3360",
+    "desc": "Transportation equipment"
+  },
+  {
+    "key": "5615",
+    "desc": "Travel arrangement and reservation services"
+  },
+  {
+    "key": "4840",
+    "desc": "Truck transportation"
+  },
+  {
+    "key": "2200",
+    "desc": "Utilities"
+  },
+  {
+    "key": "3334",
+    "desc": "Ventilation, heating, air-conditioning, and commercial refrigeration equipment"
+  },
+  {
+    "key": "4930",
+    "desc": "Warehousing and storage"
+  },
+  {
+    "key": "4930",
+    "desc": "Warehousing and storage facilities"
+  },
+  {
+    "key": "5620",
+    "desc": "Waste management and remediation services"
+  },
+  {
+    "key": "4830",
+    "desc": "Water transportation"
+  },
+  {
+    "key": "2213",
+    "desc": "Water, sewage, and other systems"
+  },
+  {
+    "key": "4251",
+    "desc": "Wholesale electronic markets and agents and brokers"
+  },
+  {
+    "key": "4200",
+    "desc": "Wholesale trade"
+  },
+  {
+    "key": "4251",
+    "desc": "Wholesale trade agents and brokers"
+  },
+  {
+    "key": "5171",
+    "desc": "Wired telecommunications carriers"
+  },
+  {
+    "key": "5172",
+    "desc": "Wireless telecommunications carriers (except satellite)"
+  },
+  {
+    "key": "3210",
+    "desc": "Wood products"
+  }
+]
