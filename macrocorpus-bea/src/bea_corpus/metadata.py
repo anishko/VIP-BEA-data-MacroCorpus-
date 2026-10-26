@@ -43,31 +43,55 @@ def _as_list(x) -> list:
     return x if isinstance(x, list) else [x]
 
 
+def _lower(v: dict) -> dict:
+    return {str(k).strip().lower(): x for k, x in v.items()}
+
+
 def _key(v) -> str:
     if not isinstance(v, dict):
         return str(v).strip()
-    for k in ("Key", "TableName", "TableID", "Code"):
-        if v.get(k) not in (None, ""):
-            return str(v[k]).strip()
+    lv = _lower(v)
+    for k in ("key", "tablename", "tableid", "code"):
+        if lv.get(k) not in (None, ""):
+            return str(lv[k]).strip()
     return str(next(iter(v.values()), "")).strip()
 
 
 def _desc(v) -> str:
     if not isinstance(v, dict):
         return ""
-    for k in ("Desc", "Description", "Value"):
-        if v.get(k):
-            return _clean(v[k])
+    lv = _lower(v)
+    for k in ("desc", "description", "value"):
+        if lv.get(k):
+            return _clean(lv[k])
     return ""
 
 
+def _fix_mojibake(text: str) -> str:
+    """UTF-8 text that was read as Latin-1 (e.g. 'â\x80\x99' for an apostrophe), from older cached files."""
+    if "\u00e2\u0080" in text or "\u00c3" in text:
+        try:
+            return text.encode("latin-1").decode("utf-8")
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            pass
+    return text
+
+
 def _clean(text) -> str:
-    return " ".join(html.unescape(_TAGS.sub("", str(text))).split())
+    return " ".join(html.unescape(_TAGS.sub("", _fix_mojibake(str(text)))).split())
 
 
 def _write(path: Path, obj) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(obj, indent=2, ensure_ascii=False))
+
+
+def _snake(name: str) -> str:
+    name = name.strip()
+    special = {"TableID": "table_id", "TableName": "table", "SeriesID": "series_id_code", "AreaOrCountry": "area_or_country"}
+    if name in special:
+        return special[name]
+    return re.sub(r"(?<=[a-z0-9])(?=[A-Z])", "_", name).lower()
 
 
 def catalog_stats(values: list) -> dict:
@@ -256,6 +280,8 @@ def extract_group(client: BEAClient, dataset: str, cfg: dict) -> dict:
         summary["errors"].append(f"parameters: {exc}")
     _write(folder / f"{prefix}_parameters.json", params)
     summary["api_parameters"] = [p.get("ParameterName", "").strip() for p in params]
+    summary["parameter_descriptions"] = {p.get("ParameterName", "").strip(): _clean(p.get("ParameterDescription", ""))
+                                         for p in params}
     summary["required_parameters"] = [p.get("ParameterName", "").strip() for p in params
                                       if str(p.get("ParameterIsRequiredFlag")) == "1"]
 
@@ -281,12 +307,17 @@ def extract_group(client: BEAClient, dataset: str, cfg: dict) -> dict:
     rows = _as_list(results.get("Data"))
     series, tagged, checks = build_series(dataset, results, request, cfg, catalogs)
     dims = _as_list(results.get("Dimensions"))
-    _write(folder / f"{prefix}_sample.json", {
-        "dataset": dataset, "request": request, "dimensions": dims,
-        "notes": _as_list(results.get("Notes")), "observations": tagged})
+    sample = {"dataset": dataset, **{_snake(k): v for k, v in request.items()},
+              "dimensions": dims, "notes": _as_list(results.get("Notes")), "observations": tagged}
+    _write(folder / f"{prefix}_sample.json", sample)
     _write(folder / f"{prefix}_series_metadata.json", series)
 
     summary.update({
+        "sample_file": f"{dataset}/{prefix}_sample.json",
+        "sample_top_level_keys": list(sample.keys()),
+        "series_metadata_file": f"{dataset}/{prefix}_series_metadata.json",
+        "proposed_hierarchy": ["provider", "dataset", *[_snake(f) for f in cfg["series_id"]]]
+                              + ([] if "Frequency" in cfg["series_id"] else ["frequency"]) + ["observation"],
         "sample_request": request,
         "sample_observation_keys": list(rows[0].keys()) if rows else [],
         "dimension_columns": [d.get("Name") for d in dims if isinstance(d, dict)],
@@ -296,6 +327,8 @@ def extract_group(client: BEAClient, dataset: str, cfg: dict) -> dict:
         "unit_fields": sorted({s["unit_source"] for s in series}),
         "frequencies": sorted({s["frequency"] for s in series}),
         "notes_count": len(_as_list(results.get("Notes"))),
+        "canonical_id_status": ("verified_unique_in_sample" if checks["canonical_id_status"] == "unique_in_sample"
+                                else "not_unique_in_sample"),
         "checks": checks,
         "example_series": series[0] if series else None,
         "findings": findings_for(dataset, series, checks, results, rows),
@@ -303,14 +336,25 @@ def extract_group(client: BEAClient, dataset: str, cfg: dict) -> dict:
     return summary
 
 
+LIMITATIONS = [
+    "Samples cover one table/group per dataset and only a couple of years, not full histories.",
+    "Series IDs are checked for uniqueness within the sample only, not across all of BEA.",
+    "The API returns the latest revised values only (no real-time vintages).",
+    "Units follow BEA's own fields (CL_UNIT/UNIT_MULT, or TableScale for MNE); table notes can disagree.",
+]
+
+
 def run(config_path: str | Path = "config/metadata_groups.yaml", only: list[str] | None = None,
-        client: BEAClient | None = None) -> dict:
+        client: BEAClient | None = None, refresh: bool = False) -> dict:
     groups = yaml.safe_load(Path(config_path).read_text())["groups"]
     if only:
         groups = {k: v for k, v in groups.items() if k in only}
     client = client or BEAClient(cache_dir="data/raw/cache")
+    client.refresh = refresh
     out = {"provider": "Bureau of Economic Analysis", "provider_code": "BEA",
-           "audit_type": "metadata_granularity", "generated_at_utc": datetime.now(timezone.utc).isoformat(),
+           "audit_type": "representative_metadata_granularity_pilot",
+           "generated_at_utc": datetime.now(timezone.utc).isoformat(),
+           "scope": {"dataset_families_sampled": len(groups), "full_provider_coverage": False},
            "datasets": {}}
     for name, cfg in groups.items():
         print(f"== {name}")
@@ -322,9 +366,43 @@ def run(config_path: str | Path = "config/metadata_groups.yaml", only: list[str]
               f"{c.get('observations_linked_to_series', 0)} linked, id {c.get('canonical_id_status', '-')}")
         for e in s["errors"]:
             print(f"   ERROR {e}")
+    out["findings"] = [f"{name}: {f}" for name, s in out["datasets"].items() for f in s.get("findings", [])]
+    out["limitations"] = LIMITATIONS
     _write(OUT / "bea_metadata_summary.json", out)
+    _write(OUT / "bea_metadata_granularity.json", granularity(out))
     print_comparison(out)
     return out
+
+
+def granularity(summary: dict) -> dict:
+    """Same layout as the reference bea_metadata_granularity.json."""
+    ds = summary["datasets"]
+    return {
+        "provider": "Bureau of Economic Analysis",
+        "dataset_families_inspected": list(ds),
+        "dataset_structures": {n: {"api_parameters": s.get("api_parameters", []),
+                                   "parameter_descriptions": s.get("parameter_descriptions", {}),
+                                   "classifications": {k: v["values"] for k, v in s.get("classifications", {}).items()},
+                                   "source_series_id_field": s.get("source_series_id_field"),
+                                   "unit_fields": s.get("unit_fields", []),
+                                   "frequencies": s.get("frequencies", []),
+                                   "proposed_canonical_series_id": s.get("proposed_canonical_series_id"),
+                                   "canonical_id_status": s.get("canonical_id_status")}
+                               for n, s in ds.items()},
+        "verified_data_samples": {n: {"request": s.get("sample_request"),
+                                      "observations": s.get("checks", {}).get("observations"),
+                                      "series": s.get("checks", {}).get("series"),
+                                      "observations_linked_to_series": s.get("checks", {}).get("observations_linked_to_series")}
+                                  for n, s in ds.items() if s.get("checks")},
+        "granularity_recommendation": {
+            "provider_level": ["provider_name", "provider_url"],
+            "dataset_level": ["dataset_name", "dataset_description"],
+            "table_level": ["table_id", "table_description"],
+            "series_level": ["source_series_id", "line_code", "frequency", "geography", "industry", "indicator",
+                             "classification_codes_and_labels", "units", "unit_multiplier", "unit_source"],
+            "observation_level": ["time_period", "value", "annotation"],
+        },
+    }
 
 
 def print_comparison(summary: dict) -> None:

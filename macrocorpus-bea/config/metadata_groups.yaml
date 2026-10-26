@@ -18,7 +18,7 @@ groups:
 
   MNE:
     classifications: [DirectionOfInvestment, Classification, SeriesID, Country, Industry]
-    sample: {DirectionOfInvestment: Outward, Classification: Country, SeriesID: "4", Country: all, Year: "2022,2023"}
+    sample: {DirectionOfInvestment: Outward, Classification: Country, SeriesID: "30", Country: all, Year: "2023,2024"}
     series_id: [DirectionOfInvestment, SeriesID, RowCode, ColumnCode]
     labels: {RowCode: Country, ColumnCode: Industry}
 

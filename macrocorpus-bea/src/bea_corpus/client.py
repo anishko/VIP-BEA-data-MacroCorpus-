@@ -52,6 +52,7 @@ class BEAClient:
         self.last_bytes = 0
         self.last_seconds = 0.0
         self.last_from_cache = False
+        self.refresh = False  # True = ignore cached responses (still saves new ones)
 
     # ---------- public methods ----------
 
@@ -80,7 +81,7 @@ class BEAClient:
     def _results(self, method: str, use_cache: bool = True, **params: Any) -> dict:
         query = {"method": method, "ResultFormat": "JSON", **{k: _fmt(v) for k, v in params.items()}}
         cache_file = self._cache_path(query)
-        if use_cache and cache_file and cache_file.exists():
+        if use_cache and not self.refresh and cache_file and cache_file.exists():
             text = cache_file.read_text()
             payload = json.loads(text)
             self.last_bytes, self.last_seconds, self.last_from_cache = len(text.encode()), 0.0, True
@@ -112,8 +113,12 @@ class BEAClient:
                 time.sleep(float(resp.headers.get("Retry-After", 60)) + 1)
                 continue
             resp.raise_for_status()
-            # BEA serves Latin-1 text; decoding as UTF-8 can fail on footnotes.
-            return json.loads(resp.content.decode("iso-8859-1"))
+            # BEA sends UTF-8; a few old footnotes aren't valid UTF-8, so fall back to Latin-1.
+            try:
+                text = resp.content.decode("utf-8")
+            except UnicodeDecodeError:
+                text = resp.content.decode("iso-8859-1")
+            return json.loads(text)
         raise BEAError("Gave up after repeated throttling (HTTP 429).")
 
     def _cache_path(self, query: dict) -> Path | None:

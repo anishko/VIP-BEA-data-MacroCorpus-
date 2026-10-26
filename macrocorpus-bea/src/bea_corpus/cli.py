@@ -114,7 +114,7 @@ def cmd_standardize(args) -> None:
 
 def cmd_metadata(args) -> None:
     from .metadata import run
-    run(args.config, only=args.only)
+    run(args.config, only=args.only, refresh=args.refresh)
 
 
 def main(argv=None) -> None:
@@ -152,6 +152,7 @@ def main(argv=None) -> None:
     pm = sub.add_parser("metadata", help="metadata + sample series for the groups in config/metadata_groups.yaml")
     pm.add_argument("--config", default="config/metadata_groups.yaml")
     pm.add_argument("--only", nargs="+", help="dataset names, e.g. IIP MNE")
+    pm.add_argument("--refresh", action="store_true", help="ignore cached responses")
     pm.set_defaults(func=cmd_metadata)
 
     args = p.parse_args(argv)

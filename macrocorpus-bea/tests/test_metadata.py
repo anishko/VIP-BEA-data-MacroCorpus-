@@ -36,7 +36,7 @@ FAKE = {
                       "DataValue": "100", "NoteRef": ""} for c in ("Pos", "ChgPos") for f in ("A", "QNSA")]},
 }
 CATALOG = {"Component": [{"Key": "Pos", "Desc": "Position"}, {"Key": "ChgPos", "Desc": "Change in position"}],
-           "Country": [{"Key": "660", "Desc": "Timor-Leste"}], "TableName": [{"Key": "FAAt101", "Desc": "Table 1.1"},
+           "Country": [{"key": "660", "desc": "Timor-Leste"}],  # MNE really uses lowercase "TableName": [{"Key": "FAAt101", "Desc": "Table 1.1"},
                                                                             {"Key": "FAAt101", "Desc": "dupe"}]}
 
 
@@ -86,6 +86,16 @@ def test_metadata_run(tmp_path, monkeypatch):
     iip = out["IIP"]
     assert iip["checks"]["series"] == 4 and iip["frequencies"] == ["A", "Q"]
     assert iip["example_series"]["classifications"]["Component"]["label"] == "Position"
+
+    # same layout as the reference files
+    assert sample["table"] == "FAAt101" and sample["year"] == "2022,2023"
+    assert list(sample)[-3:] == ["dimensions", "notes", "observations"]
+    summ = json.loads(Path("data/BEA/bea_metadata_summary.json").read_text())
+    assert {"scope", "datasets", "findings", "limitations"} <= set(summ)
+    assert summ["datasets"]["FixedAssets"]["canonical_id_status"] == "verified_unique_in_sample"
+    assert summ["datasets"]["FixedAssets"]["sample_file"] == "FixedAssets/bea_fixedassets_sample.json"
+    gran = json.loads(Path("data/BEA/bea_metadata_granularity.json").read_text())
+    assert "IIP" in gran["dataset_structures"] and "granularity_recommendation" in gran
 
     assert out["NIUnderlyingDetail"]["errors"]                           # one bad group doesn't stop the rest
     assert Path("data/BEA/bea_metadata_summary.json").exists()
