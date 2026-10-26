@@ -114,8 +114,7 @@ def build_series(dataset: str, results: dict, request: dict, cfg: dict,
     notes = {str(n.get("NoteRef", "")).strip().upper(): _clean(n.get("NoteText", ""))
              for n in _as_list(results.get("Notes")) if isinstance(n, dict)}
     id_fields = cfg["series_id"]
-    labels = {f: {_key(v): _desc(v) for v in catalogs.get(param, [])}
-              for f, param in (cfg.get("labels") or {}).items()}
+    labels = {f: _label_index(catalogs.get(param, [])) for f, param in (cfg.get("labels") or {}).items()}
     req_ci = {k.strip().lower(): v for k, v in request.items()}
 
     series: dict[str, dict] = {}
@@ -150,9 +149,8 @@ def build_series(dataset: str, results: dict, request: dict, cfg: dict,
                 "series_id": sid,
                 "source_series_id": next((str(r[f]) for f in SOURCE_ID_FIELDS if r.get(f)), None),
                 "dataset": dataset,
-                "description": next((_clean(r[f]) for f in DESCRIPTION_FIELDS if r.get(f)), ""),
-                "classifications": {f: {"code": str(r.get(f, req_ci.get(f.lower(), ""))),
-                                        "label": labels[f].get(str(r.get(f, req_ci.get(f.lower(), ""))).strip(), "")}
+                "description": _describe(r),
+                "classifications": {f: _classification(labels[f], str(r.get(f, req_ci.get(f.lower(), ""))).strip())
                                     for f in labels},
                 "frequency": freq,
                 "source_frequency": r.get("Frequency"),
@@ -209,6 +207,40 @@ def build_series(dataset: str, results: dict, request: dict, cfg: dict,
     return list(series.values()), tagged, checks
 
 
+def _label_index(values: list) -> dict[str, list[str]]:
+    """code -> every distinct description BEA gives it, in catalog order.
+
+    Some catalogs reuse a code under several names (MNE Industry 5221 is "Banks",
+    "Depository credit intermediation (banking)" and "Depository institutions (banking)").
+    A plain dict would silently keep the last one, so we keep them all.
+    """
+    out: dict[str, list[str]] = defaultdict(list)
+    for v in values:
+        k, d = _key(v), _desc(v)
+        if d and d not in out[k]:
+            out[k].append(d)
+    return dict(out)
+
+
+def _classification(index: dict[str, list[str]], code: str) -> dict:
+    names = index.get(code, [])
+    out = {"code": code, "label": names[0] if names else ""}
+    if len(names) > 1:
+        out["alt_labels"] = names[1:]
+    return out
+
+
+def _describe(r: dict) -> str:
+    """Series description. MNE rows only carry the table title in SeriesName, which is the
+    same for every series, so add the row/column labels to make it series specific."""
+    base = next((_clean(r[f]) for f in DESCRIPTION_FIELDS if r.get(f)), "")
+    if r.get("SeriesName") and base == _clean(r["SeriesName"]):
+        extra = [_clean(r[f]) for f in ("Row", "ColumnGParent", "ColumnParent", "Column")
+                 if r.get(f) and str(r[f]).strip() not in ("", "None")]
+        base = "; ".join([base, *extra])
+    return base
+
+
 def _units(r: dict) -> tuple[str, int | None, str]:
     if r.get("CL_UNIT") not in (None, ""):
         try:
@@ -260,9 +292,15 @@ def findings_for(dataset: str, series: list[dict], stats: dict, results: dict, r
         out.append(f"Multiple frequencies in one table ({', '.join(freqs)}); frequency must be part of the ID.")
     if any("SIC" in n for s in series for n in s["notes"]):
         out.append("Some tables are on the old SIC industry classification (structural break vs NAICS).")
-    unlabeled = [f for s in series[:1] for f, v in s["classifications"].items() if v["code"] and not v["label"]]
+    unlabeled = sorted({f for s in series for f, v in s["classifications"].items() if v["code"] and not v["label"]})
     if unlabeled:
         out.append(f"Codes without a description in the catalog: {', '.join(unlabeled)}.")
+    multi = sorted({f for s in series for f, v in s["classifications"].items() if v.get("alt_labels")})
+    if multi:
+        out.append(f"Catalog reuses codes under several names ({', '.join(multi)}); kept all names as alt_labels.")
+    empty = sum(1 for s in series if s["n_obs"] and s["n_missing"] == s["n_obs"])
+    if empty:
+        out.append(f"{empty} of {len(series)} sampled series have no values at all in the sample years.")
     return out
 
 

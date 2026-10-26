@@ -2,7 +2,7 @@
   "provider": "Bureau of Economic Analysis",
   "provider_code": "BEA",
   "audit_type": "representative_metadata_granularity_pilot",
-  "generated_at_utc": "2026-10-26T01:58:56.960130+00:00",
+  "generated_at_utc": "2026-10-26T21:13:14.469264+00:00",
   "scope": {
     "dataset_families_sampled": 5,
     "full_provider_coverage": false
@@ -345,11 +345,14 @@
         "series_id": "BEA:MNE:Outward:30:000:0000:A",
         "source_series_id": null,
         "dataset": "MNE",
-        "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis",
+        "description": "U.S. Direct Investment Position Abroad on a Historical-Cost Basis; All Countries Total; Position",
         "classifications": {
           "RowCode": {
             "code": "000",
-            "label": "Total"
+            "label": "all Countries Total",
+            "alt_labels": [
+              "Total"
+            ]
           },
           "ColumnCode": {
             "code": "0000",
@@ -375,7 +378,10 @@
         "No TimePeriod field; time comes from Year (and Quarter if present).",
         "No CL_UNIT/UNIT_MULT; units only in TableScale text.",
         "No BEA series identifier in the rows; series must be identified by combining fields.",
-        "Missing values in sample, by BEA code: {'(*)': 18}."
+        "Missing values in sample, by BEA code: {'(*)': 18}.",
+        "Codes without a description in the catalog: RowCode.",
+        "Catalog reuses codes under several names (RowCode); kept all names as alt_labels.",
+        "8 of 233 sampled series have no values at all in the sample years."
       ]
     },
     "IntlServTrade": {
@@ -541,7 +547,8 @@
         "last_period": "2023-01-01"
       },
       "findings": [
-        "Missing values in sample, by BEA code: {'blank': 12}."
+        "Missing values in sample, by BEA code: {'blank': 12}.",
+        "6 of 10 sampled series have no values at all in the sample years."
       ]
     },
     "FixedAssets": {
@@ -830,7 +837,11 @@
     "MNE: No CL_UNIT/UNIT_MULT; units only in TableScale text.",
     "MNE: No BEA series identifier in the rows; series must be identified by combining fields.",
     "MNE: Missing values in sample, by BEA code: {'(*)': 18}.",
+    "MNE: Codes without a description in the catalog: RowCode.",
+    "MNE: Catalog reuses codes under several names (RowCode); kept all names as alt_labels.",
+    "MNE: 8 of 233 sampled series have no values at all in the sample years.",
     "IntlServTrade: Missing values in sample, by BEA code: {'blank': 12}.",
+    "IntlServTrade: 6 of 10 sampled series have no values at all in the sample years.",
     "FixedAssets: UNIT_MULT=6 (millions) but table note says billions: API returns millions.",
     "FixedAssets: 2 series are printed on more than one line of the table (same numbers); line number is display only, the source ID is the real identity.",
     "NIUnderlyingDetail: 21 series are printed on more than one line of the table (same numbers); line number is display only, the source ID is the real identity.",
