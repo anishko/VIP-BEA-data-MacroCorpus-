@@ -36,7 +36,8 @@ FAKE = {
                       "DataValue": "100", "NoteRef": ""} for c in ("Pos", "ChgPos") for f in ("A", "QNSA")]},
 }
 CATALOG = {"Component": [{"Key": "Pos", "Desc": "Position"}, {"Key": "ChgPos", "Desc": "Change in position"}],
-           "Country": [{"key": "660", "desc": "Timor-Leste"}],  # MNE really uses lowercase "TableName": [{"Key": "FAAt101", "Desc": "Table 1.1"},
+           "Country": [{"key": "660", "desc": "Timor-Leste"}],  # MNE really uses lowercase
+           "TableName": [{"Key": "FAAt101", "Desc": "Table 1.1"},
                                                                             {"Key": "FAAt101", "Desc": "dupe"}]}
 
 
