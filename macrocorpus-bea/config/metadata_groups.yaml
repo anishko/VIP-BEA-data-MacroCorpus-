@@ -1,0 +1,41 @@
+# Metadata extraction groups (one per BEA table group).
+#
+#   classifications : parameters whose full list of values we save (the "catalog")
+#   sample          : GetData params for a small sample (a couple of years, not full history)
+#   series_id       : fields that make up our canonical series ID. Taken from the
+#                     observation row, or from the request if the row doesn't have it.
+#                     The frequency (A/Q/M) is added at the end automatically.
+#   labels          : row field -> classification it comes from, so codes get their description
+#
+# To add a group, copy a block. Same code runs for all of them.
+
+groups:
+  IIP:
+    classifications: [TypeOfInvestment, Component, Frequency]
+    sample: {TypeOfInvestment: FinAssetsExclFinDeriv, Component: ALL, Frequency: ALL, Year: "2023,2024"}
+    series_id: [TypeOfInvestment, Component, Frequency]
+    labels: {TypeOfInvestment: TypeOfInvestment, Component: Component}
+
+  MNE:
+    classifications: [DirectionOfInvestment, Classification, SeriesID, Country, Industry]
+    sample: {DirectionOfInvestment: Outward, Classification: Country, SeriesID: "4", Country: all, Year: "2022,2023"}
+    series_id: [DirectionOfInvestment, SeriesID, RowCode, ColumnCode]
+    labels: {RowCode: Country, ColumnCode: Industry}
+
+  IntlServTrade:
+    classifications: [TypeOfService, TradeDirection, Affiliation, AreaOrCountry]
+    sample: {TypeOfService: Travel, TradeDirection: ALL, Affiliation: ALL, AreaOrCountry: AllCountries, Year: "2022,2023"}
+    series_id: [TypeOfService, TradeDirection, Affiliation, AreaOrCountry]
+    labels: {TypeOfService: TypeOfService, TradeDirection: TradeDirection, Affiliation: Affiliation}
+
+  FixedAssets:
+    classifications: [TableName]
+    sample: {TableName: FAAt101, Year: "2022,2023"}
+    series_id: [TableName, SeriesCode]
+    labels: {TableName: TableName}
+
+  NIUnderlyingDetail:
+    classifications: [TableName, Frequency]
+    sample: {TableName: U20305, Frequency: "A,Q,M", Year: "2024"}
+    series_id: [TableName, SeriesCode]
+    labels: {TableName: TableName}

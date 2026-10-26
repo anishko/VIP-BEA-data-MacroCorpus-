@@ -112,6 +112,11 @@ def cmd_standardize(args) -> None:
     restandardize()
 
 
+def cmd_metadata(args) -> None:
+    from .metadata import run
+    run(args.config, only=args.only)
+
+
 def main(argv=None) -> None:
     _load_env()
     p = argparse.ArgumentParser(prog="bea_corpus", description="BEA slice of MacroCorpus")
@@ -143,6 +148,11 @@ def main(argv=None) -> None:
 
     sub.add_parser("standardize", help="rebuild data/standardized from data/raw (offline)"
                    ).set_defaults(func=cmd_standardize)
+
+    pm = sub.add_parser("metadata", help="metadata + sample series for the groups in config/metadata_groups.yaml")
+    pm.add_argument("--config", default="config/metadata_groups.yaml")
+    pm.add_argument("--only", nargs="+", help="dataset names, e.g. IIP MNE")
+    pm.set_defaults(func=cmd_metadata)
 
     args = p.parse_args(argv)
     args.func(args)

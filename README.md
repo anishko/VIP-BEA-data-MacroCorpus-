@@ -18,6 +18,13 @@ Our part of MacroCorpus: pulling data from the BEA (Bureau of Economic Analysis)
    ```
    Takes a few minutes. You'll see an `ok` line for every table it pulls.
 
+### Metadata for our 5 table groups (TA task)
+
+```bash
+python -m bea_corpus metadata
+```
+Runs IIP, MNE, IntlServTrade, FixedAssets and NIUnderlyingDetail (set in `config/metadata_groups.yaml`, add a block there to do another table). Only pulls a couple of years per table. Output goes to `data/BEA/<Dataset>/` in the same layout as the TA's reference code: parameter list, every classification's values, a sample with dimensions/notes/observations, and a series metadata file. Every observation has a `series_id` that links it to its entry in the series metadata. `data/BEA/bea_metadata_summary.json` compares all 5.
+
 ## What it does
 
 - Uses the BEA API key to call BEA's official API. No web scraping, it's just requests that return JSON.
