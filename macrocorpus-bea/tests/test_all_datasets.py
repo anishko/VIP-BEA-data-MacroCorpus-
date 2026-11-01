@@ -277,3 +277,10 @@ def test_single_row_dict():
 def test_pick_evenly():
     assert download.pick_evenly(list(range(10)), 3) == [0, 4, 9]  # round(4.5) -> 4 (banker's rounding)
     assert download.pick_evenly([1, 2], 5) == [1, 2]
+
+
+def test_runs_from_any_folder(tmp_path, monkeypatch):
+    from bea_corpus import cli
+    monkeypatch.chdir(tmp_path)  # no config/ here, like running from the repo root
+    cli._go_to_project_root()
+    assert Path.cwd() == cli.PROJECT_ROOT and Path("config/datasets.yaml").exists()

@@ -15,6 +15,7 @@
 from __future__ import annotations
 
 import argparse
+import os
 import sys
 from pathlib import Path
 
@@ -26,6 +27,15 @@ from .profile import profile_corpus
 from .standardize import SeriesSpec, standardize
 
 PROCESSED = Path("data/processed")
+PROJECT_ROOT = Path(__file__).resolve().parents[2]  # the macrocorpus-bea folder
+
+
+def _go_to_project_root() -> None:
+    """All paths (config/, data/, reports/) are relative to macrocorpus-bea/, so run from there
+    even if the command was typed somewhere else (e.g. the repo root)."""
+    if not Path("config").is_dir() and (PROJECT_ROOT / "config").is_dir():
+        os.chdir(PROJECT_ROOT)
+        print(f"(running in {PROJECT_ROOT})")
 
 
 def _load_env() -> None:
@@ -118,6 +128,7 @@ def cmd_metadata(args) -> None:
 
 
 def main(argv=None) -> None:
+    _go_to_project_root()
     _load_env()
     p = argparse.ArgumentParser(prog="bea_corpus", description="BEA slice of MacroCorpus")
     sub = p.add_subparsers(dest="cmd", required=True)
