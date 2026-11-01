@@ -354,7 +354,7 @@ def run(config_path: str | Path = "config/metadata_groups.yaml", only: list[str]
         s = extract_group(client, name, cfg)
         out["datasets"][name] = s
         c = s.get("checks", {})
-        print(f"   classifications: " + ", ".join(f"{k}={v['values']}" for k, v in s.get("classifications", {}).items()))
+        print("   classifications: " + ", ".join(f"{k}={v['values']}" for k, v in s.get("classifications", {}).items()))
         print(f"   sample: {c.get('observations', 0)} obs -> {c.get('series', 0)} series, "
               f"{c.get('observations_linked_to_series', 0)} linked, id {c.get('canonical_id_status', '-')}")
         for e in s["errors"]:
