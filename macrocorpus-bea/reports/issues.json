@@ -1,0 +1,98 @@
+[
+  {
+    "dataset": "GDPbyIndustry",
+    "table": "1",
+    "level": "warning",
+    "issue": "1 of 101 Industry values in the dictionary have no data, even when asked for on their own (e.g. 622HO)."
+  },
+  {
+    "dataset": "GDPbyIndustry",
+    "table": "14",
+    "level": "warning",
+    "issue": "1 of 101 Industry values in the dictionary have no data, even when asked for on their own (e.g. 622HO)."
+  },
+  {
+    "dataset": "GDPbyIndustry",
+    "table": "23",
+    "level": "warning",
+    "issue": "1 of 101 Industry values in the dictionary have no data, even when asked for on their own (e.g. 622HO)."
+  },
+  {
+    "dataset": "GDPbyIndustry",
+    "table": "34",
+    "level": "warning",
+    "issue": "3 of 103 Industry values in the dictionary have no data, even when asked for on their own (e.g. 622HO, Percent change: (A,Q), Percentage points: (A,Q))."
+  },
+  {
+    "dataset": "GDPbyIndustry",
+    "table": "209",
+    "level": "warning",
+    "issue": "1 of 102 Industry values in the dictionary have no data, even when asked for on their own (e.g. 622HO)."
+  },
+  {
+    "dataset": "UnderlyingGDPbyIndustry",
+    "table": "210",
+    "level": "warning",
+    "issue": "1 of 192 Industry values in the dictionary have no data, even when asked for on their own (e.g. 622HO)."
+  },
+  {
+    "dataset": "UnderlyingGDPbyIndustry",
+    "table": "216",
+    "level": "warning",
+    "issue": "1 of 192 Industry values in the dictionary have no data, even when asked for on their own (e.g. 622HO)."
+  },
+  {
+    "dataset": "UnderlyingGDPbyIndustry",
+    "table": "227",
+    "level": "warning",
+    "issue": "1 of 192 Industry values in the dictionary have no data, even when asked for on their own (e.g. 622HO)."
+  },
+  {
+    "dataset": "UnderlyingGDPbyIndustry",
+    "table": "236",
+    "level": "warning",
+    "issue": "1 of 191 Industry values in the dictionary have no data, even when asked for on their own (e.g. 622HO)."
+  },
+  {
+    "dataset": "UnderlyingGDPbyIndustry",
+    "table": "242",
+    "level": "warning",
+    "issue": "3 of 415 Industry values in the dictionary have no data, even when asked for on their own (e.g. 517110, 517210, 622HO)."
+  },
+  {
+    "dataset": "IIP",
+    "table": "CurrAndDepAssets",
+    "level": "info",
+    "issue": "3 of 21 series have no values at all (every value suppressed or not available)."
+  },
+  {
+    "dataset": "IIP",
+    "table": "TreasBondsAndNotesLiabs",
+    "level": "info",
+    "issue": "3 of 21 series have no values at all (every value suppressed or not available)."
+  },
+  {
+    "dataset": "MNE",
+    "table": "31",
+    "level": "info",
+    "issue": "1 of 236 series have no values at all (every value suppressed or not available)."
+  },
+  {
+    "dataset": "MNE",
+    "table": "27",
+    "level": "info",
+    "issue": "2 of 236 series have no values at all (every value suppressed or not available)."
+  },
+  {
+    "dataset": "MNE",
+    "table": "25",
+    "level": "info",
+    "issue": "1 of 77 series have no values at all (every value suppressed or not available)."
+  },
+  {
+    "dataset": "MNE",
+    "table": "33",
+    "level": "info",
+    "issue": "1 of 77 series have no values at all (every value suppressed or not available)."
+  }
+]
