@@ -37,7 +37,7 @@ TABLES = {
     "IIP": [{"Key": "FinAssetsExclFinDeriv", "Desc": "Assets"}],
     "IntlServTrade": [{"Key": "Travel", "Desc": "Travel"}],
     "IntlServSTA": [{"Key": "Mofas", "Desc": "Affiliates"}],
-    "MNE": [{"key": k, "desc": f"series {k}"} for k in ("0", "27", "30", "31", "33")],  # no "25": warning
+    "MNE": [{"key": "0", "desc": "all"}] + [{"key": k, "desc": f"series {k}"} for k in ("22", "27", "30", "31", "33")],  # no "25": warning
     "Regional": [{"Key": "SAINC1", "Desc": "State income"}, {"Key": "MAGDP2", "Desc": "Metro GDP"},
                  {"Key": "BADTABLE", "Desc": "Always errors"}],
 }
@@ -93,6 +93,9 @@ def fake_get_data(ds, q):
                           "CL_UNIT": "USD", "UNIT_MULT": "6", "DataValue": "100", "NoteRef": ""}
                          for d in ("Exports", "Imports") for y in YEARS]}
     if ds == "MNE":
+        direction = q.get("DirectionOfInvestment", "")
+        if (q["SeriesID"] == "22") != (direction == "inward"):  # 22 is inward only, the rest outward only
+            raise download.BEAError("[40] Invalid combination of DirectionOfInvestment and SeriesID")
         return {"Data": [{"Year": str(y), "SeriesID": q["SeriesID"], "SeriesName": "Position", "Row": c,
                           "Column": "All Industries", "RowCode": c, "ColumnCode": "0000",
                           "DataValue": "n.s." if c == "XX" else "5,000", "TableScale": "Millions of Dollars"}
@@ -127,6 +130,8 @@ def fake_request(self, query):
         params = [{"ParameterName": TABLE_PARAM[ds], "ParameterIsRequiredFlag": "1"},
                   {"ParameterName": "Year", "ParameterIsRequiredFlag": "1", "AllValue": "ALL"},
                   {"ParameterName": "SomethingNew", "ParameterIsRequiredFlag": "1", "AllValue": "ALL"}]
+        if ds == "IntlServSTA":
+            params += [{"ParameterName": "AreaOrCountry", "ParameterIsRequiredFlag": "1", "AllValue": "ALL"}]
         if ds == "Regional":
             params += [{"ParameterName": "LineCode", "ParameterIsRequiredFlag": "1"},
                        {"ParameterName": "GeoFips", "ParameterIsRequiredFlag": "1"}]
@@ -137,6 +142,8 @@ def fake_request(self, query):
             return ok({"ParamValue": TABLES[ds]})
         if name == "LineCode":
             return err("LineCode needs a TableName")
+        if ds == "IntlServSTA" and name == "AreaOrCountry":
+            return ok({"ParamValue": [{"Key": k} for k in ("ALL", "AllCountries", "China", "Narnia")]})
         return ok({"ParamValue": [{"Key": "ALL", "Desc": "everything"}]})
     if m == "GetParameterValuesFiltered":
         if ds == "Regional":
@@ -284,3 +291,44 @@ def test_runs_from_any_folder(tmp_path, monkeypatch):
     monkeypatch.chdir(tmp_path)  # no config/ here, like running from the repo root
     cli._go_to_project_root()
     assert Path.cwd() == cli.PROJECT_ROOT and Path("config/datasets.yaml").exists()
+
+
+def test_full_run_ignores_hand_picked_tables_and_skips_all(workdir):
+    r = download.run(only=["MNE"], sample_size=1000, client=client())[0]
+    assert sorted(t.table for t in r.tables) == ["22", "27", "30", "31", "33"]  # every series ID, no "0" = all
+    by = {t.table: t for t in r.tables}
+    assert all(t.series and t.requests_ok == t.requests == 1 for t in by.values())
+    inward = series_file("MNE", "22")["series"]
+    assert inward  # outward failed, so it fell back to inward
+    assert not [i for i in issues() if i["level"] == "error"]
+
+
+def test_fallbacks_log_one_error_when_nothing_works(workdir):
+    d = download.Downloader(client(), {"datasets": {}})
+    t = download.TableResult("22", "")
+    got = d._with_fallbacks("MNE", t, {"SeriesID": "22", "Year": "ALL", "SomethingNew": "ALL"},
+                            [{"DirectionOfInvestment": "parent"}, {"DirectionOfInvestment": "state"}])
+    assert got == [] and (t.requests, t.requests_ok) == (2, 0)
+    assert len(d.issues) == 1 and d.issues[0].level == "error"
+
+
+def test_intlservsta_one_request_per_country(workdir, monkeypatch):
+    real = fake_get_data
+
+    def picky(ds, q):  # like BEA: refuses every country + industry + year at once
+        if ds == "IntlServSTA":
+            if q.get("AreaOrCountry", "ALL") == "ALL":
+                raise download.BEAError("[331] Exactly one Industry must be requested or exactly one AreaOrCountry")
+            if q["AreaOrCountry"] == "Narnia":
+                return {"Data": []}
+            return {"Data": [{**r, "AreaOrCountry": q["AreaOrCountry"]} for r in real(ds, q)["Data"]]}
+        return real(ds, q)
+
+    monkeypatch.setitem(globals(), "fake_get_data", picky)
+    monkeypatch.setattr(BEAClient, "_request", fake_request)
+    r = download.run(only=["IntlServSTA"], client=client())[0]
+    t = r.tables[0]
+    assert t.requests == 3 and t.requests_ok == 2 and t.missing == ["Narnia"]  # ALL is skipped, not requested
+    areas = {s["dimensions"]["AreaOrCountry"] for s in series_file("IntlServSTA", t.table)["series"]}
+    assert areas == {"AllCountries", "China"}
+    assert not [i for i in issues() if i["level"] == "error"]

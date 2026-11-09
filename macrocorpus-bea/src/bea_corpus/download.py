@@ -176,7 +176,9 @@ class Downloader:
         result.dictionary_params = len(param_list)
         result.dictionary_params_listed = len(values)
 
-        catalog = {key_of(v): desc_of(v) for v in values.get(table_param, [])}
+        # BEA lists an "all" placeholder next to the real tables in some datasets (MNE SeriesID 0); skip it
+        catalog = {key_of(v): desc_of(v) for v in values.get(table_param, [])
+                   if key_of(v).lower() != "all" and desc_of(v).strip().lower() != "all"}
         result.tables_in_dataset = len(catalog)
         if not catalog:
             self.log(dataset, "", "error", f"The dictionary has no values for {table_param}, so no tables to sample.")
@@ -187,7 +189,10 @@ class Downloader:
         for table in chosen:
             if table not in catalog:
                 self.log(dataset, table, "warning", f"Chosen table is not in the dictionary's {table_param} list.")
-        base = _fill_required(param_list, cfg.get("params", {}), skip={table_param, "LineCode", "GeoFips"})
+        base = _fill_required(param_list, cfg.get("params", {}), skip={table_param, "LineCode", "GeoFips",
+                                                                        cfg.get("split_by", "")})
+        self._split_values = [key_of(v) for v in values.get(cfg.get("split_by", ""), [])
+                              if key_of(v) and key_of(v).lower() != "all"]
 
         for table in chosen:
             t = self.download_table(dataset, cfg, table, catalog.get(table, ""), {**base, table_param: table})
@@ -202,6 +207,10 @@ class Downloader:
         t = TableResult(table, description)
         if dataset == "Regional":
             responses = self._regional_table(t, params)
+        elif cfg.get("split_by"):
+            responses = self._split(dataset, t, params, cfg["split_by"], self._split_values)
+        elif cfg.get("fallbacks"):
+            responses = self._with_fallbacks(dataset, t, params, cfg["fallbacks"])
         else:
             responses = [r for r in [self._get(dataset, t, params)] if r is not None]
 
@@ -249,6 +258,45 @@ class Downloader:
         t.requests_ok += 1
         t.mb += self.client.last_bytes / (1024 * 1024)
         return request, results
+
+    def _split(self, dataset: str, t: TableResult, params: dict, dim: str,
+               split_values: list[str]) -> list[tuple[dict, dict]]:
+        """One request per value of `dim` (IntlServSTA refuses every country, industry and year at once)."""
+        t.check, t.expected = f"one request per {dim} in the dictionary", len(split_values)
+        if not split_values:
+            self.log(dataset, t.table, "error", f"The dictionary lists no {dim} values to split the table by.")
+            return []
+        responses = []
+        for value in split_values:
+            got = self._get(dataset, t, {**params, dim: value}, probe=True)
+            if got and as_list(got[1].get("Data")):
+                responses.append(got)
+            else:
+                t.missing.append(value)
+        t.requests, t.requests_ok = len(split_values), len(responses)
+        if not responses:
+            self.log(dataset, t.table, "error", f"None of the {len(split_values)} {dim} values returned data.")
+        elif t.missing:
+            self.log(dataset, t.table, "info", f"{len(t.missing)} of {len(split_values)} {dim} values have no data "
+                                               f"for this table (e.g. {', '.join(t.missing[:5])}).")
+        return responses
+
+    def _with_fallbacks(self, dataset: str, t: TableResult, params: dict,
+                        fallbacks: list[dict]) -> list[tuple[dict, dict]]:
+        """Try each request shape in `fallbacks` until one returns data.
+
+        MNE needs this: each series only exists for some directions of investment
+        (e.g. 22 is inward only, 30 outward only), and BEA errors on the others.
+        """
+        for extra in fallbacks:
+            got = self._get(dataset, t, {**params, **extra}, probe=True)
+            if got and as_list(got[1].get("Data")):
+                t.requests = t.requests_ok = 1
+                return [got]
+        t.requests, t.requests_ok = len(fallbacks), 0
+        tried = "; ".join(", ".join(f"{k}={v}" for k, v in f.items()) for f in fallbacks)
+        self.log(dataset, t.table, "error", f"No data with any of the request shapes tried ({tried}).")
+        return []
 
     def _regional_table(self, t: TableResult, params: dict) -> list[tuple[dict, dict]]:
         """Regional returns one line of a table per call, so ask for every line the dictionary lists."""
@@ -423,6 +471,7 @@ def run(config_path: str | Path = "config/datasets.yaml", only: list[str] | None
         config.setdefault("defaults", {})["sample_size"] = sample_size
         for cfg in config["datasets"].values():
             cfg.pop("sample_size", None)
+            cfg.pop("tables", None)  # a hand-picked list would cap the dataset below sample_size
     return Downloader(client or BEAClient(), config, use_cache=use_cache).run(only)
 
 

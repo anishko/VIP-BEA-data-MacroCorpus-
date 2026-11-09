@@ -38,6 +38,7 @@ class BEAClient:
         timeout: float = 180.0,  # big tables (InputOutput, ~40 MB) take a while to prepare
         max_mb_per_minute: float = 80.0,  # BEA's limit is 100
         error_pause: float = 2.5,  # seconds after an API error, keeps us under 30 errors/min
+        network_pause: float = 10.0,  # seconds before retrying a dropped connection (x attempt number)
     ) -> None:
         self.api_key = api_key or os.environ.get("BEA_API_KEY")
         if not self.api_key:
@@ -53,6 +54,7 @@ class BEAClient:
         self.timeout = timeout
         self.max_bytes_per_minute = max_mb_per_minute * MB
         self.error_pause = error_pause
+        self.network_pause = network_pause
         self._last_request = 0.0
         self._recent: deque[tuple[float, int]] = deque()  # (time, bytes) of downloads in the last minute
         self._session = requests.Session()
@@ -119,21 +121,39 @@ class BEAClient:
             self._respect_data_limit()
             self._last_request = time.monotonic()
             started = time.monotonic()
-            resp = self._session.get(BASE_URL, params=params, timeout=self.timeout)
+            try:
+                resp = self._session.get(BASE_URL, params=params, timeout=self.timeout)
+            except requests.RequestException as exc:  # Wi-Fi drop, timeout, DNS: wait and try again
+                if attempt < self.max_retries:
+                    time.sleep(self.network_pause * (attempt + 1))
+                    continue
+                raise BEAError(f"Network problem, gave up after {attempt + 1} tries: "
+                               f"{self._hide_key(exc)}") from None
             self.last_seconds = time.monotonic() - started
             self.last_bytes = len(resp.content)
             self._recent.append((time.monotonic(), self.last_bytes))
             if resp.status_code == 429 and attempt < self.max_retries:
                 time.sleep(float(resp.headers.get("Retry-After", 60)) + 1)
                 continue
-            resp.raise_for_status()
+            if resp.status_code >= 500 and attempt < self.max_retries:  # BEA having a bad moment
+                time.sleep(self.network_pause * (attempt + 1))
+                continue
+            if resp.status_code >= 400:
+                raise BEAError(f"HTTP {resp.status_code} from BEA")
             # BEA sends UTF-8; a few old footnotes aren't valid UTF-8, so fall back to Latin-1.
             try:
                 text = resp.content.decode("utf-8")
             except UnicodeDecodeError:
                 text = resp.content.decode("iso-8859-1")
-            return json.loads(text)
+            try:
+                return json.loads(text)
+            except ValueError:
+                raise BEAError(f"BEA sent something that isn't JSON: {text[:150]!r}") from None
         raise BEAError("Gave up after repeated throttling (HTTP 429).")
+
+    def _hide_key(self, exc: Exception) -> str:
+        """Error text with the API key taken out (requests puts the whole URL in its messages)."""
+        return str(exc).replace(self.api_key, "<key>")[:300]
 
     def _respect_data_limit(self) -> None:
         """Wait until the bytes downloaded in the last 60 s are under the per-minute budget."""
