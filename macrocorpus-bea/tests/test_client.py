@@ -40,3 +40,23 @@ def test_pauses_after_api_error_and_does_not_cache(monkeypatch, tmp_path):
     except C.BEAError:
         pass
     assert slept == [2.5] and not list(tmp_path.iterdir())
+
+
+def test_network_errors_retry_then_become_bea_errors(monkeypatch, tmp_path):
+    import requests
+
+    from bea_corpus.client import BEAClient, BEAError
+    calls = []
+
+    def boom(*a, **k):
+        calls.append(1)
+        raise requests.ConnectionError("https://apps.bea.gov/api/data?UserID=secret-key-123&method=X failed")
+
+    c = BEAClient(api_key="secret-key-123", cache_dir=tmp_path, min_interval=0, network_pause=0, max_retries=2)
+    monkeypatch.setattr(c._session, "get", boom)
+    try:
+        c.get_parameter_list("NIPA")
+        raise AssertionError("should have raised")
+    except BEAError as exc:
+        assert "secret-key-123" not in str(exc) and "<key>" in str(exc)
+    assert len(calls) == 3  # first try + 2 retries

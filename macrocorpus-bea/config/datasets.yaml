@@ -9,6 +9,8 @@
 #                so one call returns the whole table. Required parameters left out here
 #                are filled with the dataset's "all" value automatically.
 #   tables       optional: these tables instead of an evenly spread sample
+#   split_by     optional: one request per value of this parameter, for datasets that refuse "everything" in one call
+#   fallbacks    optional: request shapes to try in order until one returns data (MNE)
 #   check        optional: a dimension to compare against the dictionary's list for each table
 #                (GetParameterValuesFiltered), so missing series show up in reports/issues.json
 #
@@ -60,14 +62,23 @@ datasets:
     params: {TradeDirection: ALL, Affiliation: ALL, AreaOrCountry: ALL, Year: ALL}
     check: AreaOrCountry
 
-  IntlServSTA:               # services through affiliates: one channel, every industry and destination.
-    table_param: Channel     # All-countries level: adding countries multiplies a ~1,000-series table.
-    params: {Destination: ALL, Industry: ALL, AreaOrCountry: AllCountries, Year: ALL}
+  IntlServSTA:               # services through affiliates: one channel, every industry, destination and country.
+    table_param: Channel     # BEA won't send every country, industry and year in one call, so it's one call per country.
+    params: {Destination: ALL, Industry: ALL, Year: ALL}
+    split_by: AreaOrCountry
 
-  MNE:                       # direct investment abroad by country. These series IDs are the
-    table_param: SeriesID    # direct-investment ones that work with Outward + Country.
-    params: {DirectionOfInvestment: Outward, Classification: Country, Country: all, Year: ALL}
-    tables: ["30", "31", "27", "25", "33"]
+  MNE:                       # multinational enterprises. Each series only works with some request settings,
+    table_param: SeriesID    # so try them in order (see fallbacks) and keep the first with data.
+    params: {Country: all, Year: ALL}
+    tables: ["30", "31", "27", "25", "33"]   # the small default sample; --sample-size ignores this list
+    fallbacks:               # direct investment series (22-44, 62-69) first, then AMNE operations series (1-21, 46-61)
+      - {DirectionOfInvestment: outward, Classification: Country}
+      - {DirectionOfInvestment: inward, Classification: Country}
+      - {DirectionOfInvestment: inward, Classification: CountryofUBObyType}
+      - {DirectionOfInvestment: outward, Classification: Country, OwnershipLevel: "0", NonbankAffiliatesOnly: "0"}
+      - {DirectionOfInvestment: inward, Classification: Country, OwnershipLevel: "0", NonbankAffiliatesOnly: "0"}
+      - {DirectionOfInvestment: parent, Classification: Industry, OwnershipLevel: "1", NonbankAffiliatesOnly: "0"}
+      - {DirectionOfInvestment: state, Classification: StatebyCountryofUBO, OwnershipLevel: "0", NonbankAffiliatesOnly: "0"}
 
   Regional:                  # states and metros: every line of each sampled table (see above)
     table_param: TableName
